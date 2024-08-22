@@ -18,8 +18,10 @@ You need:
 
 
 
+```
 ## {{  FLAG TITLE  }}
 ```{{  FLAG CODE  }}```<br>
 {{  FLAG DESCRIPTION  }}
 {{  PREVIEWS, IF FILE, JUST UPLOAD, IF LINK, USE: ![](LINK)  }}
 <br>[Jump to start!](#how-to-enabledisable-flags)
+```
