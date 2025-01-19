@@ -1,26 +1,26 @@
 # Community's Ultimate Guide by John and Dani
-## Attention! This is still a work in progress  
-The guide is now transitioning to a **community-supported version**. This means that any user in the **Instagram Developer Community** can contribute to expanding and improving the guide.  
-By opening the guide to community collaboration, everyone has the opportunity to share their insights, features, and updates. Together, we can create a comprehensive and up-to-date resource for all users, ensuring the best experience for everyone!  
+    ## Attention! This is still a work in progress  
+    The guide is now transitioning to a **community-supported version**. This means that any user in the **Instagram Developer Community** can contribute to expanding and improving the guide.  
+    By opening the guide to community collaboration, everyone has the opportunity to share their insights, features, and updates. Together, we can create a comprehensive and up-to-date resource for all users, ensuring the best experience for everyone!  
 
 
-## FAQ
+    ## FAQ
 
-- I can't access the Developer Settings!
-- Make sure you have gone in Metaconfig Settings and Overrides, that's where all the flags are in.
-- I don't see the Developer Settings when holding the home icon.
-- This only works for Instagram Mods that have the Developer Options enabled. It's not available on the stock Instagram as it's normally only for developers.
-- A flag is not working.
-- Check your base version. If it's on the working bases, then it might be region locked, available on limited people, server sided or stopped working completely, where if the last case happens, the flag will be moved to the Archive category (after we add that category of course).
-- Instagram is crashing!
-- You have enabled a faulty flag (flag that is causing issues to some features or in the app). If it happens with a flag on the guide regarding new features, kindly inform us. Otherwise, we're not responsible for that. Clear the app data and start adding the flags all over again.
-- I need support!
-- Send a message in the patreon chat to get assistance.
-- Why don't the flags that have been added before the 305.0.0.0.107 base mention the specific one?
-- We are using a mapping database about flag information, and it is configured for the bases between 305.0.0.0.107 and beyond, and as we can't just start searching the previous bases for the flags (it will take us forever), we're just adding that sentence.
+    - I can't access the Developer Settings!
+    - Make sure you have gone in Metaconfig Settings and Overrides, that's where all the flags are in.
+    - I don't see the Developer Settings when holding the home icon.
+    - This only works for Instagram Mods that have the Developer Options enabled. It's not available on the stock Instagram as it's normally only for developers.
+    - A flag is not working.
+    - Check your base version. If it's on the working bases, then it might be region locked, available on limited people, server sided or stopped working completely, where if the last case happens, the flag will be moved to the Archive category (after we add that category of course).
+    - Instagram is crashing!
+    - You have enabled a faulty flag (flag that is causing issues to some features or in the app). If it happens with a flag on the guide regarding new features, kindly inform us. Otherwise, we're not responsible for that. Clear the app data and start adding the flags all over again.
+    - I need support!
+    - Send a message in the patreon chat to get assistance.
+    - Why don't the flags that have been added before the 305.0.0.0.107 base mention the specific one?
+    - We are using a mapping database about flag information, and it is configured for the bases between 305.0.0.0.107 and beyond, and as we can't just start searching the previous bases for the flags (it will take us forever), we're just adding that sentence.
 
-# How to enable/disable flags
-(photos/animations pending)- [Important](#important)
+    # How to enable/disable flags
+    (photos/animations pending)- [Important](#important)
   - [Disable thread posts in the feed](#disable-thread-posts-in-the-feed)
   - [Enable the shake phone to report a problem sheet even if you disabled it](#enable-the-shake-phone-to-report-a-problem-sheet-even-if-you-disabled-it)
   - [Make the app more efficient](#make-the-app-more-efficient)
