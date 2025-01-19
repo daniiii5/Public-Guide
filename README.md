@@ -22,8 +22,6 @@ By opening the guide to community collaboration, everyone has the opportunity to
 # How to enable/disable flags
 (photos/animations pending)- [Important](#important)
   - [🆕 test by dani](#🆕-test-by-dani)
-  - [🆕 test by dani](#🆕-test-by-dani)
-  - [🆕 test by dani](#🆕-test-by-dani)
   - [Disable thread posts in the feed](#disable-thread-posts-in-the-feed)
   - [Enable the shake phone to report a problem sheet even if you disabled it](#enable-the-shake-phone-to-report-a-problem-sheet-even-if-you-disabled-it)
   - [Make the app more efficient](#make-the-app-more-efficient)
@@ -434,34 +432,7 @@ newasdas version
 high_quality_upload_setting
 ```
 newddds version
-![image](thumbnail.png)
 
-[Dani](https://t.me/danii5)
-
-## 🆕 Test by dani
-Test description
-```
-high_quality_upload_setting
-```
-newasdas version
-```
-high_quality_upload_setting
-```
-newddds version
-![image](thumbnail.png)
-
-[Dani](https://t.me/danii5)
-
-## 🆕 Test by dani
-Test description
-```
-high_quality_upload_setting
-```
-newasdas version
-```
-high_quality_upload_setting
-```
-newddds version
 ![image](thumbnail.png)
 
 [Dani](https://t.me/danii5)
@@ -534,6 +505,7 @@ newasdas version
 high_quality_upload_setting
 ```
 newddds version
+
 ![image](thumbnail.png)
 
 
@@ -548,6 +520,7 @@ newasdas version
 high_quality_upload_setting
 ```
 newddds version
+
 ![image](thumbnail.png)
 
 
@@ -588,6 +561,7 @@ newasdas version
 high_quality_upload_setting
 ```
 newddds version
+
 ![image](thumbnail.png)
 
 
