@@ -433,8 +433,6 @@ high_quality_upload_setting
 ```
 newddds version
 
-![image](thumbnail.png)
-
 [Dani](https://t.me/danii5)
 
 ```
