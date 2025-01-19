@@ -21,9 +21,6 @@ By opening the guide to community collaboration, everyone has the opportunity to
 
 # How to enable/disable flags
 (photos/animations pending)- [Important](#important)
-  - [🆕 test by dani](#🆕-test-by-dani)
-  - [🆕 test by dani](#🆕-test-by-dani)
-  - [🆕 test by dani](#🆕-test-by-dani)
   - [Disable thread posts in the feed](#disable-thread-posts-in-the-feed)
   - [Enable the shake phone to report a problem sheet even if you disabled it](#enable-the-shake-phone-to-report-a-problem-sheet-even-if-you-disabled-it)
   - [Make the app more efficient](#make-the-app-more-efficient)
@@ -34,8 +31,6 @@ By opening the guide to community collaboration, everyone has the opportunity to
   - [Remove the story ads with the "learn more" stickers inside](#remove-the-story-ads-with-the-"learn-more"-stickers-inside)
   - [Remove threads usernames and button](#remove-threads-usernames-and-button)
 - [Quality](#quality)
-  - [🆕 improve quality of posts](#🆕-improve-quality-of-posts)
-  - [🆕 improve quality of posts](#🆕-improve-quality-of-posts)
   - [Audio](#audio)
   - [Enable 48khz sample rate](#enable-48khz-sample-rate)
   - [Enable stereo](#enable-stereo)
@@ -209,6 +204,8 @@ By opening the guide to community collaboration, everyone has the opportunity to
   - [Reels tab on the search tabs](#reels-tab-on-the-search-tabs)
   - [Share your explore grid into a story](#share-your-explore-grid-into-a-story)
 - [Stories](#stories)
+  - [🆕 activate color picker](#🆕-activate-color-picker)
+  - [🆕 activate color picker](#🆕-activate-color-picker)
   - [🆕music option in the stories toolbar with a new way to share stories (like yt music and spotify) and a new vinyl look](#🆕music-option-in-the-stories-toolbar-with-a-new-way-to-share-stories-(like-yt-music-and-spotify)-and-a-new-vinyl-look)
   - [60 second stories](#60-second-stories)
   - [Add comments to stories](#add-comments-to-stories)
@@ -269,7 +266,6 @@ By opening the guide to community collaboration, everyone has the opportunity to
   - [Useful options as circles on reel recording](#useful-options-as-circles-on-reel-recording)
   - [Zoom and unzoom the photos row in media selection](#zoom-and-unzoom-the-photos-row-in-media-selection)
 - [Direct](#direct)
-  - [🆕 activate voice message effects](#🆕-activate-voice-message-effects)
   - [🆕nicknames](#🆕nicknames)
   - [Ai message replies](#ai-message-replies)
   - [Animated avatar stickers](#animated-avatar-stickers)
@@ -425,42 +421,6 @@ By opening the guide to community collaboration, everyone has the opportunity to
 
 
 # Important
-## 🆕 Test by dani
-Test description
-```
-high_quality_upload_setting
-```
-newasdas version
-Added in version 309.0.0.0.59 or earlier
-Removed in version 318.0.0.0.58
-
-
-[Dani](https://t.me/danii5)
-
-## 🆕 Test by dani
-Test description
-```
-high_quality_upload_setting
-```
-
-Added in version 309.0.0.0.59 or earlier
-Removed in version 318.0.0.0.58
-
-
-[Dani](https://t.me/danii5)
-
-## 🆕 Test by dani
-Test description
-```
-high_quality_upload_setting
-```
-
-Added in version 309.0.0.0.59 or earlier
-Removed in version 318.0.0.0.58
-
-
-[Dani](https://t.me/danii5)
-
 ## Disable Thread posts in the feed
 ```
 threads xma
@@ -528,40 +488,6 @@ spain growth
 Guide
 
 # Quality
-## 🆕 Improve quality of posts
-This will improve the overall quality from your posts and stories
-```
-high_quality_upload_setting
-```
-newasdas version
-
-```
-high_quality_upload_setting
-```
-newddds version
-
-
-![image](thumbnail.png)
-
-
-
-## 🆕 Improve quality of posts
-This will improve the overall quality from your posts and stories
-```
-high_quality_upload_setting
-```
-newasdas version
-
-```
-high_quality_upload_setting
-```
-newddds version
-
-
-![image](thumbnail.png)
-
-
-
 ## Audio
 
 Guide
@@ -2141,6 +2067,28 @@ explore shareable grid
 Guide
 
 # Stories
+## 🆕 Activate color picker
+With this you can activate color picker on stories
+```
+stories_background_color_picker
+```
+
+Added in version 361.0.0.0.3
+
+
+[𓆩Zɑ͜͡ɩN𓆪](https://t.me/iamzainnnn)
+
+## 🆕 Activate color picker
+With this you can activate color picker on stories
+```
+stories_background_color_picker
+```
+
+Added in version 361.0.0.0.3
+
+
+[𓆩Zɑ͜͡ɩN𓆪](https://t.me/iamzainnnn)
+
 ## 🆕Music option in the Stories toolbar with a new way to share stories (like YT Music and Spotify) and a new vinyl look
 stories originality music first format = enable everything
 
@@ -2704,17 +2652,6 @@ camera android reels gallery zoom
 Guide
 
 # Direct
-## 🆕 Activate voice message effects
-With this you can activate voice message effects
-```
-igd_android_voice_msg_improvements_v2
-```
-
-Added in version 319.0.0.0.70
-
-
-[Dani](https://t.me/danii5)
-
 ## 🆕Nicknames
 igd nicknames - enable it
 
