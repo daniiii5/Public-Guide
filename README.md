@@ -206,6 +206,7 @@ By opening the guide to community collaboration, everyone has the opportunity to
 - [Stories](#stories)
   - [🆕 activate color picker](#🆕-activate-color-picker)
   - [🆕 activate color picker](#🆕-activate-color-picker)
+  - [🆕 activate color picker](#🆕-activate-color-picker)
   - [🆕music option in the stories toolbar with a new way to share stories (like yt music and spotify) and a new vinyl look](#🆕music-option-in-the-stories-toolbar-with-a-new-way-to-share-stories-(like-yt-music-and-spotify)-and-a-new-vinyl-look)
   - [60 second stories](#60-second-stories)
   - [Add comments to stories](#add-comments-to-stories)
@@ -2067,6 +2068,17 @@ explore shareable grid
 Guide
 
 # Stories
+## 🆕 Activate color picker
+With this you can activate color picker on stories
+```
+stories_background_color_picker
+```
+
+Added in version 361.0.0.0.3
+
+
+[𓆩Zɑ͜͡ɩN𓆪](https://t.me/iamzainnnn)
+
 ## 🆕 Activate color picker
 With this you can activate color picker on stories
 ```
