@@ -23,6 +23,7 @@ By opening the guide to community collaboration, everyone has the opportunity to
 (photos/animations pending)- [Important](#important)
   - [🆕 test by dani](#🆕-test-by-dani)
   - [🆕 test by dani](#🆕-test-by-dani)
+  - [🆕 test by dani](#🆕-test-by-dani)
   - [Disable thread posts in the feed](#disable-thread-posts-in-the-feed)
   - [Enable the shake phone to report a problem sheet even if you disabled it](#enable-the-shake-phone-to-report-a-problem-sheet-even-if-you-disabled-it)
   - [Make the app more efficient](#make-the-app-more-efficient)
@@ -449,6 +450,19 @@ newddds version
 
 [Dani](https://t.me/danii5)
 
+## 🆕 Test by dani
+Test description
+```
+high_quality_upload_setting
+```
+newasdas version
+```
+high_quality_upload_setting
+```
+newddds version
+
+[Dani](https://t.me/danii5)
+
 ## Disable Thread posts in the feed
 desc
 ```
@@ -496,6 +510,7 @@ sundial ads
 
 Guide
 
+## Remove the story ads with the "LEARN MORE" stickers inside
 ```
 stories cta stickers
 ```
@@ -503,6 +518,7 @@ stories cta stickers
 
 Guide
 
+## Remove Threads usernames and button
 ```
 spain growth
 ```
@@ -541,9 +557,11 @@ newddds version
 
 
 
+## Audio
 
 Guide
 
+## Enable 48khz sample rate
 ```
 cameracore fbaudio ig use 48khz sample rate
 ```
@@ -551,6 +569,7 @@ cameracore fbaudio ig use 48khz sample rate
 
 Guide
 
+## Enable stereo
 ```
 cameracore fbaudio ig use stereo
 ```
@@ -621,6 +640,7 @@ reels publish screen decluttering enable variant a = true
 
 Guide
 
+## Accessibility settings
 ```
 accessibility setting
 ```
@@ -673,6 +693,7 @@ channels inbox discovery
 
 Guide
 
+## Content languages
 ```
 ig4a content languages
 ```
@@ -698,6 +719,7 @@ panavision nav3
 
 Guide
 
+## Dark gallery in Direct at all times
 ```
 gallery dark theme
 ```
@@ -714,6 +736,7 @@ direct interop rebrand
 
 Guide
 
+## Enable threads icon in profile menu
 ```
 is ig to p92 app switcher enabled android
 ```
@@ -748,6 +771,7 @@ is mw bottom padding enabled
 
 Guide
 
+## Fundraiser redesign
 ```
 fundraiser donation sheet redesign
 ```
@@ -773,6 +797,7 @@ media previews in stories tray
 
 Guide
 
+## Merge a lot of actions into a Plus button in the Direct chat list
 ```
 action based conversations
 ```
@@ -780,6 +805,7 @@ action based conversations
 
 Guide
 
+## Merge audio and video call icons together and get an info button in chats
 ```
 direct thread details discovery
 ```
@@ -796,6 +822,7 @@ igd search h1 2023
 
 Guide
 
+## Move the Alt Text option from the Advanced Settings to the normal ones
 ```
 custom alt text update
 ```
@@ -808,6 +835,7 @@ comment sheet multi tabs
 
 Guide
 
+## Music picker as the default post editing option with a redesigned appearance
 ```
 mif creation post cap
 ```
@@ -833,6 +861,7 @@ igds prism launcher config android
 
 Guide
 
+## New filters icon
 ```
 ar effects icon change
 ```
@@ -872,6 +901,7 @@ lounge
 
 Guide
 
+## New spinner in the feed and profile
 ```
 ptr spinner is enabled
 ```
@@ -888,6 +918,7 @@ stories sticker tray redesign
 
 Guide
 
+## New swipe to camera animation
 ```
 camera android nav3 bottom creation animation
 ```
@@ -908,6 +939,7 @@ project elevation enabled
 
 Guide
 
+## Open links in external browser
 ```
 should override to external browser
 ```
@@ -942,6 +974,7 @@ stories in feed redesign
 
 Guide
 
+## Redesign of the media reordering on the carousel post editor
 ```
 camera android feed carousel reorder
 ```
@@ -949,6 +982,7 @@ camera android feed carousel reorder
 
 Guide
 
+## Redesign of the message actions in Direct
 ```
 igd long press message action
 ```
@@ -956,6 +990,7 @@ igd long press message action
 
 Guide
 
+## Redesign of the post editing section
 ```
 post editing flow updates
 ```
@@ -963,6 +998,7 @@ post editing flow updates
 
 Guide
 
+## Redesign of the reaction counter animation in Direct
 ```
 direct reaction counter animation
 ```
@@ -970,6 +1006,7 @@ direct reaction counter animation
 
 Guide
 
+## Redesign of the saving post draft animation
 ```
 feed initial exit save spinner enabled
 ```
@@ -986,6 +1023,7 @@ igd android gen ai search xstack
 
 Guide
 
+## Redesign of the search section in Direct
 ```
 igd search h2 2023
 ```
@@ -993,6 +1031,7 @@ igd search h2 2023
 
 Guide
 
+## Redesign of the text creator in Reels editor
 ```
 reels feels like ig text
 ```
@@ -1000,6 +1039,7 @@ reels feels like ig text
 
 Guide
 
+## Redesign of the Text to Speech picker in Reels editor
 ```
 camera android reels tts postcap
 ```
@@ -1007,6 +1047,7 @@ camera android reels tts postcap
 
 Guide
 
+## Redesign of the unfinished draft reminder
 ```
 unfinished reminder draft preview
 ```
@@ -1014,6 +1055,7 @@ unfinished reminder draft preview
 
 Guide
 
+## Redesigned comment section
 ```
 comments mvvm migration
 ```
@@ -1039,6 +1081,7 @@ clips android profile view count - enable everything
 
 Guide
 
+## Remove the Watch again button from reels in the feed
 ```
 clips feed preview is watch again full screen enabled
 ```
@@ -1046,6 +1089,7 @@ clips feed preview is watch again full screen enabled
 
 Guide
 
+## Save Draft button in post publishing section
 ```
 feed publish screen redesign
 ```
@@ -1071,6 +1115,7 @@ should show save flow on tap
 
 Guide
 
+## Thick story ring
 ```
 craft android pog parity
 ```
@@ -1116,6 +1161,7 @@ feed multiple aspect ratios - enable everything
 
 Guide
 
+## Add a poll when creating a post
 ```
 android comment polls
 ```
@@ -1123,6 +1169,7 @@ android comment polls
 
 Guide
 
+## Add music to carousel posts with video
 ```
 music in carousel 2024
 ```
@@ -1157,6 +1204,7 @@ concurrent grid video autoplay
 
 Guide
 
+## Change the intensity of the filter you're adding on a photo in post editor
 ```
 camera feed photo filters show filter intensity indicator
 ```
@@ -1222,6 +1270,7 @@ core flows android increased carousel size limit
 
 Guide
 
+## Multi select photos on by default
 ```
 feed creation multiselect enabled
 ```
@@ -1256,6 +1305,7 @@ quick send tlc
 
 Guide
 
+## Redesigned circles on the sharing sheet
 ```
 visual hscroll
 ```
@@ -1291,6 +1341,7 @@ simplified post layout
 Guide
 
 # Reels
+## Add multiple clips on the reel editor at once
 ```
 reels add clips multiselect enabled
 ```
@@ -1307,6 +1358,7 @@ camera android multiple audio tracks
 
 Guide
 
+## Audio effects
 ```
 camera android reels audio filters
 ```
@@ -1314,6 +1366,7 @@ camera android reels audio filters
 
 Guide
 
+## Automatically scrolling reels
 ```
 reels auto scroll v1
 ```
@@ -1321,6 +1374,7 @@ reels auto scroll v1
 
 Guide
 
+## Avatar comments
 ```
 avatars in comments
 ```
@@ -1337,6 +1391,7 @@ clips viewer caption see translation
 
 Guide
 
+## Captions and Voiceover buttons on the quick reel editing options
 ```
 camera android reels postcap high increment tools caption and voiceover
 ```
@@ -1397,6 +1452,7 @@ camera android tp media
 
 Guide
 
+## Comments for you
 ```
 android comments for you
 ```
@@ -1404,6 +1460,7 @@ android comments for you
 
 Guide
 
+## Copy link button under the share button in Reels
 ```
 external sharing is copy link on reel ufi enabled
 ```
@@ -1420,6 +1477,7 @@ cutout sticker audio
 
 Guide
 
+## Direct button in Reels
 ```
 direct in viewer
 ```
@@ -1512,6 +1570,7 @@ clips playback force scaling mode fit for clips
 
 Guide
 
+## Gallery button on the quick reel editor
 ```
 camera android reels postcap high increment tools gallery sticker button
 ```
@@ -1537,6 +1596,7 @@ hide unconnected posts with words
 
 Guide
 
+## Hold the reel to see a preview on your profile on the reel editor
 ```
 camera android postcap reels viewer preview
 ```
@@ -1553,6 +1613,7 @@ clips content lanes
 
 Guide
 
+## Manage captions and translations section in the reel options
 ```
 clips translated audio dubbing
 ```
@@ -1560,6 +1621,7 @@ clips translated audio dubbing
 
 Guide
 
+## New add to text bar on the Reels editor
 ```
 camera android timeline text ghost track
 ```
@@ -1567,6 +1629,7 @@ camera android timeline text ghost track
 
 Guide
 
+## New comments menu
 ```
 comment actions menu
 ```
@@ -1574,6 +1637,7 @@ comment actions menu
 
 Guide
 
+## Options of the reels editor being on the bottom. with rectangular buttons and new options
 ```
 camera android creation post cap lite
 ```
@@ -1608,6 +1672,7 @@ reels blends
 
 Guide
 
+## Reels map
 ```
 reels map
 ```
@@ -1628,6 +1693,7 @@ preview thumbnails are enabled
 
 Guide
 
+## Reels stacks
 ```
 reels stacks
 ```
@@ -1644,6 +1710,7 @@ should add audio secondary text
 
 Guide
 
+## Remove the audio pills at the bottom
 ```
 should hide attribution hub
 ```
@@ -1651,6 +1718,7 @@ should hide attribution hub
 
 Guide
 
+## Remove the countdown from Voiceover on the reel editor
 ```
 skip countdown
 ```
@@ -1658,6 +1726,7 @@ skip countdown
 
 Guide
 
+## Replies to replies
 ```
 comments replies to replies
 ```
@@ -1683,6 +1752,7 @@ conversations comment reshares
 
 Guide
 
+## Share comments to your story
 ```
 creator connection share to stories
 ```
@@ -1690,6 +1760,7 @@ creator connection share to stories
 
 Guide
 
+## Short comment hint text
 ```
 should shorten comment hint text
 ```
@@ -1728,6 +1799,7 @@ reels scroll to top status bar disabled
 
 Guide
 
+## Tap on the reel preview on the editor to add text
 ```
 reels tap to add text is enabled
 ```
@@ -1735,6 +1807,7 @@ reels tap to add text is enabled
 
 Guide
 
+## Tap to pause
 ```
 reels tap to pause
 ```
@@ -1769,6 +1842,7 @@ reels closed captions translations
 
 Guide
 
+## Use the same colour in texts by default
 ```
 camera android reels sticky text
 ```
@@ -1776,6 +1850,7 @@ camera android reels sticky text
 
 Guide
 
+## ❌ Music bar with pill border
 ```
 viewer merchandising pill system
 ```
@@ -1783,6 +1858,7 @@ viewer merchandising pill system
 
 Guide
 
+## ❌ Show indicator "Liked by..."
 ```
 clips social context likers
 ```
@@ -1821,6 +1897,7 @@ clips global audio search
 
 Guide
 
+## Audio tab on the search tabs
 ```
 clips global audio search
 ```
@@ -1828,6 +1905,7 @@ clips global audio search
 
 Guide
 
+## For you and Add feed options in Explore
 ```
 friend grid
 ```
@@ -1867,6 +1945,7 @@ stories mutuals filter
 
 Guide
 
+## Reduce and hide sensitive content
 ```
 igmwb explore controls
 ```
@@ -1888,6 +1967,7 @@ reels search tab is reels search subtab enabled android
 
 Guide
 
+## Share your Explore grid into a story
 ```
 explore shareable grid
 ```
@@ -1923,6 +2003,7 @@ story interactions hype
 
 Guide
 
+## Add yours sticker button in the camera section
 ```
 add yours browser
 ```
@@ -1975,6 +2056,7 @@ reply types
 
 Guide
 
+## Disable cubic animation
 ```
 stories viewer preq cube
 ```
@@ -1982,6 +2064,7 @@ stories viewer preq cube
 
 Guide
 
+## Enable story snapshot
 ```
 story snapshot
 ```
@@ -1998,6 +2081,7 @@ stories modernization
 
 Guide
 
+## Fix story replies not sending to the user
 ```
 is enabled for story internal
 ```
@@ -2023,6 +2107,7 @@ stories share to your friends story
 
 Guide
 
+## Full screen reels shared into story
 ```
 stories originality immersive reshare
 ```
@@ -2110,6 +2195,7 @@ avatars avatar with music sticker is animated stickers enabled
 
 Guide
 
+## Notify sticker
 ```
 notify me sticker
 ```
@@ -2198,6 +2284,7 @@ stories sound indicator
 
 Guide
 
+## Spotify share
 ```
 stories spotify audio reshare
 ```
@@ -2205,6 +2292,7 @@ stories spotify audio reshare
 
 Guide
 
+## Story layers
 ```
 stories layer editor
 ```
@@ -2249,6 +2337,7 @@ is draft share enabled = true
 
 Guide
 
+## Audio and Trending options in reel media selection
 ```
 camera android reels gallery audio
 ```
@@ -2265,6 +2354,7 @@ igrp android ar sidebar
 
 Guide
 
+## Better use of the gesture controls
 ```
 gesture control improved experience
 ```
@@ -2272,6 +2362,7 @@ gesture control improved experience
 
 Guide
 
+## Boomerang on reel creation
 ```
 camera reels boomerang
 ```
@@ -2279,6 +2370,7 @@ camera reels boomerang
 
 Guide
 
+## Draft counts
 ```
 camera android reels destination bar draft is draft count enabled
 ```
@@ -2286,6 +2378,7 @@ camera android reels destination bar draft is draft count enabled
 
 Guide
 
+## Duplicate reel drafts
 ```
 clips duplicate drafts
 ```
@@ -2293,6 +2386,7 @@ clips duplicate drafts
 
 Guide
 
+## Music button in Stories creation
 ```
 stories music in postcap toolbar is enabled
 ```
@@ -2337,6 +2431,7 @@ reels long press gallery
 
 Guide
 
+## Rename the Edit video button to Edit timing on the reel editor
 ```
 camera android post capture edit video renaming
 ```
@@ -2344,6 +2439,7 @@ camera android post capture edit video renaming
 
 Guide
 
+## Restore reel drafts that you have deleted
 ```
 camera android draft backup manual restore
 ```
@@ -2351,6 +2447,7 @@ camera android draft backup manual restore
 
 Guide
 
+## Show the Music button first in Stories creation
 ```
 stories music in postcap toolbar show music first
 ```
@@ -2358,6 +2455,7 @@ stories music in postcap toolbar show music first
 
 Guide
 
+## Suggested albums
 ```
 gallery smart albums
 ```
@@ -2365,6 +2463,7 @@ gallery smart albums
 
 Guide
 
+## Useful options as circles on reel recording
 ```
 camera platform utility toolbar
 ```
@@ -2387,6 +2486,7 @@ igd nicknames - enable it
 
 Guide
 
+## AI Message replies
 ```
 creator agents suggested replies
 ```
@@ -2394,6 +2494,7 @@ creator agents suggested replies
 
 Guide
 
+## Animated avatar stickers
 ```
 igd animated avatar stickers
 ```
@@ -2401,6 +2502,7 @@ igd animated avatar stickers
 
 Guide
 
+## Autoplay preview of shared reels
 ```
 full autoplay enabled
 ```
@@ -2435,6 +2537,7 @@ ig4a avatar reactions
 
 Guide
 
+## Birthday
 ```
 ig4a birthday opt in
 ```
@@ -2486,6 +2589,7 @@ nsx collab collections
 
 Guide
 
+## Create a group chat through DMs
 ```
 group from thread
 ```
@@ -2524,6 +2628,7 @@ igd read receipt control is enabled for open
 
 Guide
 
+## Disable swipe to direct
 ```
 should disable swipe to direct
 ```
@@ -2531,6 +2636,7 @@ should disable swipe to direct
 
 Guide
 
+## Disable typing indicator
 ```
 typing indicator control
 ```
@@ -2574,6 +2680,7 @@ igd android favorite sticker
 
 Guide
 
+## Fix GIFs and stickers not showing on the powerups section
 ```
 gifs stickers shortcut disabled
 ```
@@ -2586,6 +2693,7 @@ Guide
 
 Guide
 
+## GIF and sticker forwarding
 ```
 igd armadillo gifs stickers forwarding
 ```
@@ -2593,6 +2701,7 @@ igd armadillo gifs stickers forwarding
 
 Guide
 
+## GIF categories
 ```
 igd gif categories
 ```
@@ -2640,6 +2749,7 @@ location sharing
 
 Guide
 
+## Long press to change chat theme
 ```
 long press to theme picker
 ```
@@ -2665,6 +2775,7 @@ igd android media preview
 
 Guide
 
+## Media stacks enabled
 ```
 direct media stacks enabled
 ```
@@ -2672,6 +2783,7 @@ direct media stacks enabled
 
 Guide
 
+## More options on the Privacy and Safety section in group chats
 ```
 direct android group privacy and safety
 ```
@@ -2697,6 +2809,7 @@ direct thread details redesign
 
 Guide
 
+## New layout of long press menu
 ```
 igd long press message action
 ```
@@ -2704,6 +2817,7 @@ igd long press message action
 
 Guide
 
+## New modern design of the "send" button in a chat/note reply/comment composer
 ```
 smashable send
 ```
@@ -2738,6 +2852,7 @@ thread pinning
 
 Guide
 
+## Pong game while pressing an emoji in Direct
 ```
 studio emoji pong easter game
 ```
@@ -2758,6 +2873,7 @@ quiet mode x plat
 
 Guide
 
+## Redesign of the new group chat screen
 ```
 direct group creation improvements
 ```
@@ -2770,6 +2886,7 @@ Guide
 
 Guide
 
+## Rename the Delete button to Unsend and get a new icon
 ```
 igd delete messages
 ```
@@ -2777,6 +2894,7 @@ igd delete messages
 
 Guide
 
+## Replace the Following button to Message on the fmembers list of a group chat
 ```
 direct thread details message entrypoints
 ```
@@ -2793,6 +2911,7 @@ reels consumption v1
 
 Guide
 
+## Reply to links
 ```
 direct link replies
 ```
@@ -2827,6 +2946,7 @@ direct seen states in inbox
 
 Guide
 
+## Select button in the gallery in Direct
 ```
 gallery select button enabled
 ```
@@ -2834,6 +2954,7 @@ gallery select button enabled
 
 Guide
 
+## Sent reel indicator on chat previews
 ```
 reels consumption v2
 ```
@@ -2904,6 +3025,7 @@ direct reactions gating
 
 Guide
 
+## Theme picker redesign
 ```
 igd new themes
 ```
@@ -2943,6 +3065,7 @@ Guide
 Guide
 
 # Calls
+## Backgrounds in video calls
 ```
 rtc solo backgrounds
 ```
@@ -2960,6 +3083,7 @@ incall settings
 Guide
 
 # Profile
+## "Threads" button added to profile header tab
 ```
 is ig to p92 app switcher enabled android
 ```
@@ -2967,6 +3091,7 @@ is ig to p92 app switcher enabled android
 
 Guide
 
+## Avatar as profile picture
 ```
 is coin flip ssr enabled
 ```
@@ -3037,6 +3162,7 @@ japan labs my week is cards layout enabled
 
 Guide
 
+## Insights for all accounts
 ```
 ig4a insights for public
 ```
@@ -3079,6 +3205,7 @@ japan labs my week is share enabled
 
 Guide
 
+## New "Create" icon
 ```
 is profile creation button icon swap
 ```
@@ -3095,6 +3222,7 @@ profile header daisy
 
 Guide
 
+## New private account screen
 ```
 profile public highlights
 ```
@@ -3120,6 +3248,7 @@ bio interests
 
 Guide
 
+## Reels pinning
 ```
 clips reels pinning
 ```
@@ -3127,6 +3256,7 @@ clips reels pinning
 
 Guide
 
+## Remove highlights in profile
 ```
 stories archive negative holdout
 ```
@@ -3134,6 +3264,7 @@ stories archive negative holdout
 
 Guide
 
+## Remove suggested accounts
 ```
 self profile chaining enabled
 ```
@@ -3186,6 +3317,7 @@ profile wall notes
 
 Guide
 
+## Zoom people's profile icons
 ```
 profile pfp zoom
 ```
@@ -3199,6 +3331,7 @@ live stickers - enable everything
 
 Guide
 
+## Games in livestreams
 ```
 live android games
 ```
@@ -3206,6 +3339,7 @@ live android games
 
 Guide
 
+## More audience options on live creation
 ```
 live android invite only
 ```
@@ -3272,6 +3406,7 @@ ig4a effect filtering migration
 
 Guide
 
+## Fix all the hints showing even if they are already seen
 ```
 reuse sharedprefs editor
 ```
@@ -3302,6 +3437,7 @@ android viewer disable comment count
 
 Guide
 
+## Fix low light mode being always enabled
 ```
 low light mode capture is enabled
 ```
@@ -3309,6 +3445,7 @@ low light mode capture is enabled
 
 Guide
 
+## Fix music not playing in notes
 ```
 quick reply sheet mvvm migration enabled
 ```
@@ -3316,6 +3453,7 @@ quick reply sheet mvvm migration enabled
 
 Guide
 
+## Fix not being able to navigate in the Camera
 ```
 fix folder selector inflate crash
 ```
@@ -3332,6 +3470,7 @@ gallery modularization
 
 Guide
 
+## Fix not being able to record videos for stories
 ```
 cameracore fbaudio ig enable state machine
 ```
@@ -3339,6 +3478,7 @@ cameracore fbaudio ig enable state machine
 
 Guide
 
+## Fix not being able to swipe to the feed while being on the chats list in Direct
 ```
 source logging disabled
 ```
@@ -3346,6 +3486,7 @@ source logging disabled
 
 Guide
 
+## Fix not being able to take photos for stories
 ```
 enable sensor pixel mode maximum resolution
 ```
@@ -3353,6 +3494,7 @@ enable sensor pixel mode maximum resolution
 
 Guide
 
+## Fix not being able to take photos with effects for your story
 ```
 andriod ar engine
 ```
@@ -3360,6 +3502,7 @@ andriod ar engine
 
 Guide
 
+## Fix recommended users always showing up when adding a text in the Stories editor
 ```
 stories group mention
 ```
@@ -3367,6 +3510,7 @@ stories group mention
 
 Guide
 
+## Fix shared reels always being big
 ```
 rocket replies use large xma
 ```
@@ -3383,6 +3527,7 @@ reels swipe to action enable swipe debug visualizer
 
 Guide
 
+## Fix the "The reel is unavailable." errors
 ```
 clips friendly viewer is floaty follows enabled
 ```
@@ -3390,6 +3535,7 @@ clips friendly viewer is floaty follows enabled
 
 Guide
 
+## Fix the audio page crashing
 ```
 audio page layout ap layout enabled
 ```
@@ -3402,6 +3548,7 @@ avatars vpr in quick reactions
 
 Guide
 
+## Fix the avatar reactions not showing on the reaction sheet in Stories
 ```
 avatars longterm holdout 2023
 ```
@@ -3409,6 +3556,7 @@ avatars longterm holdout 2023
 
 Guide
 
+## Fix the carousel post editor crashing
 ```
 reels creation dark mode
 ```
@@ -3429,6 +3577,7 @@ igd android voice msg transcription
 
 Guide
 
+## Fix the chats not loading after switching accounts
 ```
 ig4a direct inbox streaming
 ```
@@ -3445,6 +3594,7 @@ notes birthday v2 activation enabled
 
 Guide
 
+## Fix the Direct tab crashing
 ```
 is get notes enabled
 ```
@@ -3457,6 +3607,7 @@ view mode selector enabled = false
 
 Guide
 
+## Fix the huge gap in Direct when the Direct tab is on the bottom bar
 ```
 is extended scrollaway nav enabled for feed
 ```
@@ -3464,6 +3615,7 @@ is extended scrollaway nav enabled for feed
 
 Guide
 
+## Fix the loud audio distortion and the image glitches when recording a video for stories / not being able to record videos for stories (for older bases)
 ```
 cameracore fbaudio ig use pcm float
 ```
@@ -3471,6 +3623,7 @@ cameracore fbaudio ig use pcm float
 
 Guide
 
+## Fix the Mute options not showing
 ```
 enable prism alert dialog
 ```
@@ -3487,6 +3640,7 @@ segment enabled story raven
 
 Guide
 
+## Fix the notification tab crashing
 ```
 ptr spinner is enabled in newsfeed you
 ```
@@ -3503,6 +3657,7 @@ enable jpegr feed photo edit surface view
 
 Guide
 
+## Fix the post gallery crashing
 ```
 camera android reels text expansion enable new fonts stories
 ```
@@ -3510,6 +3665,7 @@ camera android reels text expansion enable new fonts stories
 
 Guide
 
+## Fix the Reels lagging
 ```
 clips playback tests
 ```
@@ -3517,6 +3673,7 @@ clips playback tests
 
 Guide
 
+## Fix the status bar being white while watching reels
 ```
 status nav bar api update
 ```
@@ -3547,6 +3704,7 @@ sticker anything dark test
 
 Guide
 
+## Fix the text you add in the Reels editor being placed 0.5s ahead of where you put it
 ```
 camera android reels stacked timeline add things
 ```
