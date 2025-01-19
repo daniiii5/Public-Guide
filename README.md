@@ -23,6 +23,7 @@ By opening the guide to community collaboration, everyone has the opportunity to
 (photos/animations pending)- [Important](#important)
   - [🆕 test by dani](#🆕-test-by-dani)
   - [🆕 test by dani](#🆕-test-by-dani)
+  - [🆕 test by dani](#🆕-test-by-dani)
   - [Disable thread posts in the feed](#disable-thread-posts-in-the-feed)
   - [Enable the shake phone to report a problem sheet even if you disabled it](#enable-the-shake-phone-to-report-a-problem-sheet-even-if-you-disabled-it)
   - [Make the app more efficient](#make-the-app-more-efficient)
@@ -429,6 +430,18 @@ Test description
 high_quality_upload_setting
 ```
 newasdas version
+Added in version 309.0.0.0.59 or earlier
+Removed in version 318.0.0.0.58
+
+
+[Dani](https://t.me/danii5)
+
+## 🆕 Test by dani
+Test description
+```
+high_quality_upload_setting
+```
+
 Added in version 309.0.0.0.59 or earlier
 Removed in version 318.0.0.0.58
 
