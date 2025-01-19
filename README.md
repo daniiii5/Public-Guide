@@ -21,7 +21,7 @@ By opening the guide to community collaboration, everyone has the opportunity to
 
 # How to enable/disable flags
 (photos/animations pending)- [Important](#important)
-  - [🆕 test by dani](#🆕-test-by-dani)
+  - [🆕 test by dani](#test-by-dani)
   - [🆕 test by dani](#🆕-test-by-dani)
   - [🆕 test by dani](#🆕-test-by-dani)
   - [Disable thread posts in the feed](#disable-thread-posts-in-the-feed)
