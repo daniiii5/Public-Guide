@@ -269,6 +269,7 @@ By opening the guide to community collaboration, everyone has the opportunity to
   - [Useful options as circles on reel recording](#useful-options-as-circles-on-reel-recording)
   - [Zoom and unzoom the photos row in media selection](#zoom-and-unzoom-the-photos-row-in-media-selection)
 - [Direct](#direct)
+  - [🆕 activate voice message effects](#🆕-activate-voice-message-effects)
   - [🆕nicknames](#🆕nicknames)
   - [Ai message replies](#ai-message-replies)
   - [Animated avatar stickers](#animated-avatar-stickers)
@@ -2703,6 +2704,17 @@ camera android reels gallery zoom
 Guide
 
 # Direct
+## 🆕 Activate voice message effects
+With this you can activate voice message effects
+```
+igd_android_voice_msg_improvements_v2
+```
+
+Added in version 319.0.0.0.70
+
+
+[Dani](https://t.me/danii5)
+
 ## 🆕Nicknames
 igd nicknames - enable it
 
