@@ -1,3 +1,23 @@
+# 📱 Instagram Alpha Changelog
+
+A community-driven project that tracks and documents changes in 
+Instagram's Android alpha versions by analysing internal feature 
+flags (GKs/QEs) from Metaconfig.
+
+Updates are automatically published to a Telegram channel via a 
+self-hosted bot, built and maintained by the community.
+
+## How it works
+- Instagram alpha APKs are analysed for changes in internal flags
+- Additions, removals and updates are documented and categorised
+- A Telegram bot automatically publishes each new changelog entry
+- The community contributes flag descriptions and feature context
+
+## Resources
+- 📢 Telegram Channel: https://t.me/igdevdani
+- 🤝 Contributing: see the Community Guide below
+
+
 # Community's Ultimate Guide by John and Dani
 ## Attention! This is still a work in progress  
 The guide is now transitioning to a **community-supported version**. This means that any user in the **Instagram Developer Community** can contribute to expanding and improving the guide.  
