@@ -1,3 +1,14 @@
+## Messenger update
+Enables all settings for you even if your account is not eligible for these
+
+✅ ```igd xac unbundle```
+- ✅ ```enable```
+- ❌ ```enable debug mode```
+- ❌ ```testing mode```
+- ✅ ```modern layout```
+- ```modern layout``` = 1
+
+
 # 📱 Instagram Alpha Changelog
 
 A community-driven project that tracks and documents changes in 
