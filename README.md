@@ -38,7 +38,7 @@ The guide has fully transitioned to a **community-supported version**. This mean
 > You have enabled a faulty flag (a flag that causes issues with some features or the core app). If this happens with a flag listed in our guide regarding new features, please kindly inform us so we can update it. Otherwise, we are not responsible for random crashes. To fix your app, clear the app data and start adding your flags all over again.
 
 **I need support!**
-> Send a message in the Patreon chat to get assistance from the team.
+> Send a message in the Telegram channel to get assistance from the team.
 
 **Why don't flags added before the 305.0.0.0.107 base mention their specific version?**
 > We use a mapping database for flag information configured specifically for bases from `305.0.0.0.107` and beyond. Because we cannot feasibly search all previous bases for historical flags (it would take forever), we simply use the label *"Added in version 305.0.0.0.107 or earlier"* for those older entries.
