@@ -367,6 +367,7 @@ The guide has fully transitioned to a **community-supported version**. This mean
   - [Fix GIFs and stickers not showing on the powerups section](#fix-gifs-and-stickers-not-showing-on-the-powerups-section)
   - [Select button in the gallery in Direct](#select-button-in-the-gallery-in-direct)
   - [Threshold for displaying the number of unread messages](#threshold-for-displaying-the-number-of-unread-messages)
+  - [Custom Fonts in Chats & Stories](#custom-fonts-in-chats--stories)
 - [Profile](#profile)
   - [Compare activity](#compare-activity)
   - [Highlights grid](#highlights-grid)
@@ -444,8 +445,6 @@ The guide has fully transitioned to a **community-supported version**. This mean
   - [Fix the notification tab crashing](#fix-the-notification-tab-crashing)
   - [Fix the post editing section always being in HDR](#fix-the-post-editing-section-always-being-in-hdr)
   - [Fix the story editor always being in HDR](#fix-the-story-editor-always-being-in-hdr)
-- [Direct / Stories / Fonts](#direct--stories--fonts)
-  - [Custom Fonts in Chats & Stories](#custom-fonts-in-chats--stories)
 
 ---
 
@@ -3152,6 +3151,17 @@ Last change: 415.0.0.0.43
  ✅ ```snapshot messages per thread count```
 
 
+## Custom Fonts in Chats & Stories
+Introduces support for custom fonts in chats and Stories, allowing users to personalize text appearance with different font styles and visual designs for messages and story content.
+
+✅ ```consumer subs custom fonts```
+
+Last change: Added in version 428.0.0.0.27
+
+> Found by [𝓪𝓯𝓯𝓪𝓷](https://t.me/its_affayyy)
+![image](./thumbnails/20260511_164352_928.jpg)
+
+
 # Profile
 ## Compare activity
 It is a feature that shows some information between your profile and someone else's.
@@ -3723,16 +3733,4 @@ Disable it
 • ```ig_camera_android_ultra_hdr_photo_capture``` = false
 
  ❌ ```enable jpegr feed photo edit surface view```
-
-
-# Direct / Stories / Fonts
-## Custom Fonts in Chats & Stories
-Introduces support for custom fonts in chats and Stories, allowing users to personalize text appearance with different font styles and visual designs for messages and story content.
-
-✅ ```consumer subs custom fonts```
-
-Last change: Added in version 428.0.0.0.27
-
-> Found by [𝓪𝓯𝓯𝓪𝓷](https://t.me/its_affayyy)
-![image](./thumbnails/20260511_164352_928.jpg)
 
