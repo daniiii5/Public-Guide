@@ -38,7 +38,7 @@ The guide has fully transitioned to a **community-supported version**. This mean
 > You have enabled a faulty flag (a flag that causes issues with some features or the core app). If this happens with a flag listed in our guide regarding new features, please kindly inform us so we can update it. Otherwise, we are not responsible for random crashes. To fix your app, clear the app data and start adding your flags all over again.
 
 **I need support!**
-> Send a message in the Telegram channel to get assistance from the team.
+> Send a message in the Patreon chat to get assistance from the team.
 
 **Why don't flags added before the 305.0.0.0.107 base mention their specific version?**
 > We use a mapping database for flag information configured specifically for bases from `305.0.0.0.107` and beyond. Because we cannot feasibly search all previous bases for historical flags (it would take forever), we simply use the label *"Added in version 305.0.0.0.107 or earlier"* for those older entries.
@@ -449,7 +449,7 @@ The guide has fully transitioned to a **community-supported version**. This mean
 ---
 
 # Important
-## Disable Thread posts in the feed
+## Disable Thread posts in the feed - (61804)
 Removes thread posts in the feed
 
 ✅ ```threads xma```
@@ -459,7 +459,7 @@ Last change: Removed in version 393.0.0.0.22
 ![image](https://media.4-paws.org/a/f/4/7/af47ae6aa55812faa4d7fd857a6e283a8c8226bc/VIER%20PFOTEN_2019-07-18_013-2890x2000-1920x1329.jpg)
 
 
-## Enable the shake phone to report a problem sheet even if you disabled it
+## Enable the shake phone to report a problem sheet even if you disabled it - (30451)
 
 ✅ ```rageshake ui```
 
@@ -467,7 +467,7 @@ Last change: Removed in version 342.0.0.0.23
 
 
 
-## Make the app more efficient
+## Make the app more efficient - (29064)
 
 ❌ ```analytics2 consolidation```
 
@@ -475,7 +475,7 @@ Last change: Added in version 305.0.0.0.107 or earlier
 
 
 
-## Messenger update
+## Messenger update - (56088)
 Enables all settings for you even if your account is not eligible for these
 
 ✅ ```igd xac unbundle```
@@ -484,14 +484,14 @@ Last change: Removed in version 317.0.0.0.36
 
 
 
-## Prevent Instagram from taking lots of space in app data
+## Prevent Instagram from taking lots of space in app data - (29064)
 
 • ```analytics2 consolidation```
 
 - ```max batch lock attempts``` = 0
 
 
-## Remove the reel ads and improve/fix adblocking in Instagram mods
+## Remove the reel ads and improve/fix adblocking in Instagram mods - (33268)
 
 ✅ ```sundial ads```
 
@@ -499,7 +499,7 @@ Last change: Removed in version 387.0.0.0.61
 
 
 
-## Remove the story ads with the "LEARN MORE" stickers inside
+## Remove the story ads with the "LEARN MORE" stickers inside - (40751)
 
 ✅ ```stories cta stickers```
 
@@ -507,7 +507,7 @@ Last change: Added in version 305.0.0.0.107 or earlier
 
 
 
-## Remove Threads usernames and button
+## Remove Threads usernames and button - (58467)
 
 ✅ ```spain growth```
 
@@ -515,13 +515,13 @@ Last change: Added in version 318.0.0.0.65
 
 
 
-## Remove the Google Play update dialog
+## Remove the Google Play update dialog - (57502)
 
 ❌ ```ig_google_play_update_api```
 
 
 # Quality
-## High quality video uploads on stories and reels
+## High quality video uploads on stories and reels - (91245)
 Enter the name and enable the toggle and put the bitrate mbps to 20 (recommended).
 
 ```high quality upload setting``` = 20
@@ -530,7 +530,7 @@ Last change: Added in version 400.0.0.0.55
 
 
 
-## Improve quality of posts
+## Improve quality of posts - (91245)
 This will improve the overall quality from your posts and stories
 
 ✅ ```high_quality_upload_setting```
@@ -539,7 +539,7 @@ Last change: Added in version 400.0.0.0.55
 
 
 
-## Reduce compression of photo uploads in the feed
+## Reduce compression of photo uploads in the feed - (80055)
 70 = 30% compression
 
 ✅ ```photo creation```
@@ -548,7 +548,7 @@ Last change: Added in version 357.0.0.0.90
 
 
 
-## Upload photos up to 1440p resolution in stories
+## Upload photos up to 1440p resolution in stories - (23744)
 By default the photos you upload to stories are 1080, enabling this setting will increase the resolution up to 1440.
 
 ✅ ```ensure 1440p photo upload```
@@ -557,7 +557,7 @@ Last change: Added in version 305.0.0.0.107 or earlier
 
 
 
-## 4K Quality Command
+## 4K Quality Command - (117622)
 Enables 4K image upload for posts and stories, active in the same way as the image.
 
 ✅ ```4k_image_upload```
@@ -566,14 +566,14 @@ Last change: Added in version 425.0.0.0.6
 
 
 
-## Enable 48khz sample rate
+## Enable 48khz sample rate - (31064)
 
 • ```android_cameracore_fbaudio_ig_launcher```
 
  ✅ ```use_48khz_sample_rate```
 
 
-## Enable stereo
+## Enable stereo - (31064)
 
 • ```android_cameracore_fbaudio_ig_launcher```
 
@@ -581,7 +581,7 @@ Last change: Added in version 425.0.0.0.6
 
 
 # UI
-## Redesign of the Message Requests
+## Redesign of the Message Requests - (53626)
 
 ✅ ```igd message requests```
 
@@ -589,14 +589,14 @@ Last change: Added in version 400.0.0.0.55
 
 
 
-## Variations of the Reel uploading section
+## Variations of the Reel uploading section - (71831)
 
 • ```reels publish screen decluttering```
 
  ✅ ```enable variant a```
 
 
-## Accessibility settings
+## Accessibility settings - (41236)
 
 ✅ ```accessibility setting```
 
@@ -604,7 +604,7 @@ Last change: Removed in version 348.0.0.0.7
 
 
 
-## Album picker
+## Album picker - (76418)
 Choose an album, photos or videos to show in the list
 
 ✅ ```gallery album picker```
@@ -613,7 +613,7 @@ Last change: Added in version 346.0.0.0.66
 
 
 
-## Android widget
+## Android widget - (49971)
 Enables a new widget to use on your Android homescreen.
 
 ✅ ```direct widget```
@@ -622,7 +622,7 @@ Last change: Removed in version 318.0.0.0.80
 
 
 
-## Call screen redesign
+## Call screen redesign - (33674)
 Make the end call and the action buttons more circular.
 
 ✅ ```vc halo call controls```
@@ -631,7 +631,7 @@ Last change: Removed in version 333.0.0.0.33
 
 
 
-## Change activity icon to bell icon
+## Change activity icon to bell icon - (73316)
 Photo preview pending
 
 ✅ ```bell icon```
@@ -640,7 +640,7 @@ Last change: Removed in version 363.0.0.0.63
 
 
 
-## Channels tab
+## Channels tab - (55958)
 Enable everything except: (Outdated)
 
 ✅ ```channels inbox discovery```
@@ -649,7 +649,7 @@ Last change: Added in version 318.0.0.0.65
 
 
 
-## Content languages
+## Content languages - (57434)
 
 ✅ ```ig4a content languages```
 
@@ -657,7 +657,7 @@ Last change: Removed in version 388.0.0.0.62
 
 
 
-## Creator support option in Settings
+## Creator support option in Settings - (36173)
 As it's not ready yet (the page shows a 404 error), you can find the setting only by searching for it in Settings.
 
 ✅ ```creator support portal```
@@ -666,7 +666,7 @@ Last change: Added in version 318.0.0.0.65
 
 
 
-## Customize buttons layout
+## Customize buttons layout - (47131)
 Words You Can Use in Changeable Settings (between tab 0-4 and top bar 0-2) (When typing, you should write them all in lowercase.);
 
 ✅ ```panavision nav3```
@@ -675,7 +675,7 @@ Last change: Added in version 305.0.0.0.107 or earlier
 
 
 
-## Direct new icon
+## Direct new icon - (24692)
 
 ✅ ```direct interop rebrand```
 
@@ -683,7 +683,7 @@ Last change: Removed in version 386.0.0.4.84
 
 
 
-## Fundraiser redesign
+## Fundraiser redesign - (28676)
 
 ✅ ```fundraiser donation sheet redesign```
 
@@ -691,7 +691,7 @@ Last change: Removed in version 327.0.0.0.92
 
 
 
-## Media previews in stories
+## Media previews in stories - (65590)
 Disable only gray background enabled for debugging if the previews are always gray.
 
 ✅ ```media previews in stories tray```
@@ -700,7 +700,7 @@ Last change: Removed in version 361.0.0.0.33
 
 
 
-## Merge a lot of actions into a Plus button in the Direct chat list
+## Merge a lot of actions into a Plus button in the Direct chat list - (71372)
 
 ✅ ```action based conversations```
 
@@ -708,7 +708,7 @@ Last change: Added in version 329.0.0.0.19
 
 
 
-## Merge audio and video call icons together and get an info button in chats
+## Merge audio and video call icons together and get an info button in chats - (67900)
 
 ✅ ```direct thread details discovery```
 
@@ -716,7 +716,7 @@ Last change: Removed in version 355.0.0.0.85
 
 
 
-## More details about broadcast channels on the search section in Direct
+## More details about broadcast channels on the search section in Direct - (54874)
 Don't enable disable inbox cache results and disable trt on share sheet private share.
 
 • ```igd search h1 2023```
@@ -726,7 +726,7 @@ Don't enable disable inbox cache results and disable trt on share sheet private 
  ❌ ```trt on share sheet private share```
 
 
-## Move the Alt Text option from the Advanced Settings to the normal ones
+## Move the Alt Text option from the Advanced Settings to the normal ones - (50864)
 
 ✅ ```custom alt text update```
 
@@ -734,7 +734,7 @@ Last change: Removed in version 341.0.0.0.1
 
 
 
-## Multiple comment tabs
+## Multiple comment tabs - (55075)
 
 ✅ ```comment sheet multi tabs```
 
@@ -742,7 +742,7 @@ Last change: Removed in version 370.0.0.0.67
 
 
 
-## Music picker as the default post editing option with a redesigned appearance
+## Music picker as the default post editing option with a redesigned appearance - (70063)
 
 ✅ ```mif creation post cap```
 
@@ -750,7 +750,7 @@ Last change: Removed in version 377.0.0.0.20
 
 
 
-## New apperance of reactions
+## New apperance of reactions - (62067)
 Disable if the reactions are buggy
 
 ✅ ```direct multi react xstack```
@@ -759,7 +759,7 @@ Last change: Added in version 318.0.0.0.65
 
 
 
-## New dark mode
+## New dark mode - (62246)
 Enable the new dark mode in instagram, from being an AMOLED black to a more pleasant dark blue.
 
 ✅ ```igds prism launcher config android```
@@ -768,7 +768,7 @@ Last change: Added in version 305.0.0.0.107 or earlier
 
 
 
-## New filters icon
+## New filters icon - (65144)
 
 ✅ ```ar effects icon change```
 
@@ -776,7 +776,7 @@ Last change: Removed in version 411.0.0.0.84
 
 
 
-## New loading screen
+## New loading screen - (66193)
 
 ✅ ```async app init clone```
 
@@ -784,7 +784,7 @@ Last change: Removed in version 370.0.0.0.67
 
 
 
-## New pip mode for audio calls
+## New pip mode for audio calls - (44718)
 Press the Mute button only once, it's buggy and it won't show the Unmute text while it'll unmute, press the Full screen button and go back and it'll show it normally.
 
 ✅ ```lounge```
@@ -793,7 +793,7 @@ Last change: Removed in version 358.0.0.0.4
 
 
 
-## New stories stickers menu design
+## New stories stickers menu design - (65751)
 
 ✅ ```stories sticker tray redesign```
 
@@ -801,7 +801,7 @@ Last change: Added in version 318.0.0.0.65
 
 
 
-## New swipe to camera animation
+## New swipe to camera animation - (57497)
 
 ✅ ```camera android nav3 bottom creation animation```
 
@@ -809,7 +809,7 @@ Last change: Removed in version 355.0.0.0.85
 
 
 
-## Redesign of the media picker in Direct
+## Redesign of the media picker in Direct - (41691)
 New media button in dm, with some nice-to-have features.
 
 ✅ ```convos reshare hub```
@@ -818,7 +818,7 @@ Last change: Removed in version 326.0.0.0.29
 
 
 
-## Redesign of the media previews of stories
+## Redesign of the media previews of stories - (69624)
 If you enable show author on top the previews will show abnormal.
 
 ✅ ```stories in feed redesign```
@@ -827,7 +827,7 @@ Last change: Added in version 322.0.0.0.81
 
 
 
-## Redesign of the media reordering on the carousel post editor
+## Redesign of the media reordering on the carousel post editor - (70139)
 
 ✅ ```camera android feed carousel reorder```
 
@@ -835,7 +835,7 @@ Last change: Removed in version 381.0.0.0.75
 
 
 
-## Redesign of the message actions in Direct
+## Redesign of the message actions in Direct - (51328)
 
 ✅ ```igd long press message action```
 
@@ -843,7 +843,7 @@ Last change: Added in version 305.0.0.0.107 or earlier
 
 
 
-## Redesign of the post editing section
+## Redesign of the post editing section - (62466)
 
 ✅ ```post editing flow updates```
 
@@ -851,7 +851,7 @@ Last change: Removed in version 394.0.0.0.29
 
 
 
-## Redesign of the reaction counter animation in Direct
+## Redesign of the reaction counter animation in Direct - (70706)
 
 ✅ ```direct reaction counter animation```
 
@@ -859,7 +859,7 @@ Last change: Added in version 328.0.0.0.18
 
 
 
-## Redesign of the search bar in Direct
+## Redesign of the search bar in Direct - (62485)
 MetaAI logo animation
 
 ✅ ```igd android gen ai search xstack```
@@ -868,7 +868,7 @@ Last change: Added in version 400.0.0.0.55
 
 
 
-## Redesign of the search section in Direct
+## Redesign of the search section in Direct - (62449)
 
 ✅ ```igd search h2 2023```
 
@@ -876,7 +876,7 @@ Last change: Added in version 318.0.0.0.65
 
 
 
-## Redesign of the text creator in Reels editor
+## Redesign of the text creator in Reels editor - (67701)
 
 ✅ ```reels feels like ig text```
 
@@ -884,7 +884,7 @@ Last change: Added in version 318.0.0.0.65
 
 
 
-## Redesign of the Text to Speech picker in Reels editor
+## Redesign of the Text to Speech picker in Reels editor - (68686)
 
 ✅ ```camera android reels tts postcap```
 
@@ -892,7 +892,7 @@ Last change: Removed in version 341.0.0.0.61
 
 
 
-## Redesigned comment section
+## Redesigned comment section - (58179)
 
 ✅ ```comments mvvm migration```
 
@@ -900,7 +900,7 @@ Last change: Removed in version 368.0.0.0.74
 
 
 
-## Reel view counts in the profile and redesign of the existing ones in the Reels tab
+## Reel view counts in the profile and redesign of the existing ones in the Reels tab - (72501)
 
 ✅ ```clips android profile view count```
 
@@ -908,7 +908,7 @@ Last change: Removed in version 348.0.0.0.99
 
 
 
-## Save Draft button in post publishing section
+## Save Draft button in post publishing section - (62651)
 
 ✅ ```feed publish screen redesign```
 
@@ -916,7 +916,7 @@ Last change: Removed in version 339.0.0.0.80
 
 
 
-## Show live in direct panel
+## Show live in direct panel - (58241)
 Shows live in direct panel over the user's profile picture.
 
 ✅ ```live android direct```
@@ -925,7 +925,7 @@ Last change: Removed in version 361.0.0.0.84
 
 
 
-## Thick story ring
+## Thick story ring - (64684)
 
 ✅ ```craft android pog parity```
 
@@ -933,7 +933,7 @@ Last change: Removed in version 336.0.0.0.34
 
 
 
-## Timestamps
+## Timestamps - (62969)
 Show when the post/reel was posted.
 
 ✅ ```feed marie kondo android```
@@ -942,7 +942,7 @@ Last change: Added in version 318.0.0.0.65
 
 
 
-## Story Interest Signals
+## Story Interest Signals - (84236)
 Adds “Interested” and “Not Interested” options in Stories, allowing users to control and personalize the content they see.
 
 ✅ ```interested_option```
@@ -951,7 +951,7 @@ Last change: Added in version 371.0.0.0.6
 
 
 
-## Minimal Overflow Menu Icon
+## Minimal Overflow Menu Icon - (117613)
 Introduces a new minimal overflow menu icon design, replacing the previous style with a cleaner look.
 
 ✅ ```overflow_menu_icon```
@@ -960,7 +960,7 @@ Last change: Added in version 425.0.0.0.17
 
 
 
-## Story Upload Progress Percentage
+## Story Upload Progress Percentage - (115501)
 Shows upload progress percentage while posting a Story, giving real-time feedback on upload status.
 
 ✅ ```story_upload_progress_percentage```
@@ -969,7 +969,7 @@ Last change: Added in version 425.0.0.0.47
 
 
 
-## Note Likes UI
+## Note Likes UI - (119100)
 Introduces a new UI for note likes, displaying reactions in a cleaner and more modern way.
 
 ✅ ```notes_public_comments_v2```
@@ -978,35 +978,35 @@ Last change: Added in version 427.0.0.0.38
 
 
 
-## Redesign of the send button in the gallery picker in Direct
+## Redesign of the send button in the gallery picker in Direct - (68556)
 
 • ```igd_android_media_preview_fbid```
 
  ✅ ```view_mode_selector_enabled```
 
 
-## Dark gallery in Direct at all times
+## Dark gallery in Direct at all times - (68556)
 
 • ```igd_android_media_preview_fbid```
 
  ✅ ```gallery_dark_theme```
 
 
-## Rename the Advanced Settings to More Options
+## Rename the Advanced Settings to More Options - (71831)
 
 • ```ig_android_reels_publish_screen_decluttering```
 
  ✅ ```should rename advanced settings```
 
 
-## Enable threads icon in profile menu
+## Enable threads icon in profile menu - (58467)
 
 • ```ig_spain_growth```
 
  ✅ ```is ig to p92 app switcher enabled android```
 
 
-## Extra Activity Status setting in Direct
+## Extra Activity Status setting in Direct - (47832)
 No idea why it doesn't work
 
 • ```ig_android_presence_activity_status_settings_screen_launcher```
@@ -1014,7 +1014,7 @@ No idea why it doesn't work
  ✅ ```enable bloks www activity status settings screen```
 
 
-## Filled bottom row buttons
+## Filled bottom row buttons - (47131)
 Only works for the buttons on the bottom row.
 
 • ```ig_panavision_nav3_launcher```
@@ -1022,7 +1022,7 @@ Only works for the buttons on the bottom row.
  ✅ ```filled tab icons```
 
 
-## Fix empty space below bottom navigation bar
+## Fix empty space below bottom navigation bar - (56160)
 Doesn't work anymore
 
 • ```ig_android_foldable_responsive_window_insets```
@@ -1030,19 +1030,19 @@ Doesn't work anymore
  ✅ ```is mw bottom padding enabled```
 
 
-## New heart like animation
+## New heart like animation - (66115)
 
 ✅ ```ig_android_new_double_tap_heart_animation```
 
 
-## New login UI
+## New login UI - (50769)
 
 • ```fx_ig_android_switcher_wave_2_3_fdid```
 
  ✅ ```bypass triage oe```
 
 
-## Old settings UI
+## Old settings UI - (40559)
 Disable both, Show the old UI of instagram setting menu instead of the new one.
 
 • ```ig_fx_centralized_settings``` = false
@@ -1053,14 +1053,14 @@ Disable both, Show the old UI of instagram setting menu instead of the new one.
  ❌ ```enabled```
 
 
-## Open links in external browser
+## Open links in external browser - (39443)
 
 • ```ig_android_browser_lite```
 
  ✅ ```should override to external browser```
 
 
-## New Button Design Across Instagram
+## New Button Design Across Instagram - (101772)
 Enables Instagram’s new Material-based button and toggle system. This updates ON/OFF switches and action buttons with rounded shapes, clearer active/inactive states, smoother animations, and improved visual hierarchy.
 
 ✅ ```material_components```
@@ -1070,7 +1070,7 @@ Last change: Added in version 404.0.0.0.46
 > Found by [𝓪𝓯𝓯𝓪𝓷](https://t.me/its_affayyy)
 
 
-## Comment Composer Rotate Ghost Text
+## Comment Composer Rotate Ghost Text - (100545)
 Display a rotation of comment suggestions
 
 ✅ ```comment composer rotate ghost text```
@@ -1080,7 +1080,7 @@ Last change: Added in version 403.0.0.0.0
 > Found by [InstaFlow - Catálogo](https://t.me/instaflowflags)
 
 
-## Follow button in stories viewers list
+## Follow button in stories viewers list - (102000)
 Show the follow button on accounts that viewed your stories but you don't follow back.
 
 ✅ ```follow button in stories viewers list```
@@ -1090,7 +1090,7 @@ Last change: Added in version 405.0.0.0.0
 > Found by [InstaFlow - Catálogo](https://t.me/instaflowflags)
 
 
-## Profile unseen post indicator
+## Profile unseen post indicator - (95085)
 Shows a "new" indicator on recent posts in the user's profile.
 
 ✅ ```profile unseen post h2 2025```
@@ -1100,7 +1100,7 @@ Last change: Added in version 394.0.0.0.7
 > Found by [InstaFlow - Catálogo](https://t.me/instaflowflags)
 
 
-## Indicador de amigos próximos na aba de compartilhar
+## Indicador de amigos próximos na aba de compartilhar - (104446)
 Close friends indicator in the share sheet tab.
 > ⚠️ Removed in Base 418.0.0.0.41
 
@@ -1111,7 +1111,7 @@ Last change: Removed in version 418.0.0.0.41
 > Found by [InstaFlow - Catálogo](https://t.me/instaflowflags)
 
 
-## New design in notification settings
+## New design in notification settings - (91066)
 New design in notification settings
 
 ✅ ```ig4a notifications setting```
@@ -1121,7 +1121,7 @@ Last change: Added in version 387.0.0.0.61
 > Found by [InstaFlow - Catálogo](https://t.me/instaflowflags)
 
 
-## Airplane Button Share
+## Airplane Button Share - (106331)
 Pressing the airplane button should allow sharing a video or post with a friend. (It returned 😇)
 
 ✅ ```igd quick send```
@@ -1131,7 +1131,7 @@ Last change: Added in version 411.0.0.0.84
 > Found by [InstaFlow - Catálogo](https://t.me/instaflowflags)
 
 
-## Cast Instagram to TV
+## Cast Instagram to TV - (103010)
 Cast Instagram to TV
 
 ✅ ```airwave settings bookmark```
@@ -1141,7 +1141,7 @@ Last change: Added in version 406.0.0.0.96
 > Found by [InstaFlow - Catálogo](https://t.me/instaflowflags)
 
 
-## Visual moderno de menu
+## Visual moderno de menu - (100002)
 Modern menu visual. Added in Base 402.0.0.0.5. Works better in Base 408.0.0.0.1.
 
 ✅ ```igds android prism overflow sheet```
@@ -1151,7 +1151,7 @@ Last change: Added in version 402.0.0.0.5
 > Found by [InstaFlow - Catálogo](https://t.me/instaflowflags)
 
 
-## New visual of the account center in settings
+## New visual of the account center in settings - (103432)
 Activates all features except xe ig entrypoint variant1. Base version 411.0.0.0.65.
 
 • ```xe ac entrypoint ig```
@@ -1160,7 +1160,7 @@ Activates all features except xe ig entrypoint variant1. Base version 411.0.0.0.
 > Found by [InstaFlow - Catálogo](https://t.me/instaflowflags)
 
 
-## Minimize the number of apps in the "also from meta" section in settings.
+## Minimize the number of apps in the "also from meta" section in settings. - (92808)
 
 ✅ ```igs2 tier1 meta apps revamp```
 
@@ -1169,21 +1169,21 @@ Last change: Added in version 389.0.0.0.6
 > Found by [InstaFlow - Catálogo](https://t.me/instaflowflags)
 
 
-## Plus button in stories tray
+## Plus button in stories tray - (58677)
 
 • ```ig_stories_show_menu_on_self_story_pog```
 
  ✅ ```icon over ring enabled```
 
 
-## Redesign of the saving post draft animation
+## Redesign of the saving post draft animation - (64653)
 
 • ```ig_android_reels_and_feed_sharing_draft_optimizations```
 
  ✅ ```feed initial exit save spinner enabled```
 
 
-## Show save animation
+## Show save animation - (45238)
 
 • ```ig_direct_collaborative_collections```
 
@@ -1191,7 +1191,7 @@ Last change: Added in version 389.0.0.0.6
 
 
 # Feed
-## Add texts, stickers and overlay photos in posts
+## Add texts, stickers and overlay photos in posts - (67653)
 
 ✅ ```feed text stickers```
 
@@ -1199,7 +1199,7 @@ Last change: Added in version 316.0.0.0.67
 
 
 
-## Orientation options for photos in the post editing section
+## Orientation options for photos in the post editing section - (71060)
 
 ✅ ```feed multiple aspect ratios```
 
@@ -1207,7 +1207,7 @@ Last change: Removed in version 405.0.0.0.58
 
 
 
-## Add music to carousel posts with video
+## Add music to carousel posts with video - (68346)
 
 ✅ ```music in carousel 2024```
 
@@ -1215,7 +1215,7 @@ Last change: Removed in version 413.0.0.0.33
 
 
 
-## Add notes to posts/reels
+## Add notes to posts/reels - (67738)
 
 ✅ ```content notes```
 
@@ -1223,7 +1223,7 @@ Last change: Added in version 318.0.0.0.65
 
 
 
-## Audience controls
+## Audience controls - (49793)
 
 ✅ ```audience controls```
 
@@ -1231,7 +1231,7 @@ Last change: Removed in version 386.0.0.4.84
 
 
 
-## Auto advance carrousel posts
+## Auto advance carrousel posts - (104779)
 Auto scroll posts in the feed.
 
 ✅ ```concurrent grid video autoplay```
@@ -1240,7 +1240,7 @@ Last change: Added in version 409.0.0.0.57
 
 
 
-## Comments translations
+## Comments translations - (51191)
 
 ✅ ```comments translations```
 
@@ -1248,7 +1248,7 @@ Last change: Removed in version 338.0.0.0.81
 
 
 
-## Feed nav scroll away
+## Feed nav scroll away - (54983)
 The top bar scrolls away when navigating though the feed
 
 ✅ ```feed scroll away nav```
@@ -1257,7 +1257,7 @@ Last change: Added in version 305.0.0.0.107 or earlier
 
 
 
-## Multi select photos on by default
+## Multi select photos on by default - (60151)
 
 ✅ ```feed creation multiselect enabled```
 
@@ -1265,7 +1265,7 @@ Last change: Removed in version 377.0.0.0.20
 
 
 
-## New sharing sheet
+## New sharing sheet - (56850)
 Modify add top story hscroll to 0 if you want the add to story button, or set it to 1 to remove it
 
 • ```super share v3```
@@ -1273,7 +1273,7 @@ Modify add top story hscroll to 0 if you want the add to story button, or set it
 - ```add top story hscroll``` = 0
 
 
-## New sharing shortcut
+## New sharing shortcut - (56850)
 Attention!!! Not recommended to activate the 3rd option because the "add X to your story" button will stop appearing on the IGTV posts and regular ones in the Profile & Explore tabs.
 
 ✅ ```super share```
@@ -1282,7 +1282,7 @@ Last change: Added in version 318.0.0.0.65
 
 
 
-## Quick share
+## Quick share - (60484)
 Hold the share button to quickly share the post to a user.
 
 ✅ ```quick send tlc```
@@ -1291,7 +1291,7 @@ Last change: Added in version 318.0.0.0.65
 
 
 
-## Redesigned circles on the sharing sheet
+## Redesigned circles on the sharing sheet - (69639)
 
 ✅ ```visual hscroll```
 
@@ -1299,7 +1299,7 @@ Last change: Removed in version 366.0.0.0.1
 
 
 
-## Reminder post
+## Reminder post - (24606)
 
 ✅ ```upcoming events creation```
 
@@ -1307,7 +1307,7 @@ Last change: Removed in version 337.0.0.15.102
 
 
 
-## Shorter reels on the feed
+## Shorter reels on the feed - (118065)
 
 ❌ ```tall video```
 
@@ -1315,7 +1315,7 @@ Last change: Added in version 426.0.0.0.8
 
 
 
-## Simplified like, comment and share counts in the feed
+## Simplified like, comment and share counts in the feed - (55553)
 Enable everything inside:
 
 ✅ ```simplified post layout```
@@ -1324,7 +1324,7 @@ Last change: Removed in version 333.0.0.0.26
 
 
 
-## Feed video 2x speed
+## Feed video 2x speed - (103957)
 Allows watching Reels and videos in the feed at 2x playback speed for faster viewing.
 
 ✅ ```feed_video_2x_speed```
@@ -1333,7 +1333,7 @@ Last change: Added in version 424.0.0.0.63
 
 
 
-## Edit comment
+## Edit comment - (109051)
 Option will be available for 15 minutes. The option will not appear for everyone. Added to Base 416.0.0.0.65. Functional at Base 426.
 > ⚠️ The option will not appear for everyone.
 
@@ -1343,7 +1343,7 @@ Last change: Added in version 416.0.0.0.65
 
 
 
-## Carousel Individual Captions
+## Carousel Individual Captions - (111882)
 A caption for each Carousel post
 > ⚠️ Not functional
 
@@ -1353,7 +1353,7 @@ Last change: Added in version 422.0.0.0.55
 
 
 
-## Silent Post to Profile
+## Silent Post to Profile - (119699)
 Post a photo/carousel silently on your profile. It is only functional for Instagram subscribers.
 
 ✅ ```silent_post_to_profile```
@@ -1362,7 +1362,7 @@ Last change: Added in version 427.0.0.0.65
 
 
 
-## Programar posts and reels reels to date
+## Programar posts and reels reels to date - (75600)
 
 ✅ ```posts publish screen decluttering```
 
@@ -1371,7 +1371,7 @@ Last change: Removed in version 407.0.0.0.207
 > Found by [InstaFlow - Catálogo](https://t.me/instaflowflags)
 
 
-## Loop every reel for a second time in the feed
+## Loop every reel for a second time in the feed - (24714)
 
 • ```ig_android_clips_feed_preview```
 
@@ -1379,7 +1379,7 @@ Last change: Removed in version 407.0.0.0.207
 
 
 # Reels
-## Add multiple clips on the reel editor at once
+## Add multiple clips on the reel editor at once - (65055)
 
 ✅ ```reels add clips multiselect enabled```
 
@@ -1387,7 +1387,7 @@ Last change: Removed in version 421.0.0.0.3
 
 
 
-## Add multiple tracks on Reel editor
+## Add multiple tracks on Reel editor - (64392)
 Don't enable single track only.
 
 ✅ ```camera android multiple audio tracks```
@@ -1396,7 +1396,7 @@ Last change: Removed in version 387.0.0.0.61
 
 
 
-## Audio effects
+## Audio effects - (62376)
 
 ✅ ```camera android reels audio filters```
 
@@ -1404,7 +1404,7 @@ Last change: Added in version 305.0.0.0.107 or earlier
 
 
 
-## Automatically scrolling reels
+## Automatically scrolling reels - (66707)
 
 ✅ ```reels auto scroll v1```
 
@@ -1412,7 +1412,7 @@ Last change: Removed in version 398.0.0.0.43
 
 
 
-## Avatar comments
+## Avatar comments - (62329)
 
 ✅ ```avatars in comments```
 
@@ -1420,7 +1420,7 @@ Last change: Added in version 318.0.0.0.65
 
 
 
-## Caption translations
+## Caption translations - (43242)
 Only activate the 1st option.
 
 ✅ ```clips viewer caption see translation```
@@ -1429,7 +1429,7 @@ Last change: Removed in version 356.0.0.0.93
 
 
 
-## Captions creation
+## Captions creation - (65176)
 Older versions:
 
 • ```reels add captions```
@@ -1437,7 +1437,7 @@ Older versions:
  ✅ ```camera android reels captions expansion```
 
 
-## Carousel post mention
+## Carousel post mention - (58152)
 Old versions
 
 • ```carousel slide comments```
@@ -1445,7 +1445,7 @@ Old versions
  ✅ ```carousel comments with combo button```
 
 
-## Clear mode
+## Clear mode - (72006)
 Enable the option and set the value to 1.
 
 ```reels gestures``` = 1
@@ -1454,7 +1454,7 @@ Last change: Added in version 330.0.0.0.81
 
 
 
-## Clip hub
+## Clip hub - (61454)
 Add GIFs to reels.
 
 ✅ ```camera android tp media```
@@ -1463,7 +1463,7 @@ Last change: Removed in version 385.0.0.0.32
 
 
 
-## Comments for you
+## Comments for you - (64226)
 
 ✅ ```android comments for you```
 
@@ -1471,7 +1471,7 @@ Last change: Removed in version 338.0.0.0.81
 
 
 
-## Create cutout stickers with audio
+## Create cutout stickers with audio - (69605)
 Only works when adding them in reels.
 
 ✅ ```cutout sticker audio```
@@ -1480,7 +1480,7 @@ Last change: Removed in version 342.0.0.0.0
 
 
 
-## Download reels
+## Download reels - (56124)
 Press the share button and press Download.
 
 ✅ ```reels third party downloads```
@@ -1489,7 +1489,7 @@ Last change: Added in version 305.0.0.0.107 or earlier
 
 
 
-## Effects in Reels
+## Effects in Reels - (58408)
 Add effects on your reels.
 
 ✅ ```timeline ar effects button```
@@ -1498,7 +1498,7 @@ Last change: Removed in version 334.0.0.0.33
 
 
 
-## Enable listen in spotify, or add to spotify playlist
+## Enable listen in spotify, or add to spotify playlist - (62244)
 
 ✅ ```spotify partnership```
 
@@ -1506,7 +1506,7 @@ Last change: Removed in version 385.0.0.0.32
 
 
 
-## Fast forward reels
+## Fast forward reels - (67378)
 Hold the edges of the reel.
 
 ✅ ```long press fast reels```
@@ -1515,7 +1515,7 @@ Last change: Removed in version 371.0.0.0.31
 
 
 
-## Filter
+## Filter - (57498)
 Choose between close reels and following users.
 
 ✅ ```clips tab dsa```
@@ -1524,7 +1524,7 @@ Last change: Removed in version 362.0.0.0.218
 
 
 
-## Fixed brightness in the Reels section
+## Fixed brightness in the Reels section - (59060)
 Enable the option and set the value from 0-100 to have a fixed brightness in reels.
 
 ✅ ```clips brightness```
@@ -1533,7 +1533,7 @@ Last change: Removed in version 343.0.0.0.5
 
 
 
-## Floating friend’s likes
+## Floating friend’s likes - (76834)
 Disable everything if you get any "This reel is unavailable." errors
 
 ❌ ```clips friendly viewer```
@@ -1542,7 +1542,7 @@ Last change: Added in version 348.0.0.0.7
 
 
 
-## Hide suggested posts with certain words
+## Hide suggested posts with certain words - (47507)
 With this option you can hide or get rid of suggested posts that have certain words and emojis in the captions of the video, after adding the word you want to hide then all suggested posts that have that word in their captions 'will not' appear in your feed and reels tab as suggested posts.
 
 ✅ ```hide unconnected posts with words```
@@ -1551,7 +1551,7 @@ Last change: Removed in version 410.0.0.0.7
 
 
 
-## Hold the reel to see a preview on your profile on the reel editor
+## Hold the reel to see a preview on your profile on the reel editor - (57537)
 
 ✅ ```camera android postcap reels viewer preview```
 
@@ -1559,7 +1559,7 @@ Last change: Removed in version 386.0.0.4.84
 
 
 
-## Inspiration, Nearby, and Internal tabs in Reels
+## Inspiration, Nearby, and Internal tabs in Reels - (58377)
 Don't enable enable inspiration lane prefetch otherwise the Inspiration tab will not work.
 
 • ```clips content lanes```
@@ -1567,7 +1567,7 @@ Don't enable enable inspiration lane prefetch otherwise the Inspiration tab will
  ❌ ```enable inspiration lane prefetch```
 
 
-## New add to text bar on the Reels editor
+## New add to text bar on the Reels editor - (65868)
 
 ✅ ```camera android timeline text ghost track```
 
@@ -1575,7 +1575,7 @@ Last change: Removed in version 363.0.0.0.25
 
 
 
-## New comments menu
+## New comments menu - (58962)
 
 ✅ ```comment actions menu```
 
@@ -1583,7 +1583,7 @@ Last change: Removed in version 374.0.0.0.66
 
 
 
-## Pinch to zoom in reels
+## Pinch to zoom in reels - (72984)
 It might crash on some bases (or mods, I'm not that sure).
 
 ✅ ```reels pinch to zoom```
@@ -1592,7 +1592,7 @@ Last change: Added in version 333.0.0.0.87
 
 
 
-## Profile Display
+## Profile Display - (65682)
 Choose whether you want the reel to be seen to your profile or only on the reels tab.
 
 ✅ ```camera android reels profile display```
@@ -1601,7 +1601,7 @@ Last change: Removed in version 344.0.0.0.78
 
 
 
-## Reels blends
+## Reels blends - (69355)
 Like reels together for newer versions
 
 ✅ ```reels blends```
@@ -1610,7 +1610,7 @@ Last change: Removed in version 395.0.0.0.106
 
 
 
-## Reels map
+## Reels map - (50253)
 
 ✅ ```reels map```
 
@@ -1618,7 +1618,7 @@ Last change: Removed in version 340.0.0.0.16
 
 
 
-## Reels seekbar
+## Reels seekbar - (55196)
 Set android attachment scrubber duration to 1 to have the scrubber in all reels including short ones
 
 • ```clips viewer scrubber improvements```
@@ -1628,7 +1628,7 @@ Set android attachment scrubber duration to 1 to have the scrubber in all reels 
 - ```android attachment scrubber duration``` = 1
 
 
-## Reels stacks
+## Reels stacks - (71131)
 
 ✅ ```reels stacks```
 
@@ -1636,7 +1636,7 @@ Last change: Added in version 327.0.0.0.70
 
 
 
-## Replies to replies
+## Replies to replies - (65837)
 
 ✅ ```comments replies to replies```
 
@@ -1644,7 +1644,7 @@ Last change: Removed in version 409.0.0.0.0
 
 
 
-## Share comments
+## Share comments - (43332)
 Older versions (only for limited accounts):
 
 ✅ ```conversations comment reshares```
@@ -1653,7 +1653,7 @@ Last change: Removed in version 318.0.0.0.58
 
 
 
-## Show the number of views on your own reels
+## Show the number of views on your own reels - (52376)
 Show the ammount of users that have seen your reel
 
 ✅ ```reels played by```
@@ -1662,7 +1662,7 @@ Last change: Removed in version 317.0.0.0.36
 
 
 
-## Tap header to scroll to top
+## Tap header to scroll to top - (65329)
 Disable to tap on the status bar to scroll to the first seen reel.
 
 ✅ ```reels scroll to top status bar disabled```
@@ -1671,14 +1671,14 @@ Last change: Removed in version 364.0.0.0.12
 
 
 
-## Tap on the reel preview on the editor to add text
+## Tap on the reel preview on the editor to add text - (69501)
 
 • ```reels tap to add text```
 
  ✅ ```is enabled```
 
 
-## Text to speech
+## Text to speech - (35587)
 This feature is only available for reels and not for stories.
 
 ✅ ```reels text to speech```
@@ -1687,7 +1687,7 @@ Last change: Removed in version 320.0.0.0.87
 
 
 
-## Timestamp
+## Timestamp - (33454)
 Enter the name and enable all the toggles.
 
 ✅ ```clips relative timestamp```
@@ -1696,7 +1696,7 @@ Last change: Removed in version 355.0.0.0.13
 
 
 
-## Translate auto generated captions
+## Translate auto generated captions - (67269)
 Doesn't work on my side
 
 ✅ ```reels closed captions translations```
@@ -1705,7 +1705,7 @@ Last change: Added in version 314.0.0.0.100
 
 
 
-## Use the same colour in texts by default
+## Use the same colour in texts by default - (69192)
 
 ✅ ```camera android reels sticky text```
 
@@ -1713,7 +1713,7 @@ Last change: Removed in version 379.0.0.0.71
 
 
 
-## Reels Picture-in-Picture Playback
+## Reels Picture-in-Picture Playback - (87480)
 Enables watching Reels via Picture-in-Picture outside the app. Activates all features except the persistent variant. Added in Base 378.0.0.0.4, works best in Base 420.0.0.0.10.
 > ⚠️ Causes a bug in post caption when reposting to stories.
 
@@ -1723,7 +1723,7 @@ Last change: Added in version 378.0.0.0.4
 
 
 
-## Playback Speed in Reels Menu
+## Playback Speed in Reels Menu - (109947)
 This flag enables the Playback Speed option inside the Reels overflow (three-dot) menu. Once activated, you can manually adjust the video speed directly from the menu instead of relying only on gesture controls. It adds a proper speed selector (e.g., Normal, 1.5x, 2x), giving you more precise control over how you watch Reels. This is especially useful for longer videos, tutorials, or when you want to quickly go through content without skipping parts.
 
 ✅ ```reels overflow menu playback speed```
@@ -1733,7 +1733,7 @@ Last change: Added in version 417.0.0.0.38
 > Found by [𝓪𝓯𝓯𝓪𝓷](https://t.me/its_affayyy)
 
 
-## Reels Timestamp Comments
+## Reels Timestamp Comments - (99556)
 Mention a part of the reels by adding the time in the comments.
 
 ✅ ```reels timestamp comments```
@@ -1743,7 +1743,7 @@ Last change: Added in version 401.0.0.0.26
 > Found by [InstaFlow - Catálogo](https://t.me/instaflowflags)
 
 
-## Save video button in the Reels tab
+## Save video button in the Reels tab - (104612)
 Adds a button to save the video in the Reels tab.
 
 • ```reels save ufi```
@@ -1752,7 +1752,7 @@ Adds a button to save the video in the Reels tab.
 > Found by [InstaFlow - Catálogo](https://t.me/instaflowflags)
 
 
-## Repost Mini Menu
+## Repost Mini Menu - (107347)
 Mini menu that appears when clicking the repost button, allowing you to repost the video, repost with a comment, or add to Stories.
 
 ✅ ```multi tap repost```
@@ -1762,7 +1762,7 @@ Last change: Added in version 414.0.0.0.10
 > Found by [InstaFlow - Catálogo](https://t.me/instaflowflags)
 
 
-## Full screen reels
+## Full screen reels - (54983)
 
 • ```ig_android_feed_scroll_away_nav```
 
@@ -1771,7 +1771,7 @@ Last change: Added in version 414.0.0.0.10
  ✅ ```clips playback force scaling mode fit for clips```
 
 
-## Hide Follow button
+## Hide Follow button - (52814)
 Removes the follow button while watching reels.
 
 • ```ig_reels_interactivity_flywheel_test```
@@ -1779,28 +1779,28 @@ Removes the follow button while watching reels.
  ✅ ```android viewer disable follow button```
 
 
-## Remove the audio description under the username in Reels
+## Remove the audio description under the username in Reels - (67072)
 
 • ```ig_android_clips_friendly_viewer```
 
  ❌ ```should add audio secondary text```
 
 
-## Remove the audio pills at the bottom
+## Remove the audio pills at the bottom - (67072)
 
 • ```ig_android_clips_friendly_viewer```
 
  ✅ ```should hide attribution hub```
 
 
-## Remove the countdown from Voiceover on the reel editor
+## Remove the countdown from Voiceover on the reel editor - (61524)
 
 • ```ig_camera_android_reels_stacked_timeline_voiceover```
 
  ✅ ```skip countdown```
 
 
-## Reverse clips on the reel editor
+## Reverse clips on the reel editor - (65336)
 It doesn't reverse the audio.
 
 • ```ig_camera_android_clips_stacked_timeline_clip_reverse```
@@ -1808,7 +1808,7 @@ It doesn't reverse the audio.
  ✅ ```enable clip reverse```
 
 
-## Short comment hint text
+## Short comment hint text - (62816)
 
 • ```ig_android_comments_craft_h2_2023```
 
@@ -1816,7 +1816,7 @@ It doesn't reverse the audio.
 
 
 # Comments
-## Write comments anonymously
+## Write comments anonymously - (60408)
 
 ✅ ```ghost writer```
 
@@ -1824,7 +1824,7 @@ Last change: Added in version 318.0.0.0.65
 
 
 
-## Avatars in comments
+## Avatars in comments - (62329)
 
 ✅ ```avatars in comments```
 
@@ -1832,7 +1832,7 @@ Last change: Added in version 318.0.0.0.65
 
 
 
-## Comment filtering
+## Comment filtering - (62405)
 
 ✅ ```participation comments dsa```
 
@@ -1840,7 +1840,7 @@ Last change: Added in version 318.0.0.0.65
 
 
 
-## Comment previews
+## Comment previews - (68630)
 
 ✅ ```clips comment previews```
 
@@ -1848,7 +1848,7 @@ Last change: Added in version 319.0.0.0.104
 
 
 
-## Mention Meta AI in Comments
+## Mention Meta AI in Comments - (110316)
 This feature enables the ability to mention Meta AI directly in comments to ask questions. By tagging @Meta AI, users can interact with AI within the comment section, potentially receiving contextual responses related to the post or discussion. It brings AI interaction directly into conversations, making comment sections more dynamic and interactive.
 
 ✅ ```meta ai mentions```
@@ -1859,7 +1859,7 @@ Last change: Added in version 418.0.0.0.5
 
 
 # Explore
-## Audio preview
+## Audio preview - (33546)
 
 ✅ ```clips global audio search```
 
@@ -1867,7 +1867,7 @@ Last change: Added in version 305.0.0.0.107 or earlier
 
 
 
-## Audio tab on the search tabs
+## Audio tab on the search tabs - (33546)
 
 ✅ ```clips global audio search```
 
@@ -1875,7 +1875,7 @@ Last change: Added in version 305.0.0.0.107 or earlier
 
 
 
-## For you and Add feed options in Explore
+## For you and Add feed options in Explore - (55399)
 
 ✅ ```friend grid```
 
@@ -1883,7 +1883,7 @@ Last change: Removed in version 331.0.0.0.88
 
 
 
-## Increase audio preview duration
+## Increase audio preview duration - (43467)
 
 ✅ ```audio page music preview duration```
 
@@ -1891,7 +1891,7 @@ Last change: Removed in version 329.0.0.0.11
 
 
 
-## Meta AI search feature in Explore
+## Meta AI search feature in Explore - (74933)
 Either I don't know how to use it, or it's only available in the U.S.
 
 ✅ ```client search meta ai integration```
@@ -1900,7 +1900,7 @@ Last change: Added in version 343.0.0.0.5
 
 
 
-## Mutual filters
+## Mutual filters - (64057)
 Not working at the moment
 
 ✅ ```stories mutuals filter```
@@ -1909,7 +1909,7 @@ Last change: Removed in version 333.0.0.0.33
 
 
 
-## Reduce and hide sensitive content
+## Reduce and hide sensitive content - (47680)
 
 ✅ ```igmwb explore controls```
 
@@ -1917,7 +1917,7 @@ Last change: Added in version 318.0.0.0.65
 
 
 
-## Reels tab in Explore
+## Reels tab in Explore - (80216)
 Long press search icon to search
 
 ✅ ```reels subtab```
@@ -1926,14 +1926,14 @@ Last change: Removed in version 415.0.0.0.43
 
 
 
-## Reels tab on the search tabs
+## Reels tab on the search tabs - (56473)
 
 • ```reels search tab```
 
  ✅ ```is reels search subtab enabled android```
 
 
-## Share your Explore grid into a story
+## Share your Explore grid into a story - (61638)
 
 ✅ ```explore shareable grid```
 
@@ -1941,7 +1941,7 @@ Last change: Removed in version 369.0.0.0.95
 
 
 
-## Remove Tags Tab from Search Results
+## Remove Tags Tab from Search Results - (107831)
 This feature allows you to remove the Tags tab from Instagram search results. Once enabled, the Tags tab will no longer appear, helping you keep the search interface cleaner and more focused.
 
 ✅ ```search_client_serp_tabs_removal```
@@ -1952,7 +1952,7 @@ Last change: Added in version 414.0.0.0.80
 
 
 # Stories
-## Activate color picker
+## Activate color picker - (80182)
 With this you can activate color picker on stories
 
 [𓆩Zɑ͜͡ɩN𓆪](https://t.me/iamzainnnn)
@@ -1963,7 +1963,7 @@ Last change: Added in version 361.0.0.0.3
 
 
 
-## Activate color picker
+## Activate color picker - (80182)
 With this you can activate color picker on stories
 
 [𓆩Zɑ͜͡ɩN𓆪](https://t.me/iamzainnnn)
@@ -1974,7 +1974,7 @@ Last change: Added in version 361.0.0.0.3
 
 
 
-## Activate color picker
+## Activate color picker - (80182)
 With this you can activate color picker on stories
 
 [𓆩Zɑ͜͡ɩN𓆪](https://t.me/iamzainnnn)
@@ -1985,7 +1985,7 @@ Last change: Added in version 361.0.0.0.3
 
 
 
-## 60 second stories
+## 60 second stories - (56537)
 Make sure that this option removes the sharing options of some reels in newer versions.
 
 • ```stories video trimmer```
@@ -1993,7 +1993,7 @@ Make sure that this option removes the sharing options of some reels in newer ve
  ✅ ```stories originality reel reshares```
 
 
-## Add comments to stories
+## Add comments to stories - (56859)
 Pending launch
 
 ✅ ```story interactions hype```
@@ -2002,7 +2002,7 @@ Last change: Added in version 305.0.0.0.107 or earlier
 
 
 
-## Add yours sticker button in the camera section
+## Add yours sticker button in the camera section - (49316)
 
 ✅ ```add yours browser```
 
@@ -2010,7 +2010,7 @@ Last change: Removed in version 339.0.0.0.20
 
 
 
-## Archive posted stories
+## Archive posted stories - (52652)
 Removed in newer versions
 
 ✅ ```stories archive refactor```
@@ -2019,7 +2019,7 @@ Last change: Removed in version 376.0.0.0.27
 
 
 
-## Convert close friends to regular story
+## Convert close friends to regular story - (67266)
 Switch story to regular one from close friends
 
 ✅ ```close friends to regular story```
@@ -2028,7 +2028,7 @@ Last change: Removed in version 362.0.0.0.68
 
 
 
-## Custom color stickers
+## Custom color stickers - (48493)
 Working for location, mention, link, and hashtag stickers.
 
 ✅ ```stories custom color gradient stickers```
@@ -2037,7 +2037,7 @@ Last change: Added in version 318.0.0.0.65
 
 
 
-## Custom replies
+## Custom replies - (45145)
 Reply to stories with media, camera, stickers, emojis, gifs or reacts
 
 ✅ ```reply types```
@@ -2046,7 +2046,7 @@ Last change: Added in version 318.0.0.0.65
 
 
 
-## Enable story snapshot
+## Enable story snapshot - (64935)
 
 ✅ ```story snapshot```
 
@@ -2054,7 +2054,7 @@ Last change: Removed in version 373.0.0.0.21
 
 
 
-## Filled bar story reply box
+## Filled bar story reply box - (56125)
 When watching a story, a filled bar is shown instead of an outlined bar.
 
 ✅ ```stories modernization```
@@ -2063,7 +2063,7 @@ Last change: Removed in version 322.0.0.0.17
 
 
 
-## Fix the reply bar not showing in Stories
+## Fix the reply bar not showing in Stories - (66521)
 Disable it
 
 ✅ ```stories viewer reply composer mvvm```
@@ -2072,7 +2072,7 @@ Last change: Removed in version 378.0.0.0.56
 
 
 
-## Friend's Story
+## Friend's Story - (64899)
 Your friends must support the feature too
 
 ✅ ```stories share to your friends story```
@@ -2081,7 +2081,7 @@ Last change: Removed in version 393.0.0.0.14
 
 
 
-## Full screen reels shared into story
+## Full screen reels shared into story - (67697)
 
 ✅ ```stories originality immersive reshare```
 
@@ -2089,7 +2089,7 @@ Last change: Added in version 318.0.0.0.65
 
 
 
-## Group mention in stories
+## Group mention in stories - (32606)
 Enables tagging multiple users.
 
 ✅ ```new group mentions```
@@ -2098,7 +2098,7 @@ Last change: Removed in version 333.0.0.0.87
 
 
 
-## Messenger and Reply icons in viewer list
+## Messenger and Reply icons in viewer list - (45849)
 Only 1
 
 ✅ ```ios spark viewer list message icon```
@@ -2107,7 +2107,7 @@ Last change: Removed in version 389.0.0.0.6
 
 
 
-## More avatar reactions
+## More avatar reactions - (56968)
 Lets you choose more than the preselected avatars to react to a story.
 
 ✅ ```avatars aqrv3```
@@ -2116,7 +2116,7 @@ Last change: Removed in version 412.0.0.0.0
 
 
 
-## Multiple close friends lists
+## Multiple close friends lists - (61267)
 They're not working well at the moment
 
 ✅ ```private lists```
@@ -2125,7 +2125,7 @@ Last change: Removed in version 386.0.0.4.84
 
 
 
-## Music sticker with avatar stickers
+## Music sticker with avatar stickers - (48850)
 
 • ```avatars avatar with music sticker```
 
@@ -2134,7 +2134,7 @@ Last change: Removed in version 386.0.0.4.84
  ✅ ```avatars avatar with music sticker is animated stickers enabled```
 
 
-## Notify sticker
+## Notify sticker - (65288)
 
 ✅ ```notify me sticker```
 
@@ -2142,7 +2142,7 @@ Last change: Added in version 306.0.0.0.75
 
 
 
-## Post directly to highlights
+## Post directly to highlights - (57228)
 Not working for now
 
 ✅ ```profile post story directly to highlights```
@@ -2151,7 +2151,7 @@ Last change: Removed in version 410.0.0.0.7
 
 
 
-## Redesign of the reply bar in stories
+## Redesign of the reply bar in stories - (63119)
 Only works since the base 325 and later, in the previous bases it'll crash the stories.
 
 ✅ ```reply bar modernization```
@@ -2160,7 +2160,7 @@ Last change: Removed in version 355.0.0.0.37
 
 
 
-## Request Mention
+## Request Mention - (68439)
 
 ✅ ```stories request mention```
 
@@ -2168,7 +2168,7 @@ Last change: Removed in version 373.0.0.0.18
 
 
 
-## Rounded edges on reels shared into story
+## Rounded edges on reels shared into story - (67821)
 Might not work well in some versions
 
 ✅ ```stories video sticker migration```
@@ -2177,7 +2177,7 @@ Last change: Added in version 318.0.0.0.2
 
 
 
-## Rounded edges on the mentioned story
+## Rounded edges on the mentioned story - (47335)
 When resharing a story where you have been mentioned, no sound will be audible.
 
 ✅ ```stories mention reshare video sticker```
@@ -2186,7 +2186,7 @@ Last change: Removed in version 423.0.0.0.48
 
 
 
-## Share profile to stories
+## Share profile to stories - (66299)
 
 ✅ ```share profile to stories```
 
@@ -2194,7 +2194,7 @@ Last change: Removed in version 366.0.0.0.1
 
 
 
-## Shared Lists in stories
+## Shared Lists in stories - (62179)
 Not to be confused with collaborative stories
 
 ✅ ```hallpass```
@@ -2203,7 +2203,7 @@ Last change: Added in version 318.0.0.0.65
 
 
 
-## Sound button
+## Sound button - (52803)
 Can be enabled, but wont work in newer versions
 
 ✅ ```stories sound indicator```
@@ -2212,7 +2212,7 @@ Last change: Removed in version 393.0.0.0.6
 
 
 
-## Spotify share
+## Spotify share - (54391)
 
 ✅ ```stories spotify audio reshare```
 
@@ -2220,14 +2220,14 @@ Last change: Removed in version 338.0.0.0.65
 
 
 
-## Story layers
+## Story layers - (60845)
 
 • ```stories layer editor```
 
  ✅ ```stories android sticker layering tool```
 
 
-## Story user search
+## Story user search - (51536)
 
 ✅ ```story dashboard search```
 
@@ -2235,7 +2235,7 @@ Last change: Removed in version 393.0.0.0.6
 
 
 
-## Upload collaborative stories
+## Upload collaborative stories - (56857)
 Not working for now, if you try this feature you will end with a story error and a video that you will not be able to delete.
 
 ✅ ```stories collab stories```
@@ -2244,7 +2244,7 @@ Last change: Removed in version 365.0.0.0.1
 
 
 
-## Zoom stories
+## Zoom stories - (55260)
 Enables zooming on stories by pinching it.
 
 ✅ ```stories pinch to zoom```
@@ -2253,7 +2253,7 @@ Last change: Removed in version 339.0.0.0.80
 
 
 
-## Scrollable Toolbar
+## Scrollable Toolbar - (108969)
 Enables a scrollable toolbar for stories posts.
 
 ✅ ```stories_post_cap_toolbar_scrollable```
@@ -2262,7 +2262,7 @@ Last change: Added in version 417.0.0.0.38
 
 
 
-## Stories Unified Reply Composer
+## Stories Unified Reply Composer - (109758)
 Allows replying to a story with a photo from the gallery, a camera photo, a GIF, or a voice message.
 
 ✅ ```stories_unified_reply_composer```
@@ -2271,7 +2271,7 @@ Last change: Added in version 417.0.0.0.38
 
 
 
-## Stories pause during zoom
+## Stories pause during zoom - (112322)
 When zooming on stories, it will be automatically paused.
 
 ✅ ```stories_pause_during_zoom```
@@ -2280,7 +2280,7 @@ Last change: Added in version 420.0.0.0.10
 
 
 
-## Blurred Background for Story Reshares
+## Blurred Background for Story Reshares - (110215)
 Adds a blurred background effect when resharing posts to Stories, improving visual focus and appearance.
 
 ✅ ```stories_reshares_blur_background```
@@ -2289,7 +2289,7 @@ Last change: Added in version 418.0.0.0.5
 
 
 
-## Background of the story blurred in the corners of the screen
+## Background of the story blurred in the corners of the screen - (117283)
 The background of the story is blurred in the corners of the screen, providing an immersive effect. Not recommended for devices with weak performance.
 
 • ```stories_immersive_blur_android```
@@ -2297,7 +2297,7 @@ The background of the story is blurred in the corners of the screen, providing a
  ✅ ```chrome_blur_enabled```
 
 
-## Stories Viewer List Redesign
+## Stories Viewer List Redesign - (119728)
 Redesign of likes in stories and the stories viewer list.
 
 ✅ ```stories_viewer_list_redesign```
@@ -2306,7 +2306,7 @@ Last change: Added in version 427.0.0.0.65
 
 
 
-## Search Story Viewers
+## Search Story Viewers - (107820)
 This feature lets you search through your Story viewers list. You can quickly find who viewed your story by typing their name instead of scrolling through the entire list. It’s especially useful when you have many viewers and want fast access to a specific person.
 
 ✅ ```aura story viewer```
@@ -2316,7 +2316,7 @@ Last change: Added in version 414.0.0.0.80
 > Found by [𝓪𝓯𝓯𝓪𝓷](https://t.me/its_affayyy)
 
 
-## Stop Auto-Advance on Expiring Stories
+## Stop Auto-Advance on Expiring Stories - (107227)
 With this feature enabled, if you are watching someone’s Story that is about to expire, Instagram will not auto-play the next story. Instead, the same story remains on screen, allowing you to reply to it properly even when it reaches the end. This prevents accidental skips and makes story replies more reliable, especially for long text or important responses.
 
 ✅ ```stories auto advance```
@@ -2326,7 +2326,7 @@ Last change: Added in version 414.0.0.0.7
 > Found by [𝓪𝓯𝓯𝓪𝓷](https://t.me/its_affayyy)
 
 
-## Self-Remove From Someone’s Close Friends List
+## Self-Remove From Someone’s Close Friends List - (105130)
 This feature allows you to remove yourself from someone else’s Close Friends list. If someone has added you to their Close Friends and you no longer want to see their Close Friends stories, you can opt out on your own without notifying them. It gives users more privacy control and freedom over whose Close Friends content they want to view.
 
 ✅ ```stories close friends self remove```
@@ -2336,7 +2336,7 @@ Last change: Added in version 415.0.0.0.43
 > Found by [𝓪𝓯𝓯𝓪𝓷](https://t.me/its_affayyy)
 
 
-## Super Like on Posts
+## Super Like on Posts - (107371)
 This feature introduces Super Like on Instagram posts. By tapping and holding (or tapping in a specific way) on the Like button, users can send a Super Like, which acts as a stronger form of appreciation compared to a normal like. It adds a more expressive way to engage with content and helps creators receive enhanced feedback from viewers.
 
 ✅ ```aura superlike```
@@ -2346,7 +2346,7 @@ Last change: Added in version 415.0.0.0.43
 > Found by [𝓪𝓯𝓯𝓪𝓷](https://t.me/its_affayyy)
 
 
-## Story Peek Preview in Feed
+## Story Peek Preview in Feed - (107913)
 This flag enables story preview directly from the feed. When activated, you can press and hold on someone’s story ring to quickly preview their story without fully opening the story viewer. It provides a faster, lightweight way to check stories while staying in the feed, improving browsing speed and interaction flow.
 
 ✅ ```aura story peeks```
@@ -2356,7 +2356,7 @@ Last change: Added in version 416.0.0.0.43
 > Found by [𝓪𝓯𝓯𝓪𝓷](https://t.me/its_affayyy)
 
 
-## Redesigned Mentioned Story Reshare UI
+## Redesigned Mentioned Story Reshare UI - (93948)
 This flag introduces a new redesigned interface when reposting a Story in which you were mentioned. The reshare screen gets a refreshed layout with improved button styling, cleaner spacing, and a more modern visual presentation. It enhances the overall repost experience, making it smoother, more polished, and visually aligned with newer Story UI updates.
 
 ✅ ```stories mention reshare redesign```
@@ -2366,7 +2366,7 @@ Last change: Added in version 391.0.0.0.70
 > Found by [𝓪𝓯𝓯𝓪𝓷](https://t.me/its_affayyy)
 
 
-## Custom Emoji Reactions in Stories
+## Custom Emoji Reactions in Stories - (110285)
 This flag refreshes the Story emoji reaction system and allows you to react using your preferred emoji through the emoji picker instead of being limited to preset quick reactions. It gives you more flexibility and personalization while responding to Stories, making reactions more expressive and customizable.
 
 ✅ ```stories emoji quick reactions refresh```
@@ -2376,7 +2376,7 @@ Last change: Added in version 418.0.0.0.5
 > Found by [𝓪𝓯𝓯𝓪𝓷](https://t.me/its_affayyy)
 
 
-## Create Custom Audience Lists
+## Create Custom Audience Lists - (106589)
 This flag allows you to create custom audience lists with specific users of your choice. Instead of being limited to default options like Close Friends, you can build multiple personalized lists and control exactly who sees your content. It gives you more flexibility and finer privacy control over Stories and other shareable posts.
 
 ✅ ```aura_unlimited_audience_lists```
@@ -2386,7 +2386,7 @@ Last change: Added in version 411.0.0.0.139
 > Found by [𝓪𝓯𝓯𝓪𝓷](https://t.me/its_affayyy)
 
 
-## Top Five Besties Sharing Option
+## Top Five Besties Sharing Option - (98728)
 New sharing option that posts only to 5 selected people.
 > ⚠️ Removed in Base 423.0.0.0.20
 
@@ -2397,7 +2397,7 @@ Last change: Removed in version 423.0.0.0.20
 > Found by [InstaFlow - Catálogo](https://t.me/instaflowflags)
 
 
-## Instaflow Flags
+## Instaflow Flags - (104900)
 
 • ```stories archive craft```
 
@@ -2405,7 +2405,7 @@ Last change: Removed in version 423.0.0.0.20
 > Found by [InstaFlow - Catálogo](https://t.me/instaflowflags)
 
 
-## Stories Archive Craft
+## Stories Archive Craft - (103057)
 Create highlights and delete stories from the archive. Option "delete all" removes all archived stories.
 > ⚠️ The "delete all" option deletes all your stories from the archive.
 
@@ -2416,7 +2416,7 @@ Last change: Added in version 408.0.0.0.1
 > Found by [InstaFlow - Catálogo](https://t.me/instaflowflags)
 
 
-## AI Photo Transitions
+## AI Photo Transitions - (105390)
 AI transitions between photos in Stories. Not functional. Base version 411.0.0.0.57.
 > ⚠️ Not functional
 
@@ -2427,7 +2427,7 @@ Last change: Added in version 411.0.0.0.57
 > Found by [InstaFlow - Catálogo](https://t.me/instaflowflags)
 
 
-## Stories Draft Count
+## Stories Draft Count - (106190)
 Show the number of videos/photos in drafts
 
 ✅ ```stories draft count```
@@ -2437,7 +2437,7 @@ Last change: Added in version 411.0.0.0.57
 > Found by [InstaFlow - Catálogo](https://t.me/instaflowflags)
 
 
-## stories lipsync
+## stories lipsync - (104898)
 Create a video from the photo with lip sync to music
 
 ✅ ```stories lipsync```
@@ -2447,7 +2447,7 @@ Last change: Added in version 410.0.0.0.7
 > Found by [InstaFlow - Catálogo](https://t.me/instaflowflags)
 
 
-## stories android video trimmer v2
+## stories android video trimmer v2 - (107653)
 Cut a segment of a video to post in stories
 
 ✅ ```stories android video trimmer v2```
@@ -2458,7 +2458,7 @@ Last change: Added in version 415.0.0.0.43
 
 
 # Camera
-## Audio and Trending options in reel media selection
+## Audio and Trending options in reel media selection - (61406)
 
 ✅ ```camera android reels gallery audio```
 
@@ -2466,7 +2466,7 @@ Last change: Removed in version 355.0.0.0.72
 
 
 
-## Better organisation of the sidebar
+## Better organisation of the sidebar - (55254)
 This will hide the extra options in an arrow button, which will show them to you when you press on it.
 
 ✅ ```igrp android ar sidebar```
@@ -2475,7 +2475,7 @@ Last change: Removed in version 422.0.0.0.55
 
 
 
-## Better use of the gesture controls
+## Better use of the gesture controls - (57679)
 
 ✅ ```gesture control improved experience```
 
@@ -2483,7 +2483,7 @@ Last change: Removed in version 387.0.0.0.61
 
 
 
-## Boomerang on reel creation
+## Boomerang on reel creation - (59166)
 
 ✅ ```camera reels boomerang```
 
@@ -2491,7 +2491,7 @@ Last change: Removed in version 332.0.0.0.52
 
 
 
-## Duplicate reel drafts
+## Duplicate reel drafts - (62705)
 
 ✅ ```clips duplicate drafts```
 
@@ -2499,7 +2499,7 @@ Last change: Removed in version 374.0.0.0.16
 
 
 
-## New fonts
+## New fonts - (63079)
 
 ✅ ```camera android reels text expansion```
 
@@ -2507,7 +2507,7 @@ Last change: Removed in version 407.0.0.0.221
 
 
 
-## New options in media selection
+## New options in media selection - (62058)
 Adds Camera, Drafts, Photos and Videos sections on media selection.
 
 ✅ ```stories destination toolbar```
@@ -2516,14 +2516,14 @@ Last change: Removed in version 384.0.0.0.74
 
 
 
-## Organised toolbar in Stories creation
+## Organised toolbar in Stories creation - (59802)
 
 • ```stories music in postcap toolbar```
 
  ✅ ```show effects in overflow```
 
 
-## Photos and Videos categories in media selection
+## Photos and Videos categories in media selection - (70798)
 Don't enable camera disabled
 
 • ```feed gallery revamp```
@@ -2531,7 +2531,7 @@ Don't enable camera disabled
  ❌ ```camera disabled```
 
 
-## Preview of the media while holding in Reels picker
+## Preview of the media while holding in Reels picker - (60395)
 It also has a Select button if you still want to select multiple media.
 
 ✅ ```reels long press gallery```
@@ -2540,7 +2540,7 @@ Last change: Removed in version 326.0.0.0.80
 
 
 
-## Suggested albums
+## Suggested albums - (66467)
 
 ✅ ```gallery smart albums```
 
@@ -2548,7 +2548,7 @@ Last change: Removed in version 378.0.0.0.18
 
 
 
-## Useful options as circles on reel recording
+## Useful options as circles on reel recording - (56166)
 
 ✅ ```camera platform utility toolbar```
 
@@ -2556,7 +2556,7 @@ Last change: Removed in version 374.0.0.0.16
 
 
 
-## Zoom and unzoom the photos row in media selection
+## Zoom and unzoom the photos row in media selection - (62229)
 Set the min and the max span values to whatever values you want (min for zooming in and max for zooming out, bigger values in max will cause the app to lag when zooming out).
 
 ✅ ```camera android reels gallery zoom```
@@ -2565,7 +2565,7 @@ Last change: Removed in version 345.0.0.0.39
 
 
 
-## Send reel drafts to other people
+## Send reel drafts to other people - (71694)
 
 • ```ig_android_share_reel_to_direct_igfbidv2```
 
@@ -2573,7 +2573,7 @@ Last change: Removed in version 345.0.0.0.39
 
 
 # Direct
-## Nicknames
+## Nicknames - (73256)
 
 ✅ ```igd nicknames```
 
@@ -2581,7 +2581,7 @@ Last change: Added in version 335.0.0.0.78
 
 
 
-## AI Message replies
+## AI Message replies - (64118)
 
 ✅ ```creator agents suggested replies```
 
@@ -2589,7 +2589,7 @@ Last change: Removed in version 362.0.0.0.93
 
 
 
-## Animated avatar stickers
+## Animated avatar stickers - (53317)
 
 ✅ ```igd animated avatar stickers```
 
@@ -2597,7 +2597,7 @@ Last change: Added in version 318.0.0.0.65
 
 
 
-## Avatar Animation
+## Avatar Animation - (101199)
 Avatar Animation while reacting to a message
 
 ✅ ```avatar reactions```
@@ -2606,7 +2606,7 @@ Last change: Added in version 403.0.0.0.66
 
 
 
-## Avatar powerups
+## Avatar powerups - (61586)
 Animation preview pending
 
 ✅ ```avatar powerups```
@@ -2615,7 +2615,7 @@ Last change: Added in version 318.0.0.0.65
 
 
 
-## Avatar reactions
+## Avatar reactions - (66684)
 Adds an avatar to the red heart like animation
 
 ✅ ```ig4a avatar reactions```
@@ -2624,7 +2624,7 @@ Last change: Removed in version 403.0.0.0.19
 
 
 
-## Birthday
+## Birthday - (60232)
 
 ✅ ```ig4a birthday opt in```
 
@@ -2632,7 +2632,7 @@ Last change: Removed in version 411.0.0.0.13
 
 
 
-## Change the group photo
+## Change the group photo - (29353)
 Old versions:
 
 • ```direct group photo customization```
@@ -2640,7 +2640,7 @@ Old versions:
  ✅ ```igd change group photo```
 
 
-## Collab collections
+## Collab collections - (63479)
 Adds a saved button to the left or right of the reel inside direct to add it to the direct chat saved collection.
 
 ✅ ```nsx collab collections```
@@ -2649,7 +2649,7 @@ Last change: Removed in version 376.0.0.0.8
 
 
 
-## Create a group chat through DMs
+## Create a group chat through DMs - (70472)
 
 ✅ ```group from thread```
 
@@ -2657,7 +2657,7 @@ Last change: Added in version 325.0.0.0.72
 
 
 
-## Create Images with AI
+## Create Images with AI - (65591)
 Make sure to have enabled the dropdown menu
 
 • ```imagine create```
@@ -2665,7 +2665,7 @@ Make sure to have enabled the dropdown menu
 - ```direct ai agents eligibility``` = 3
 
 
-## Delete messages for you
+## Delete messages for you - (65707)
 
 ✅ ```igd android delete message```
 
@@ -2673,7 +2673,7 @@ Last change: Removed in version 317.0.0.0.3
 
 
 
-## Disable typing indicator
+## Disable typing indicator - (69810)
 
 ✅ ```typing indicator control```
 
@@ -2681,7 +2681,7 @@ Last change: Added in version 324.0.0.0.45
 
 
 
-## Edit messages
+## Edit messages - (64903)
 Photo/Animation preview pending
 
 ✅ ```igd android edit message```
@@ -2690,7 +2690,7 @@ Last change: Removed in version 386.0.0.4.84
 
 
 
-## Enable gyroscopic themes
+## Enable gyroscopic themes - (38187)
 
 ✅ ```igd android gyroscopic themes```
 
@@ -2698,7 +2698,7 @@ Last change: Removed in version 317.0.0.0.98
 
 
 
-## Favourite stickers
+## Favourite stickers - (65322)
 You can favorite stickers and find them quickly in one place.
 
 ✅ ```igd android favorite sticker```
@@ -2707,7 +2707,7 @@ Last change: Added in version 318.0.0.0.65
 
 
 
-## GIF and sticker forwarding
+## GIF and sticker forwarding - (60250)
 
 ✅ ```igd armadillo gifs stickers forwarding```
 
@@ -2715,7 +2715,7 @@ Last change: Removed in version 411.0.0.0.65
 
 
 
-## GIF categories
+## GIF categories - (61514)
 
 ✅ ```igd gif categories```
 
@@ -2723,7 +2723,7 @@ Last change: Removed in version 419.0.0.0.9
 
 
 
-## Group invites
+## Group invites - (43449)
 
 ✅ ```igd android groups invites```
 
@@ -2731,7 +2731,7 @@ Last change: Added in version 318.0.0.0.65
 
 
 
-## In chat search
+## In chat search - (42110)
 
 ✅ ```in thread content search```
 
@@ -2739,7 +2739,7 @@ Last change: Removed in version 403.0.0.0.66
 
 
 
-## Leave silently from group chats
+## Leave silently from group chats - (69505)
 
 ✅ ```igd leave silently```
 
@@ -2747,7 +2747,7 @@ Last change: Added in version 322.0.0.0.67
 
 
 
-## Location Sharing
+## Location Sharing - (50122)
 Make sure to have enabled
 
 • ```location share xma```
@@ -2755,7 +2755,7 @@ Make sure to have enabled
  ✅ ```location sharing```
 
 
-## Long press to change chat theme
+## Long press to change chat theme - (52822)
 
 ✅ ```long press to theme picker```
 
@@ -2763,7 +2763,7 @@ Last change: Removed in version 390.0.0.0.6
 
 
 
-## Media previews before sending
+## Media previews before sending - (68556)
 Lets you to preview a line of selected photos, and if you do not have any selected and press one, you will be able to edit the photo.
 
 ✅ ```igd android media preview```
@@ -2772,7 +2772,7 @@ Last change: Added in version 319.0.0.0.33
 
 
 
-## More options on the Privacy and Safety section in group chats
+## More options on the Privacy and Safety section in group chats - (70787)
 
 ✅ ```direct android group privacy and safety```
 
@@ -2780,7 +2780,7 @@ Last change: Removed in version 401.0.0.0.26
 
 
 
-## Mute chat within XX hours
+## Mute chat within XX hours - (50215)
 Keep disabled has debug time option
 
 • ```thread time muting```
@@ -2788,7 +2788,7 @@ Keep disabled has debug time option
  ❌ ```has debug time option```
 
 
-## New layout of chat details
+## New layout of chat details - (44864)
 Keep disabled show privacy buttons on main page
 
 • ```direct thread details redesign```
@@ -2796,7 +2796,7 @@ Keep disabled show privacy buttons on main page
  ❌ ```show privacy buttons on main page```
 
 
-## New layout of long press menu
+## New layout of long press menu - (51328)
 
 ✅ ```igd long press message action```
 
@@ -2804,7 +2804,7 @@ Last change: Added in version 305.0.0.0.107 or earlier
 
 
 
-## New modern design of the "send" button in a chat/note reply/comment composer
+## New modern design of the "send" button in a chat/note reply/comment composer - (81107)
 
 ✅ ```smashable send```
 
@@ -2812,7 +2812,7 @@ Last change: Removed in version 389.0.0.0.64
 
 
 
-## Non text replies
+## Non text replies - (56702)
 Enable replies with photos, videos, audios, etc
 
 ✅ ```igd non text replies```
@@ -2821,14 +2821,14 @@ Last change: Added in version 318.0.0.0.65
 
 
 
-## Pin chats
+## Pin chats - (67423)
 
 • ```igd android pin threads```
 
  ✅ ```thread pinning```
 
 
-## Quiet mode
+## Quiet mode - (49432)
 Just like the 'pause all' notifications option in Instagram settings, the quiet mode will disable all types of notifications at a certain time and you can set when it will turn on and off automatically.
 
 • ```quiet mode```
@@ -2836,7 +2836,7 @@ Just like the 'pause all' notifications option in Instagram settings, the quiet 
  ✅ ```quiet mode x plat```
 
 
-## Redesign of the new group chat screen
+## Redesign of the new group chat screen - (58570)
 
 ✅ ```direct group creation improvements```
 
@@ -2844,7 +2844,7 @@ Last change: Added in version 318.0.0.0.65
 
 
 
-## Rename the Delete button to Unsend and get a new icon
+## Rename the Delete button to Unsend and get a new icon - (63463)
 
 ✅ ```igd delete messages```
 
@@ -2852,7 +2852,7 @@ Last change: Removed in version 401.0.0.0.70
 
 
 
-## Replace the Following button to Message on the fmembers list of a group chat
+## Replace the Following button to Message on the fmembers list of a group chat - (65907)
 
 ✅ ```direct thread details message entrypoints```
 
@@ -2860,7 +2860,7 @@ Last change: Added in version 318.0.0.0.65
 
 
 
-## Reply box on sent reels
+## Reply box on sent reels - (57849)
 Show reply box when you open a reel that was sent to you
 
 ✅ ```reels consumption v1```
@@ -2869,7 +2869,7 @@ Last change: Added in version 318.0.0.0.65
 
 
 
-## Reply to links
+## Reply to links - (44096)
 
 ✅ ```direct link replies```
 
@@ -2877,7 +2877,7 @@ Last change: Removed in version 406.0.0.0.154
 
 
 
-## Resize preview of shared reels
+## Resize preview of shared reels - (51078)
 Default: 164
 
 ✅ ```clips direct reshare size```
@@ -2886,7 +2886,7 @@ Last change: Added in version 305.0.0.0.107 or earlier
 
 
 
-## Roll call
+## Roll call - (52350)
 Enable everything except composer entry sticker sheet enabled
 
 ✅ ```roll call```
@@ -2895,7 +2895,7 @@ Last change: Removed in version 408.0.0.0.45
 
 
 
-## Seen states
+## Seen states - (26842)
 Show how long the user has read your message instead of "Seen" only
 
 ✅ ```direct seen states in inbox```
@@ -2904,7 +2904,7 @@ Last change: Removed in version 348.0.0.0.18
 
 
 
-## Sent reel indicator on chat previews
+## Sent reel indicator on chat previews - (63017)
 
 ✅ ```reels consumption v2```
 
@@ -2912,7 +2912,7 @@ Last change: Added in version 318.0.0.0.65
 
 
 
-## Set star tab to avatars
+## Set star tab to avatars - (44861)
 Photo preview pending
 
 ✅ ```android avatars quick reactions direct receive```
@@ -2921,7 +2921,7 @@ Last change: Removed in version 363.0.0.0.25
 
 
 
-## Show avatars in star tab
+## Show avatars in star tab - (66577)
 Photo preview pending
 
 ✅ ```igd avatar growth```
@@ -2930,7 +2930,7 @@ Last change: Removed in version 421.0.0.0.21
 
 
 
-## Silent share
+## Silent share - (51758)
 Ability to share a post/video without notifying the user.
 
 ✅ ```send control```
@@ -2939,7 +2939,7 @@ Last change: Removed in version 317.0.0.0.3
 
 
 
-## Smaller size of avatars in Direct
+## Smaller size of avatars in Direct - (62060)
 Decrease the size of the avatars in Direct, showing more avatar options at once.
 
 ✅ ```igd avatar tray improvements```
@@ -2948,7 +2948,7 @@ Last change: Removed in version 411.0.0.0.7
 
 
 
-## Smaller size of stickers in Direct
+## Smaller size of stickers in Direct - (62390)
 Decrease the size of the stickers in Direct, showing more stickers at once.
 
 ✅ ```igd sticker tray improvements```
@@ -2957,7 +2957,7 @@ Last change: Removed in version 420.0.0.0.43
 
 
 
-## Swipe to open chat details
+## Swipe to open chat details - (51324)
 
 ✅ ```swipe to thread details```
 
@@ -2965,7 +2965,7 @@ Last change: Removed in version 317.0.0.0.78
 
 
 
-## Tap to react
+## Tap to react - (27766)
 Disable this toggle to switch off double tap reactions in your DMs.
 
 ✅ ```direct reactions gating```
@@ -2974,7 +2974,7 @@ Last change: Removed in version 364.0.0.0.24
 
 
 
-## Theme picker redesign
+## Theme picker redesign - (69519)
 
 ✅ ```igd new themes```
 
@@ -2982,7 +2982,7 @@ Last change: Added in version 323.0.0.0.53
 
 
 
-## Shows upload progress for Direct Messages
+## Shows upload progress for Direct Messages - (79502)
 Shows upload progress (percentage) for media in Direct Messages and allows users to cancel or retry uploads before completion.
 
 ✅ ```cancellable and retryable media uploads```
@@ -2991,7 +2991,7 @@ Last change: Added in version 424.0.0.0.63
 
 
 
-## Profile Music Reply
+## Profile Music Reply - (111839)
 Allows users to reply directly to the song set on a profile, making interactions more contextual and engaging.
 
 ✅ ```profile_music_reply```
@@ -3000,7 +3000,7 @@ Last change: Added in version 419.0.0.0.60
 
 
 
-## Aura Message Peek
+## Aura Message Peek - (117726)
 View an excerpt of the conversation (it doesn't show that you viewed the message)
 > ⚠️ Only functional for Instagram subscribers.
 
@@ -3010,7 +3010,7 @@ Last change: Added in version 425.0.0.0.56
 
 
 
-## New Typing Indicator (Dot Style) in DM
+## New Typing Indicator (Dot Style) in DM - (115516)
 This feature introduces a new dot-style typing indicator in Direct Messages. As shown in the image, instead of the usual “typing…” text, small animated dots appear under the user’s name when they are typing. It makes the UI cleaner, more modern, and less distracting while still clearly indicating activity.
 
 ✅ ```igd android inbox typing indicator```
@@ -3020,7 +3020,7 @@ Last change: Added in version 423.0.0.0.20
 > Found by [𝓪𝓯𝓯𝓪𝓷](https://t.me/its_affayyy)
 
 
-## Valentine’s Theme Pack for Notes
+## Valentine’s Theme Pack for Notes - (107450)
 Adds a Valentine’s Day–themed style pack to Instagram Notes. This theme includes romantic colors, hearts, and festive visual elements, letting users create Notes with a Valentine vibe during the season. Perfect for sharing love, moods, and special messages in a more expressive way.
 
 ✅ ```notes valentines theme pack 2026```
@@ -3030,7 +3030,7 @@ Last change: Added in version 415.0.0.0.43
 > Found by [𝓪𝓯𝓯𝓪𝓷](https://t.me/its_affayyy)
 
 
-## Send Event Reminder from IG Direct
+## Send Event Reminder from IG Direct - (107324)
 This flag allows users to send event reminders directly inside Instagram Direct on Android.
 
 Once enabled, an event card with date and time can be shared in chat, making planning easier without leaving the conversation.
@@ -3042,7 +3042,7 @@ Last change: Added in version 414.0.0.0.7
 > Found by [𝓪𝓯𝓯𝓪𝓷](https://t.me/its_affayyy)
 
 
-## Notes Audience Expansion
+## Notes Audience Expansion - (58832)
 This flag expands the visibility of your Notes beyond mutual followers. Once enabled, your Notes can be seen by all your followers — including people you don’t follow back. It removes the usual mutual-only restriction and increases reach, making Notes more public and discoverable within your follower list.
 
 ✅ ```notes audience expansion```
@@ -3052,7 +3052,7 @@ Last change: Added in version 415.0.0.0.43
 > Found by [𝓪𝓯𝓯𝓪𝓷](https://t.me/its_affayyy)
 
 
-## Tema de ano novo nas notas
+## Tema de ano novo nas notas - (100233)
 notes theme packs is new years theme packs enabled
 
 ✅ ```notes theme packs```
@@ -3062,7 +3062,7 @@ Last change: Added in version 401.0.0.0.64
 > Found by [InstaFlow - Catálogo](https://t.me/instaflowflags)
 
 
-## igd threaded replies
+## igd threaded replies - (94846)
 View the replies that the message received in Direct.
 > ⚠️ May have issues with reactions not appearing when activating this command on versions below 393.0.0.0.14.
 
@@ -3082,7 +3082,7 @@ View the replies that the message received in Direct.
 > Found by [InstaFlow - Catálogo](https://t.me/instaflowflags)
 
 
-## Show temporary photo/video spoiler
+## Show temporary photo/video spoiler - (98405)
 Displays a spoiler for temporary photos or videos.
 
 ✅ ```igd android ephemeral media preview```
@@ -3092,7 +3092,7 @@ Last change: Added in version 399.0.0.0.24
 > Found by [InstaFlow - Catálogo](https://t.me/instaflowflags)
 
 
-## Play games in Direct
+## Play games in Direct - (102340)
 Not functional
 
 ✅ ```direct games```
@@ -3102,7 +3102,7 @@ Last change: Added in version 405.0.0.0.33
 > Found by [InstaFlow - Catálogo](https://t.me/instaflowflags)
 
 
-## igd android calling buttons config
+## igd android calling buttons config - (76114)
 Button for calling with one click and multiple icon options.
 
 ✅ ```igd android action bar rewrite```
@@ -3116,42 +3116,42 @@ Last change: 415.0.0.0.43
 > Found by [InstaFlow - Catálogo](https://t.me/instaflowflags)
 
 
-## Autoplay preview of shared reels
+## Autoplay preview of shared reels - (50074)
 
 • ```ig_android_clips_direct_reshare_autoplay```
 
  ✅ ```full autoplay enabled```
 
 
-## Disable swipe to direct
+## Disable swipe to direct - (47343)
 
 • ```ig_disable_swipe_to_direct```
 
  ✅ ```should disable swipe to direct```
 
 
-## Fix GIFs and stickers not showing on the powerups section
+## Fix GIFs and stickers not showing on the powerups section - (66319)
 
 • ```igd_media_feature_unship_android```
 
  ✅ ```gifs stickers shortcut disabled```
 
 
-## Select button in the gallery in Direct
+## Select button in the gallery in Direct - (68556)
 
 • ```igd_android_media_preview_fbid```
 
  ✅ ```gallery select button enabled```
 
 
-## Threshold for displaying the number of unread messages
+## Threshold for displaying the number of unread messages - (26104)
 
 • ```ig_android_direct_inbox_snapshot_limits```
 
  ✅ ```snapshot messages per thread count```
 
 
-## Custom Fonts in Chats & Stories
+## Custom Fonts in Chats & Stories - (118893)
 Introduces support for custom fonts in chats and Stories, allowing users to personalize text appearance with different font styles and visual designs for messages and story content.
 
 ✅ ```consumer subs custom fonts```
@@ -3163,7 +3163,7 @@ Last change: Added in version 428.0.0.0.27
 
 
 # Profile
-## Compare activity
+## Compare activity - (59115)
 It is a feature that shows some information between your profile and someone else's.
 
 ✅ ```shared activity```
@@ -3172,7 +3172,7 @@ Last change: Removed in version 362.0.0.0.105
 
 
 
-## Highlights grid
+## Highlights grid - (55286)
 Photo preview pending
 
 ✅ ```profile highlights click into grid```
@@ -3181,14 +3181,14 @@ Last change: Removed in version 317.0.0.0.98
 
 
 
-## Highlights tray as cards
+## Highlights tray as cards - (63316)
 
 • ```highlights tray as cards```
 
  ✅ ```japan labs my week is cards layout enabled```
 
 
-## Just seen
+## Just seen - (66523)
 Enables a message when entering the profile of a post from the feed.
 
 ✅ ```profile just watched```
@@ -3197,7 +3197,7 @@ Last change: Removed in version 397.0.0.0.24
 
 
 
-## Mutuals button in the header
+## Mutuals button in the header - (70751)
 Don't enable posts disabled
 
 ✅ ```profile stat row improvements```
@@ -3206,7 +3206,7 @@ Last change: Removed in version 362.0.0.0.26
 
 
 
-## New header design
+## New header design - (45440)
 
 ✅ ```profile header daisy```
 
@@ -3214,7 +3214,7 @@ Last change: Removed in version 310.0.0.0.192
 
 
 
-## New private account screen
+## New private account screen - (69788)
 
 ✅ ```profile public highlights```
 
@@ -3222,7 +3222,7 @@ Last change: Removed in version 356.0.0.0.72
 
 
 
-## Pin your broadcast chat/social channel to your profile
+## Pin your broadcast chat/social channel to your profile - (52321)
 Can't test it properly because I do not have a broadcast chat/social channel.
 
 ✅ ```direct pin chat to profile```
@@ -3231,7 +3231,7 @@ Last change: Removed in version 369.0.0.0.11
 
 
 
-## Profile Interests
+## Profile Interests - (50766)
 
 ✅ ```bio interests```
 
@@ -3239,7 +3239,7 @@ Last change: Removed in version 370.0.0.0.86
 
 
 
-## Reels pinning
+## Reels pinning - (53089)
 
 ✅ ```clips reels pinning```
 
@@ -3247,7 +3247,7 @@ Last change: Removed in version 400.0.0.0.17
 
 
 
-## Wall notes
+## Wall notes - (65647)
 Your followers can add Notes to your profile
 
 ✅ ```profile wall notes```
@@ -3256,7 +3256,7 @@ Last change: Removed in version 336.0.0.0.74
 
 
 
-## Zoom people's profile icons
+## Zoom people's profile icons - (67281)
 
 ✅ ```profile pfp zoom```
 
@@ -3264,7 +3264,7 @@ Last change: Removed in version 363.0.0.0.42
 
 
 
-## PFP Reaction
+## PFP Reaction - (114906)
 Enables reactions from the profile picture view, allowing users to send reactions directly from the PFP interface.
 
 ✅ ```pfp_reaction```
@@ -3273,7 +3273,7 @@ Last change: Added in version 422.0.0.0.48
 
 
 
-## Expressive Profile Header (Pill UI)
+## Expressive Profile Header (Pill UI) - (109802)
 This flag enables the new expressive profile header design where the section below your bio switches to a modern pill-style layout. After activating it, elements like Music, Threads, and profile-related buttons appear in rounded pill buttons instead of the old flat format, giving your profile a cleaner, more organized, and visually upgraded look with better spacing and a more premium feel.
 
 ✅ ```ig4a profile expressive header```
@@ -3283,7 +3283,7 @@ Last change: Added in version 417.0.0.0.38
 > Found by [𝓪𝓯𝓯𝓪𝓷](https://t.me/its_affayyy)
 
 
-## Profile Flags
+## Profile Flags - (96269)
 Flags for profile preview functionality.
 > ⚠️ Not functional
 
@@ -3294,28 +3294,28 @@ Last change: Added in version 403.0.0.0.66
 > Found by [InstaFlow - Catálogo](https://t.me/instaflowflags)
 
 
-## "Threads" button added to profile header tab
+## "Threads" button added to profile header tab - (58467)
 
 • ```ig_spain_growth```
 
  ✅ ```is ig to p92 app switcher enabled android```
 
 
-## Avatar as profile picture
+## Avatar as profile picture - (49180)
 
 • ```ig_avatars_android_profile```
 
  ✅ ```is coin flip ssr enabled```
 
 
-## External sharing
+## External sharing - (44750)
 
 • ```ig_external_sharing```
 
  ✅ ```can download nametag image mode pdf```
 
 
-## Insights for all accounts
+## Insights for all accounts - (65122)
 
 ✅ ```ig4a_insights_for_public```
 
@@ -3323,14 +3323,14 @@ Last change: Added in version 305d0d0d0d107
 
 
 
-## Remove suggested accounts
+## Remove suggested accounts - (33903)
 
 • ```ig_account_discovery_launcher```
 
  ✅ ```self profile chaining enabled```
 
 
-## Show IGTV section
+## Show IGTV section - (37418)
 This option should be enabled in your account, it combines the igtv section to the reels section into one section on the profile tab, disable it if you want to get that IGTV section back.
 
 • ```ig_panavision_v0```
@@ -3339,7 +3339,7 @@ This option should be enabled in your account, it combines the igtv section to t
 
 
 # Livestreams
-## Add texts and draw in livestreams
+## Add texts and draw in livestreams - (71753)
 
 ✅ ```live stickers```
 
@@ -3347,7 +3347,7 @@ Last change: Removed in version 390.0.0.0.26
 
 
 
-## Games in livestreams
+## Games in livestreams - (60136)
 
 ✅ ```live android games```
 
@@ -3355,7 +3355,7 @@ Last change: Removed in version 331.0.0.0.88
 
 
 
-## More audience options on live creation
+## More audience options on live creation - (56829)
 
 ✅ ```live android invite only```
 
@@ -3363,7 +3363,7 @@ Last change: Removed in version 390.0.0.0.12
 
 
 
-## Share media with your audience in livestreams
+## Share media with your audience in livestreams - (37206)
 
 ✅ ```live media picker```
 
@@ -3372,7 +3372,7 @@ Last change: Removed in version 330.0.0.0.67
 
 
 # Professional
-## Welcome message
+## Welcome message - (41207)
 
 ✅ ```welcome message```
 
@@ -3381,7 +3381,7 @@ Last change: Removed in version 411.0.0.0.73
 
 
 # Fixes
-## Fix the voice message and gallery button missing in some chats in some bases
+## Fix the voice message and gallery button missing in some chats in some bases - (51321)
 
 ❌ ```igd server powered thread capabilities```
 
@@ -3389,7 +3389,7 @@ Last change: Removed in version 423.0.0.0.60
 
 
 
-## Bring back the filters in Stories creation
+## Bring back the filters in Stories creation - (50133)
 
 ✅ ```ig4a effect filtering migration```
 
@@ -3397,7 +3397,7 @@ Last change: Added in version 318.0.0.0.65
 
 
 
-## Fix Avatar options not showing in Direct
+## Fix Avatar options not showing in Direct - (61129)
 
 ❌ ```avatars longterm holdout 2023```
 
@@ -3405,7 +3405,7 @@ Last change: Removed in version 392.0.0.0.10
 
 
 
-## Fix crashes when opening Your Story
+## Fix crashes when opening Your Story - (61966)
 This disables the "Add a caption" feature completely, which causes crashes when adding a caption.
 
 ✅ ```stories quick captions v2```
@@ -3414,7 +3414,7 @@ Last change: Removed in version 362.0.0.0.105
 
 
 
-## Fix not being able to press anything on the media picker in stories
+## Fix not being able to press anything on the media picker in stories - (63695)
 Disable everything
 
 ❌ ```gallery modularization```
@@ -3423,7 +3423,7 @@ Last change: Added in version 318.0.0.0.65
 
 
 
-## Fix not being able to take photos with effects for your story
+## Fix not being able to take photos with effects for your story - (69563)
 
 ✅ ```andriod ar engine```
 
@@ -3431,7 +3431,7 @@ Last change: Added in version 326.0.0.0.80
 
 
 
-## Fix recommended users always showing up when adding a text in the Stories editor
+## Fix recommended users always showing up when adding a text in the Stories editor - (48810)
 
 ✅ ```stories group mention```
 
@@ -3439,7 +3439,7 @@ Last change: Removed in version 341.0.0.0.6
 
 
 
-## Fix the avatar reactions not showing on the reaction sheet in Stories
+## Fix the avatar reactions not showing on the reaction sheet in Stories - (61129)
 
 ✅ ```avatars longterm holdout 2023```
 
@@ -3447,7 +3447,7 @@ Last change: Removed in version 392.0.0.0.10
 
 
 
-## Fix the carousel post editor crashing
+## Fix the carousel post editor crashing - (68432)
 
 ✅ ```reels creation dark mode```
 
@@ -3455,14 +3455,14 @@ Last change: Added in version 420.0.0.0.43
 
 
 
-## Fix the chats crashing in Direct
+## Fix the chats crashing in Direct - (38405)
 
 • ```direct xma mi migration```
 
  ✅ ```igd android voice msg transcription```
 
 
-## Fix the chats not loading after switching accounts
+## Fix the chats not loading after switching accounts - (61874)
 
 ✅ ```ig4a direct inbox streaming```
 
@@ -3470,14 +3470,14 @@ Last change: Removed in version 336.0.0.0.66
 
 
 
-## Fix the post gallery crashing
+## Fix the post gallery crashing - (63079)
 
 • ```camera android reels text expansion```
 
  ✅ ```enable new fonts stories```
 
 
-## Fix the Reels lagging
+## Fix the Reels lagging - (37030)
 
 ✅ ```clips playback tests```
 
@@ -3485,7 +3485,7 @@ Last change: Removed in version 402.0.0.0.0
 
 
 
-## Fix the status bar being white while watching reels
+## Fix the status bar being white while watching reels - (53998)
 
 ✅ ```status nav bar api update```
 
@@ -3493,7 +3493,7 @@ Last change: Removed in version 362.0.0.0.93
 
 
 
-## Fix the stories crashing
+## Fix the stories crashing - (68262)
 
 ✅ ```stories ads toolbar```
 
@@ -3501,7 +3501,7 @@ Last change: Removed in version 347.0.0.0.85
 
 
 
-## Fix the story editor crashing when taking a photo
+## Fix the story editor crashing when taking a photo - (63196)
 
 ✅ ```sticker anything dark test```
 
@@ -3509,7 +3509,7 @@ Last change: Removed in version 348.0.0.0.35
 
 
 
-## Fix the text you add in the Reels editor being placed 0.5s ahead of where you put it
+## Fix the text you add in the Reels editor being placed 0.5s ahead of where you put it - (55557)
 
 ✅ ```camera android reels stacked timeline add things```
 
@@ -3517,7 +3517,7 @@ Last change: Removed in version 334.0.0.0.33
 
 
 
-## Fix the weirdly streched reels
+## Fix the weirdly streched reels - (45757)
 
 ❌ ```av1 playback```
 
@@ -3525,7 +3525,7 @@ Last change: Added in version 318.0.0.0.65
 
 
 
-## Profile truncation fix
+## Profile truncation fix - (112318)
 Fix the bug where the profile is cut off when opening the profile from a conversation. Profile fix h1 2026. Activate all. Base 422+.
 
 ✅ ```profile_fix_h1_2026```
@@ -3534,7 +3534,7 @@ Last change: Added in version 420.0.0.0.10
 
 
 
-## Fix visual bug when opening notification
+## Fix visual bug when opening notification - (79765)
 Fix the bug of opening notifications
 
 ❌ ```ignx nf craft fixes```
@@ -3543,105 +3543,105 @@ Last change: Added in version 356.0.0.0.72
 
 
 
-## Fix broadcast channels crashing when pressing any of their media
+## Fix broadcast channels crashing when pressing any of their media - (59942)
 
 • ```ig_broadcast_channel_fbidv2``` = false
 
  ❌ ```is silent toggle enabled```
 
 
-## Fix the like button not showing in Stories
+## Fix the like button not showing in Stories - (71861)
 
 • ```ig_android_stories_viewer_like_mvvm``` = false
 
  ✅ ```is_enabled```
 
 
-## Fix the profiles you visit not loading properly
+## Fix the profiles you visit not loading properly - (65295)
 
 • ```ig_android_profile_scroll_perf``` = false
 
  ❌ ```should update```
 
 
-## Remove the Suggested header while watching Reels
+## Remove the Suggested header while watching Reels - (71131)
 
 • ```ig_android_reels_stacks``` = false
 
  ❌ ```is reply bar and header enabled```
 
 
-## Remove the weird button showing on Instagram while a page is loading
+## Remove the weird button showing on Instagram while a page is loading - (62246)
 
 • ```igds_prism_launcher_config_android``` = false
 
  ❌ ```enable prism headline```
 
 
-## Fix all the hints showing even if they are already seen
+## Fix all the hints showing even if they are already seen - (68472)
 
 • ```ig_sharing_foundations_optimizations_h1_2024```
 
  ✅ ```reuse sharedprefs editor```
 
 
-## Fix like and comment counts not showing in Reels
+## Fix like and comment counts not showing in Reels - (52814)
 
 • ```ig_reels_interactivity_flywheel_test```
 
  ✅ ```android viewer disable comment count```
 
 
-## Fix low light mode being always enabled
+## Fix low light mode being always enabled - (55533)
 
 • ```ig_android_low_light_mode_capture```
 
  ✅ ```is enabled```
 
 
-## Fix music not playing in notes
+## Fix music not playing in notes - (67933)
 
 • ```ig_android_notes_mvvm_migrations```
 
  ✅ ```quick reply sheet mvvm migration enabled```
 
 
-## Fix not being able to navigate in the Camera
+## Fix not being able to navigate in the Camera - (65055)
 
 • ```ig_android_reels_add_clips_multiselect_enabled```
 
  ✅ ```fix folder selector inflate crash```
 
 
-## Fix not being able to record videos for stories
+## Fix not being able to record videos for stories - (31064)
 
 • ```android_cameracore_fbaudio_ig_launcher```
 
  ✅ ```enable state machine```
 
 
-## Fix not being able to swipe to the feed while being on the chats list in Direct
+## Fix not being able to swipe to the feed while being on the chats list in Direct - (57849)
 
 • ```ig_android_reels_consumption_v1```
 
  ✅ ```source logging disabled```
 
 
-## Fix not being able to take photos for stories
+## Fix not being able to take photos for stories - (67384)
 
 • ```ig_camera_android_capture_request_experiments```
 
  ✅ ```enable sensor pixel mode maximum resolution```
 
 
-## Fix shared reels always being big
+## Fix shared reels always being big - (65206)
 
 • ```rocket replies```
 
  ✅ ```use large xma```
 
 
-## Fix some green boxes showing while watching reels
+## Fix some green boxes showing while watching reels - (54948)
 Removed in newer versions
 
 • ```reels swipe to action```
@@ -3649,77 +3649,77 @@ Removed in newer versions
  ✅ ```enable swipe debug visualizer```
 
 
-## Fix the "The reel is unavailable." errors
+## Fix the "The reel is unavailable." errors - (67072)
 
 • ```ig_android_clips_friendly_viewer```
 
  ✅ ```clips friendly viewer is floaty follows enabled```
 
 
-## Fix the audio page crashing
+## Fix the audio page crashing - (68956)
 
 • ```audio page layout```
 
  ✅ ```ap layout enabled```
 
 
-## Fix the confetti animation showing in every note
+## Fix the confetti animation showing in every note - (69682)
 
 • ```notes birthday v2```
 
  ✅ ```activation enabled```
 
 
-## Fix the Direct tab crashing
+## Fix the Direct tab crashing - (68611)
 
 • ```ig_android_notes_super_endpoint```
 
  ✅ ```is get notes enabled```
 
 
-## Fix the gallery picker in Direct crashing
+## Fix the gallery picker in Direct crashing - (55714)
 
 • ```ig_reels_endscreen_holdout``` = false
 
  ❌ ```view mode selector enabled```
 
 
-## Fix the huge gap in Direct when the Direct tab is on the bottom bar
+## Fix the huge gap in Direct when the Direct tab is on the bottom bar - (54983)
 
 • ```ig_android_feed_scroll_away_nav```
 
  ✅ ```is extended scrollaway nav enabled for feed```
 
 
-## Fix the loud audio distortion and the image glitches when recording a video for stories / not being able to record videos for stories (for older bases)
+## Fix the loud audio distortion and the image glitches when recording a video for stories / not being able to record videos for stories (for older bases) - (31064)
 
 • ```android_cameracore_fbaudio_ig_launcher```
 
  ✅ ```cameracore fbaudio ig use pcm float```
 
 
-## Fix the Mute options not showing
+## Fix the Mute options not showing - (62246)
 
 • ```igds_prism_launcher_config_android```
 
  ✅ ```enable prism alert dialog```
 
 
-## Fix the muted audio in stories
+## Fix the muted audio in stories - (34393)
 
 • ```qe_ig_android_reel_raven_video_segmented_upload_universe```
 
  ✅ ```segment enabled story raven```
 
 
-## Fix the notification tab crashing
+## Fix the notification tab crashing - (46297)
 
 • ```ptr spinner```
 
  ❌ ```is enabled in newsfeed you```
 
 
-## Fix the post editing section always being in HDR
+## Fix the post editing section always being in HDR - (64894)
 Disable it
 
 • ```ig_camera_android_ultra_hdr_photo_capture``` = false
@@ -3727,7 +3727,7 @@ Disable it
  ❌ ```enable jpegr feed photo edit surface view```
 
 
-## Fix the story editor always being in HDR
+## Fix the story editor always being in HDR - (64894)
 Disable it
 
 • ```ig_camera_android_ultra_hdr_photo_capture``` = false
