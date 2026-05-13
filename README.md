@@ -498,7 +498,7 @@ ID: 29064
 
 • ```analytics2 consolidation```
 
-- ```max batch lock attempts``` = 0
+- ```max batch lock attempts``` = 0 | ID: 29064
 
 
 ## Remove the reel ads and improve/fix adblocking in Instagram mods
@@ -600,7 +600,7 @@ ID: 31064
 
 • ```android_cameracore_fbaudio_ig_launcher```
 
- ✅ ```use_48khz_sample_rate```
+ ✅ ```use_48khz_sample_rate``` | ID: 31064
 
 
 ## Enable stereo
@@ -609,7 +609,7 @@ ID: 31064
 
 • ```android_cameracore_fbaudio_ig_launcher```
 
- ✅ ```use_stereo```
+ ✅ ```use_stereo``` | ID: 31064
 
 
 # UI
@@ -629,7 +629,7 @@ ID: 71831
 
 • ```reels publish screen decluttering```
 
- ✅ ```enable variant a```
+ ✅ ```enable variant a``` | ID: 71831
 
 
 ## Accessibility settings
@@ -787,9 +787,9 @@ Don't enable disable inbox cache results and disable trt on share sheet private 
 
 • ```igd search h1 2023```
 
- ❌ ```enable disable inbox cache results```
+ ❌ ```enable disable inbox cache results``` | ID: 54874
 
- ❌ ```trt on share sheet private share```
+ ❌ ```trt on share sheet private share``` | ID: 54874
 
 
 ## Move the Alt Text option from the Advanced Settings to the normal ones
@@ -1110,7 +1110,7 @@ ID: 68556
 
 • ```igd_android_media_preview_fbid```
 
- ✅ ```view_mode_selector_enabled```
+ ✅ ```view_mode_selector_enabled``` | ID: 68556
 
 
 ## Dark gallery in Direct at all times
@@ -1119,7 +1119,7 @@ ID: 68556
 
 • ```igd_android_media_preview_fbid```
 
- ✅ ```gallery_dark_theme```
+ ✅ ```gallery_dark_theme``` | ID: 68556
 
 
 ## Rename the Advanced Settings to More Options
@@ -1128,7 +1128,7 @@ ID: 71831
 
 • ```ig_android_reels_publish_screen_decluttering```
 
- ✅ ```should rename advanced settings```
+ ✅ ```should rename advanced settings``` | ID: 71831
 
 
 ## Enable threads icon in profile menu
@@ -1137,7 +1137,7 @@ ID: 58467
 
 • ```ig_spain_growth```
 
- ✅ ```is ig to p92 app switcher enabled android```
+ ✅ ```is ig to p92 app switcher enabled android``` | ID: 58467
 
 
 ## Extra Activity Status setting in Direct
@@ -1147,7 +1147,7 @@ No idea why it doesn't work
 
 • ```ig_android_presence_activity_status_settings_screen_launcher```
 
- ✅ ```enable bloks www activity status settings screen```
+ ✅ ```enable bloks www activity status settings screen``` | ID: 47832
 
 
 ## Filled bottom row buttons
@@ -1157,7 +1157,7 @@ Only works for the buttons on the bottom row.
 
 • ```ig_panavision_nav3_launcher```
 
- ✅ ```filled tab icons```
+ ✅ ```filled tab icons``` | ID: 47131
 
 
 ## Fix empty space below bottom navigation bar
@@ -1167,7 +1167,7 @@ Doesn't work anymore
 
 • ```ig_android_foldable_responsive_window_insets```
 
- ✅ ```is mw bottom padding enabled```
+ ✅ ```is mw bottom padding enabled``` | ID: 56160
 
 
 ## New heart like animation
@@ -1183,7 +1183,7 @@ ID: 50769
 
 • ```fx_ig_android_switcher_wave_2_3_fdid```
 
- ✅ ```bypass triage oe```
+ ✅ ```bypass triage oe``` | ID: 50769
 
 
 ## Old settings UI
@@ -1193,10 +1193,10 @@ Disable both, Show the old UI of instagram setting menu instead of the new one.
 
 • ```ig_fx_centralized_settings``` = false | ID: 40559
 
- ❌ ```show_entrypoint```
+ ❌ ```show_entrypoint``` | ID: 40559
 • ```ig_project_elevation``` = false | ID: 40559
 
- ❌ ```enabled```
+ ❌ ```enabled``` | ID: 40559
 
 
 ## Open links in external browser
@@ -1205,7 +1205,7 @@ ID: 39443
 
 • ```ig_android_browser_lite```
 
- ✅ ```should override to external browser```
+ ✅ ```should override to external browser``` | ID: 39443
 
 
 ## New Button Design Across Instagram
@@ -1324,7 +1324,7 @@ Activates all features except xe ig entrypoint variant1. Base version 411.0.0.0.
 
 • ```xe ac entrypoint ig```
 
- ❌ ```xe ig entrypoint variant1```
+ ❌ ```xe ig entrypoint variant1``` | ID: 103432
 > Found by [InstaFlow - Catálogo](https://t.me/instaflowflags)
 
 
@@ -1345,7 +1345,7 @@ ID: 58677
 
 • ```ig_stories_show_menu_on_self_story_pog```
 
- ✅ ```icon over ring enabled```
+ ✅ ```icon over ring enabled``` | ID: 58677
 
 
 ## Redesign of the saving post draft animation
@@ -1354,7 +1354,7 @@ ID: 64653
 
 • ```ig_android_reels_and_feed_sharing_draft_optimizations```
 
- ✅ ```feed initial exit save spinner enabled```
+ ✅ ```feed initial exit save spinner enabled``` | ID: 64653
 
 
 ## Show save animation
@@ -1363,7 +1363,7 @@ ID: 45238
 
 • ```ig_direct_collaborative_collections```
 
- ✅ ```should show save flow on tap```
+ ✅ ```should show save flow on tap``` | ID: 45238
 
 
 # Feed
@@ -1466,7 +1466,7 @@ Modify add top story hscroll to 0 if you want the add to story button, or set it
 
 • ```super share v3```
 
-- ```add top story hscroll``` = 0
+- ```add top story hscroll``` = 0 | ID: 56850
 
 
 ## New sharing shortcut
@@ -1595,7 +1595,7 @@ ID: 24714
 
 • ```ig_android_clips_feed_preview```
 
-- ```feed  video min length for single loop ms``` = 1000000
+- ```feed  video min length for single loop ms``` = 1000000 | ID: 24714
 
 
 # Reels
@@ -1668,7 +1668,7 @@ Older versions:
 
 • ```reels add captions```
 
- ✅ ```camera android reels captions expansion```
+ ✅ ```camera android reels captions expansion``` | ID: 65176
 
 
 ## Carousel post mention
@@ -1678,7 +1678,7 @@ Old versions
 
 • ```carousel slide comments```
 
- ✅ ```carousel comments with combo button```
+ ✅ ```carousel comments with combo button``` | ID: 58152
 
 
 ## Clear mode
@@ -1828,7 +1828,7 @@ Don't enable enable inspiration lane prefetch otherwise the Inspiration tab will
 
 • ```clips content lanes```
 
- ❌ ```enable inspiration lane prefetch```
+ ❌ ```enable inspiration lane prefetch``` | ID: 58377
 
 
 ## New add to text bar on the Reels editor
@@ -1901,9 +1901,9 @@ Set android attachment scrubber duration to 1 to have the scrubber in all reels 
 
 • ```clips viewer scrubber improvements```
 
- ✅ ```preview thumbnails are enabled```
+ ✅ ```preview thumbnails are enabled``` | ID: 55196
 
-- ```android attachment scrubber duration``` = 1
+- ```android attachment scrubber duration``` = 1 | ID: 55196
 
 
 ## Reels stacks
@@ -1965,7 +1965,7 @@ ID: 69501
 
 • ```reels tap to add text```
 
- ✅ ```is enabled```
+ ✅ ```is enabled``` | ID: 69501
 
 
 ## Text to speech
@@ -2054,7 +2054,7 @@ Adds a button to save the video in the Reels tab.
 
 • ```reels save ufi```
 
- ❌ ```should hide audio ufi```
+ ❌ ```should hide audio ufi``` | ID: 104612
 > Found by [InstaFlow - Catálogo](https://t.me/instaflowflags)
 
 
@@ -2076,9 +2076,9 @@ ID: 54983
 
 • ```ig_android_feed_scroll_away_nav```
 
- ✅ ```is extended scrollaway nav enabled for reels```
+ ✅ ```is extended scrollaway nav enabled for reels``` | ID: 54983
 
- ✅ ```clips playback force scaling mode fit for clips```
+ ✅ ```clips playback force scaling mode fit for clips``` | ID: 54983
 
 
 ## Hide Follow button
@@ -2088,7 +2088,7 @@ Removes the follow button while watching reels.
 
 • ```ig_reels_interactivity_flywheel_test```
 
- ✅ ```android viewer disable follow button```
+ ✅ ```android viewer disable follow button``` | ID: 52814
 
 
 ## Remove the audio description under the username in Reels
@@ -2097,7 +2097,7 @@ ID: 67072
 
 • ```ig_android_clips_friendly_viewer```
 
- ❌ ```should add audio secondary text```
+ ❌ ```should add audio secondary text``` | ID: 67072
 
 
 ## Remove the audio pills at the bottom
@@ -2106,7 +2106,7 @@ ID: 67072
 
 • ```ig_android_clips_friendly_viewer```
 
- ✅ ```should hide attribution hub```
+ ✅ ```should hide attribution hub``` | ID: 67072
 
 
 ## Remove the countdown from Voiceover on the reel editor
@@ -2115,7 +2115,7 @@ ID: 61524
 
 • ```ig_camera_android_reels_stacked_timeline_voiceover```
 
- ✅ ```skip countdown```
+ ✅ ```skip countdown``` | ID: 61524
 
 
 ## Reverse clips on the reel editor
@@ -2125,7 +2125,7 @@ It doesn't reverse the audio.
 
 • ```ig_camera_android_clips_stacked_timeline_clip_reverse```
 
- ✅ ```enable clip reverse```
+ ✅ ```enable clip reverse``` | ID: 65336
 
 
 ## Short comment hint text
@@ -2134,7 +2134,7 @@ ID: 62816
 
 • ```ig_android_comments_craft_h2_2023```
 
- ✅ ```should shorten comment hint text```
+ ✅ ```should shorten comment hint text``` | ID: 62816
 
 
 # Comments
@@ -2280,7 +2280,7 @@ ID: 56473
 
 • ```reels search tab```
 
- ✅ ```is reels search subtab enabled android```
+ ✅ ```is reels search subtab enabled android``` | ID: 56473
 
 
 ## Share your Explore grid into a story
@@ -2352,7 +2352,7 @@ Make sure that this option removes the sharing options of some reels in newer ve
 
 • ```stories video trimmer```
 
- ✅ ```stories originality reel reshares```
+ ✅ ```stories originality reel reshares``` | ID: 56537
 
 
 ## Add comments to stories
@@ -2523,9 +2523,9 @@ ID: 48850
 
 • ```avatars avatar with music sticker```
 
- ✅ ```music sticker with animated avatar stickers```
+ ✅ ```music sticker with animated avatar stickers``` | ID: 48850
 
- ✅ ```avatars avatar with music sticker is animated stickers enabled```
+ ✅ ```avatars avatar with music sticker is animated stickers enabled``` | ID: 48850
 
 
 ## Notify sticker
@@ -2640,7 +2640,7 @@ ID: 60845
 
 • ```stories layer editor```
 
- ✅ ```stories android sticker layering tool```
+ ✅ ```stories android sticker layering tool``` | ID: 60845
 
 
 ## Story user search
@@ -2726,7 +2726,7 @@ The background of the story is blurred in the corners of the screen, providing a
 
 • ```stories_immersive_blur_android```
 
- ✅ ```chrome_blur_enabled```
+ ✅ ```chrome_blur_enabled``` | ID: 117283
 
 
 ## Stories Viewer List Redesign
@@ -2855,7 +2855,7 @@ ID: 104900
 
 • ```stories archive craft```
 
- ✅ ```stories archive bulk delete is m2 enabled```
+ ✅ ```stories archive bulk delete is m2 enabled``` | ID: 104900
 > Found by [InstaFlow - Catálogo](https://t.me/instaflowflags)
 
 
@@ -3000,7 +3000,7 @@ ID: 59802
 
 • ```stories music in postcap toolbar```
 
- ✅ ```show effects in overflow```
+ ✅ ```show effects in overflow``` | ID: 59802
 
 
 ## Photos and Videos categories in media selection
@@ -3010,7 +3010,7 @@ Don't enable camera disabled
 
 • ```feed gallery revamp```
 
- ❌ ```camera disabled```
+ ❌ ```camera disabled``` | ID: 70798
 
 
 ## Preview of the media while holding in Reels picker
@@ -3061,7 +3061,7 @@ ID: 71694
 
 • ```ig_android_share_reel_to_direct_igfbidv2```
 
- ✅ ```is draft share enabled```
+ ✅ ```is draft share enabled``` | ID: 71694
 
 
 # Direct
@@ -3145,7 +3145,7 @@ Old versions:
 
 • ```direct group photo customization```
 
- ✅ ```igd change group photo```
+ ✅ ```igd change group photo``` | ID: 29353
 
 
 ## Collab collections
@@ -3176,7 +3176,7 @@ Make sure to have enabled the dropdown menu
 
 • ```imagine create```
 
-- ```direct ai agents eligibility``` = 3
+- ```direct ai agents eligibility``` = 3 | ID: 65591
 
 
 ## Delete messages for you
@@ -3288,7 +3288,7 @@ Make sure to have enabled
 
 • ```location share xma```
 
- ✅ ```location sharing```
+ ✅ ```location sharing``` | ID: 50122
 
 
 ## Long press to change chat theme
@@ -3329,7 +3329,7 @@ Keep disabled has debug time option
 
 • ```thread time muting```
 
- ❌ ```has debug time option```
+ ❌ ```has debug time option``` | ID: 50215
 
 
 ## New layout of chat details
@@ -3339,7 +3339,7 @@ Keep disabled show privacy buttons on main page
 
 • ```direct thread details redesign```
 
- ❌ ```show privacy buttons on main page```
+ ❌ ```show privacy buttons on main page``` | ID: 44864
 
 
 ## New layout of long press menu
@@ -3379,7 +3379,7 @@ ID: 67423
 
 • ```igd android pin threads```
 
- ✅ ```thread pinning```
+ ✅ ```thread pinning``` | ID: 67423
 
 
 ## Quiet mode
@@ -3389,7 +3389,7 @@ Just like the 'pause all' notifications option in Instagram settings, the quiet 
 
 • ```quiet mode```
 
- ✅ ```quiet mode x plat```
+ ✅ ```quiet mode x plat``` | ID: 49432
 
 
 ## Redesign of the new group chat screen
@@ -3676,17 +3676,17 @@ View the replies that the message received in Direct.
 
 • ```igd threaded replies```
 
- ✅ ```is enabled```
+ ✅ ```is enabled``` | ID: 94846
 
- ✅ ```enable composer media options```
+ ✅ ```enable composer media options``` | ID: 94846
 
- ✅ ```process cache inbox```
+ ✅ ```process cache inbox``` | ID: 94846
 
- ✅ ```process cache startup```
+ ✅ ```process cache startup``` | ID: 94846
 
- ✅ ```process cache thread```
+ ✅ ```process cache thread``` | ID: 94846
 
- ✅ ```use bottom sheet```
+ ✅ ```use bottom sheet``` | ID: 94846
 > Found by [InstaFlow - Catálogo](https://t.me/instaflowflags)
 
 
@@ -3736,7 +3736,7 @@ ID: 50074
 
 • ```ig_android_clips_direct_reshare_autoplay```
 
- ✅ ```full autoplay enabled```
+ ✅ ```full autoplay enabled``` | ID: 50074
 
 
 ## Disable swipe to direct
@@ -3745,7 +3745,7 @@ ID: 47343
 
 • ```ig_disable_swipe_to_direct```
 
- ✅ ```should disable swipe to direct```
+ ✅ ```should disable swipe to direct``` | ID: 47343
 
 
 ## Fix GIFs and stickers not showing on the powerups section
@@ -3754,7 +3754,7 @@ ID: 66319
 
 • ```igd_media_feature_unship_android```
 
- ✅ ```gifs stickers shortcut disabled```
+ ✅ ```gifs stickers shortcut disabled``` | ID: 66319
 
 
 ## Select button in the gallery in Direct
@@ -3763,7 +3763,7 @@ ID: 68556
 
 • ```igd_android_media_preview_fbid```
 
- ✅ ```gallery select button enabled```
+ ✅ ```gallery select button enabled``` | ID: 68556
 
 
 ## Threshold for displaying the number of unread messages
@@ -3772,7 +3772,7 @@ ID: 26104
 
 • ```ig_android_direct_inbox_snapshot_limits```
 
- ✅ ```snapshot messages per thread count```
+ ✅ ```snapshot messages per thread count``` | ID: 26104
 
 
 ## Custom Fonts in Chats & Stories
@@ -3817,7 +3817,7 @@ ID: 63316
 
 • ```highlights tray as cards```
 
- ✅ ```japan labs my week is cards layout enabled```
+ ✅ ```japan labs my week is cards layout enabled``` | ID: 63316
 
 
 ## Just seen
@@ -3956,7 +3956,7 @@ ID: 58467
 
 • ```ig_spain_growth```
 
- ✅ ```is ig to p92 app switcher enabled android```
+ ✅ ```is ig to p92 app switcher enabled android``` | ID: 58467
 
 
 ## Avatar as profile picture
@@ -3965,7 +3965,7 @@ ID: 49180
 
 • ```ig_avatars_android_profile```
 
- ✅ ```is coin flip ssr enabled```
+ ✅ ```is coin flip ssr enabled``` | ID: 49180
 
 
 ## External sharing
@@ -3974,7 +3974,7 @@ ID: 44750
 
 • ```ig_external_sharing```
 
- ✅ ```can download nametag image mode pdf```
+ ✅ ```can download nametag image mode pdf``` | ID: 44750
 
 
 ## Insights for all accounts
@@ -3993,7 +3993,7 @@ ID: 33903
 
 • ```ig_account_discovery_launcher```
 
- ✅ ```self profile chaining enabled```
+ ✅ ```self profile chaining enabled``` | ID: 33903
 
 
 ## Show IGTV section
@@ -4003,7 +4003,7 @@ This option should be enabled in your account, it combines the igtv section to t
 
 • ```ig_panavision_v0```
 
- ✅ ```consumption merge profile video tabs```
+ ✅ ```consumption merge profile video tabs``` | ID: 37418
 
 
 # Livestreams
@@ -4157,7 +4157,7 @@ ID: 38405
 
 • ```direct xma mi migration```
 
- ✅ ```igd android voice msg transcription```
+ ✅ ```igd android voice msg transcription``` | ID: 38405
 
 
 ## Fix the chats not loading after switching accounts
@@ -4176,7 +4176,7 @@ ID: 63079
 
 • ```camera android reels text expansion```
 
- ✅ ```enable new fonts stories```
+ ✅ ```enable new fonts stories``` | ID: 63079
 
 
 ## Fix the Reels lagging
@@ -4267,7 +4267,7 @@ ID: 59942
 
 • ```ig_broadcast_channel_fbidv2``` = false | ID: 59942
 
- ❌ ```is silent toggle enabled```
+ ❌ ```is silent toggle enabled``` | ID: 59942
 
 
 ## Fix the like button not showing in Stories
@@ -4276,7 +4276,7 @@ ID: 71861
 
 • ```ig_android_stories_viewer_like_mvvm``` = false | ID: 71861
 
- ✅ ```is_enabled```
+ ✅ ```is_enabled``` | ID: 71861
 
 
 ## Fix the profiles you visit not loading properly
@@ -4285,7 +4285,7 @@ ID: 65295
 
 • ```ig_android_profile_scroll_perf``` = false | ID: 65295
 
- ❌ ```should update```
+ ❌ ```should update``` | ID: 65295
 
 
 ## Remove the Suggested header while watching Reels
@@ -4294,7 +4294,7 @@ ID: 71131
 
 • ```ig_android_reels_stacks``` = false | ID: 71131
 
- ❌ ```is reply bar and header enabled```
+ ❌ ```is reply bar and header enabled``` | ID: 71131
 
 
 ## Remove the weird button showing on Instagram while a page is loading
@@ -4303,7 +4303,7 @@ ID: 62246
 
 • ```igds_prism_launcher_config_android``` = false | ID: 62246
 
- ❌ ```enable prism headline```
+ ❌ ```enable prism headline``` | ID: 62246
 
 
 ## Fix all the hints showing even if they are already seen
@@ -4312,7 +4312,7 @@ ID: 68472
 
 • ```ig_sharing_foundations_optimizations_h1_2024```
 
- ✅ ```reuse sharedprefs editor```
+ ✅ ```reuse sharedprefs editor``` | ID: 68472
 
 
 ## Fix like and comment counts not showing in Reels
@@ -4321,7 +4321,7 @@ ID: 52814
 
 • ```ig_reels_interactivity_flywheel_test```
 
- ✅ ```android viewer disable comment count```
+ ✅ ```android viewer disable comment count``` | ID: 52814
 
 
 ## Fix low light mode being always enabled
@@ -4330,7 +4330,7 @@ ID: 55533
 
 • ```ig_android_low_light_mode_capture```
 
- ✅ ```is enabled```
+ ✅ ```is enabled``` | ID: 55533
 
 
 ## Fix music not playing in notes
@@ -4339,7 +4339,7 @@ ID: 67933
 
 • ```ig_android_notes_mvvm_migrations```
 
- ✅ ```quick reply sheet mvvm migration enabled```
+ ✅ ```quick reply sheet mvvm migration enabled``` | ID: 67933
 
 
 ## Fix not being able to navigate in the Camera
@@ -4348,7 +4348,7 @@ ID: 65055
 
 • ```ig_android_reels_add_clips_multiselect_enabled```
 
- ✅ ```fix folder selector inflate crash```
+ ✅ ```fix folder selector inflate crash``` | ID: 65055
 
 
 ## Fix not being able to record videos for stories
@@ -4357,7 +4357,7 @@ ID: 31064
 
 • ```android_cameracore_fbaudio_ig_launcher```
 
- ✅ ```enable state machine```
+ ✅ ```enable state machine``` | ID: 31064
 
 
 ## Fix not being able to swipe to the feed while being on the chats list in Direct
@@ -4366,7 +4366,7 @@ ID: 57849
 
 • ```ig_android_reels_consumption_v1```
 
- ✅ ```source logging disabled```
+ ✅ ```source logging disabled``` | ID: 57849
 
 
 ## Fix not being able to take photos for stories
@@ -4375,7 +4375,7 @@ ID: 67384
 
 • ```ig_camera_android_capture_request_experiments```
 
- ✅ ```enable sensor pixel mode maximum resolution```
+ ✅ ```enable sensor pixel mode maximum resolution``` | ID: 67384
 
 
 ## Fix shared reels always being big
@@ -4384,7 +4384,7 @@ ID: 65206
 
 • ```rocket replies```
 
- ✅ ```use large xma```
+ ✅ ```use large xma``` | ID: 65206
 
 
 ## Fix some green boxes showing while watching reels
@@ -4394,7 +4394,7 @@ Removed in newer versions
 
 • ```reels swipe to action```
 
- ✅ ```enable swipe debug visualizer```
+ ✅ ```enable swipe debug visualizer``` | ID: 54948
 
 
 ## Fix the "The reel is unavailable." errors
@@ -4403,7 +4403,7 @@ ID: 67072
 
 • ```ig_android_clips_friendly_viewer```
 
- ✅ ```clips friendly viewer is floaty follows enabled```
+ ✅ ```clips friendly viewer is floaty follows enabled``` | ID: 67072
 
 
 ## Fix the audio page crashing
@@ -4412,7 +4412,7 @@ ID: 68956
 
 • ```audio page layout```
 
- ✅ ```ap layout enabled```
+ ✅ ```ap layout enabled``` | ID: 68956
 
 
 ## Fix the confetti animation showing in every note
@@ -4421,7 +4421,7 @@ ID: 69682
 
 • ```notes birthday v2```
 
- ✅ ```activation enabled```
+ ✅ ```activation enabled``` | ID: 69682
 
 
 ## Fix the Direct tab crashing
@@ -4430,7 +4430,7 @@ ID: 68611
 
 • ```ig_android_notes_super_endpoint```
 
- ✅ ```is get notes enabled```
+ ✅ ```is get notes enabled``` | ID: 68611
 
 
 ## Fix the gallery picker in Direct crashing
@@ -4439,7 +4439,7 @@ ID: 55714
 
 • ```ig_reels_endscreen_holdout``` = false | ID: 55714
 
- ❌ ```view mode selector enabled```
+ ❌ ```view mode selector enabled``` | ID: 55714
 
 
 ## Fix the huge gap in Direct when the Direct tab is on the bottom bar
@@ -4448,7 +4448,7 @@ ID: 54983
 
 • ```ig_android_feed_scroll_away_nav```
 
- ✅ ```is extended scrollaway nav enabled for feed```
+ ✅ ```is extended scrollaway nav enabled for feed``` | ID: 54983
 
 
 ## Fix the loud audio distortion and the image glitches when recording a video for stories / not being able to record videos for stories (for older bases)
@@ -4457,7 +4457,7 @@ ID: 31064
 
 • ```android_cameracore_fbaudio_ig_launcher```
 
- ✅ ```cameracore fbaudio ig use pcm float```
+ ✅ ```cameracore fbaudio ig use pcm float``` | ID: 31064
 
 
 ## Fix the Mute options not showing
@@ -4466,7 +4466,7 @@ ID: 62246
 
 • ```igds_prism_launcher_config_android```
 
- ✅ ```enable prism alert dialog```
+ ✅ ```enable prism alert dialog``` | ID: 62246
 
 
 ## Fix the muted audio in stories
@@ -4475,7 +4475,7 @@ ID: 34393
 
 • ```qe_ig_android_reel_raven_video_segmented_upload_universe```
 
- ✅ ```segment enabled story raven```
+ ✅ ```segment enabled story raven``` | ID: 34393
 
 
 ## Fix the notification tab crashing
@@ -4484,7 +4484,7 @@ ID: 46297
 
 • ```ptr spinner```
 
- ❌ ```is enabled in newsfeed you```
+ ❌ ```is enabled in newsfeed you``` | ID: 46297
 
 
 ## Fix the post editing section always being in HDR
@@ -4494,7 +4494,7 @@ Disable it
 
 • ```ig_camera_android_ultra_hdr_photo_capture``` = false | ID: 64894
 
- ❌ ```enable jpegr feed photo edit surface view```
+ ❌ ```enable jpegr feed photo edit surface view``` | ID: 64894
 
 
 ## Fix the story editor always being in HDR
@@ -4504,5 +4504,5 @@ Disable it
 
 • ```ig_camera_android_ultra_hdr_photo_capture``` = false | ID: 64894
 
- ❌ ```enable jpegr feed photo edit surface view```
+ ❌ ```enable jpegr feed photo edit surface view``` | ID: 64894
 
