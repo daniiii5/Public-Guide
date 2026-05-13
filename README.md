@@ -1191,10 +1191,10 @@ ID: 40559
 
 Disable both, Show the old UI of instagram setting menu instead of the new one.
 
-• ```ig_fx_centralized_settings``` = false
+• ```ig_fx_centralized_settings``` = false | ID: 40559
 
  ❌ ```show_entrypoint```
-• ```ig_project_elevation``` = false
+• ```ig_project_elevation``` = false | ID: 40559
 
  ❌ ```enabled```
 
@@ -4265,7 +4265,7 @@ Last change: Added in version 356.0.0.0.72
 ID: 59942
 
 
-• ```ig_broadcast_channel_fbidv2``` = false
+• ```ig_broadcast_channel_fbidv2``` = false | ID: 59942
 
  ❌ ```is silent toggle enabled```
 
@@ -4274,7 +4274,7 @@ ID: 59942
 ID: 71861
 
 
-• ```ig_android_stories_viewer_like_mvvm``` = false
+• ```ig_android_stories_viewer_like_mvvm``` = false | ID: 71861
 
  ✅ ```is_enabled```
 
@@ -4283,7 +4283,7 @@ ID: 71861
 ID: 65295
 
 
-• ```ig_android_profile_scroll_perf``` = false
+• ```ig_android_profile_scroll_perf``` = false | ID: 65295
 
  ❌ ```should update```
 
@@ -4292,7 +4292,7 @@ ID: 65295
 ID: 71131
 
 
-• ```ig_android_reels_stacks``` = false
+• ```ig_android_reels_stacks``` = false | ID: 71131
 
  ❌ ```is reply bar and header enabled```
 
@@ -4301,7 +4301,7 @@ ID: 71131
 ID: 62246
 
 
-• ```igds_prism_launcher_config_android``` = false
+• ```igds_prism_launcher_config_android``` = false | ID: 62246
 
  ❌ ```enable prism headline```
 
@@ -4437,7 +4437,7 @@ ID: 68611
 ID: 55714
 
 
-• ```ig_reels_endscreen_holdout``` = false
+• ```ig_reels_endscreen_holdout``` = false | ID: 55714
 
  ❌ ```view mode selector enabled```
 
@@ -4492,7 +4492,7 @@ ID: 64894
 
 Disable it
 
-• ```ig_camera_android_ultra_hdr_photo_capture``` = false
+• ```ig_camera_android_ultra_hdr_photo_capture``` = false | ID: 64894
 
  ❌ ```enable jpegr feed photo edit surface view```
 
@@ -4502,7 +4502,7 @@ ID: 64894
 
 Disable it
 
-• ```ig_camera_android_ultra_hdr_photo_capture``` = false
+• ```ig_camera_android_ultra_hdr_photo_capture``` = false | ID: 64894
 
  ❌ ```enable jpegr feed photo edit surface view```
 
