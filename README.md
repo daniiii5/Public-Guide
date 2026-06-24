@@ -398,6 +398,7 @@ The guide has fully transitioned to a **community-supported version**. This mean
   - [Share media with your audience in livestreams](#share-media-with-your-audience-in-livestreams)
 - [Professional](#professional)
   - [Welcome message](#welcome-message)
+  - [Sharing AI Voices](#sharing-ai-voices)
 - [Fixes](#fixes)
   - [Fix the voice message and gallery button missing in some chats in some bases](#fix-the-voice-message-and-gallery-button-missing-in-some-chats-in-some-bases)
   - [Bring back the filters in Stories creation](#bring-back-the-filters-in-stories-creation)
@@ -458,6 +459,7 @@ Removes thread posts in the feed
 ✅ ```threads xma```
 
 Last change: Removed in version 393.0.0.0.22
+
 
 ![image](https://media.4-paws.org/a/f/4/7/af47ae6aa55812faa4d7fd857a6e283a8c8226bc/VIER%20PFOTEN_2019-07-18_013-2890x2000-1920x1329.jpg)
 
@@ -3786,6 +3788,7 @@ Introduces support for custom fonts in chats and Stories, allowing users to pers
 Last change: Added in version 428.0.0.0.27
 
 > Found by [𝓪𝓯𝓯𝓪𝓷](https://t.me/its_affayyy)
+
 ![image](./thumbnails/20260511_164352_928.jpg)
 
 
@@ -3799,6 +3802,7 @@ Remove accounts to follow from DMs null state suggestions queries delay in ms. S
 Last change: Added in version 427.0.0.0.38
 
 > Found by Maverick
+
 ![image](./thumbnails/20260624_182736_121.jpg)
 
 
@@ -4070,6 +4074,19 @@ ID: 41207
 
 Last change: Removed in version 411.0.0.0.73
 
+
+
+## Sharing AI Voices
+ID: 88764
+
+Configuration for sharing AI voices feature.
+
+• ```sharing ai voices```
+
+ ✅ ```enable everything``` | ID: None
+> Found by [John](https://t.me/ioannisxir)
+
+![image](./thumbnails/20260624_183353_131.jpg)
 
 
 # Fixes
