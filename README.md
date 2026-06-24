@@ -229,6 +229,7 @@ The guide has fully transitioned to a **community-supported version**. This mean
   - [Reels tab on the search tabs](#reels-tab-on-the-search-tabs)
   - [Share your Explore grid into a story](#share-your-explore-grid-into-a-story)
   - [Remove Tags Tab from Search Results](#remove-tags-tab-from-search-results)
+  - [Updated UI for explore tab.](#updated-ui-for-explore-tab)
 - [Stories](#stories)
   - [Activate color picker](#activate-color-picker)
   - [Activate color picker](#activate-color-picker)
@@ -2306,6 +2307,19 @@ This feature allows you to remove the Tags tab from Instagram search results. On
 Last change: Added in version 414.0.0.0.80
 
 > Found by [𝓪𝓯𝓯𝓪𝓷](https://t.me/its_affayyy)
+
+
+## Updated UI for explore tab.
+ID: 124823
+
+Updated UI for explore tab.
+
+• ```relevance_explore_lab_android```
+
+ ✅ ```is_enabled``` | ID: 0
+> Found by [𝒁𝒂𝒊𝒏](https://t.me/iamzainnnn)
+
+![image](./thumbnails/20260624_183424_380.jpg)
 
 
 # Stories
