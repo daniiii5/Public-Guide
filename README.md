@@ -368,6 +368,7 @@ The guide has fully transitioned to a **community-supported version**. This mean
   - [Select button in the gallery in Direct](#select-button-in-the-gallery-in-direct)
   - [Threshold for displaying the number of unread messages](#threshold-for-displaying-the-number-of-unread-messages)
   - [Custom Fonts in Chats & Stories](#custom-fonts-in-chats--stories)
+  - [Remove accounts to follow from DMs](#remove-accounts-to-follow-from-dms)
 - [Profile](#profile)
   - [Compare activity](#compare-activity)
   - [Highlights grid](#highlights-grid)
@@ -445,8 +446,6 @@ The guide has fully transitioned to a **community-supported version**. This mean
   - [Fix the notification tab crashing](#fix-the-notification-tab-crashing)
   - [Fix the post editing section always being in HDR](#fix-the-post-editing-section-always-being-in-hdr)
   - [Fix the story editor always being in HDR](#fix-the-story-editor-always-being-in-hdr)
-- [Direct Messages](#direct-messages)
-  - [Null State Suggestions Queries Delay](#null-state-suggestions-queries-delay)
 
 ---
 
@@ -3790,6 +3789,19 @@ Last change: Added in version 428.0.0.0.27
 ![image](./thumbnails/20260511_164352_928.jpg)
 
 
+## Remove accounts to follow from DMs
+ID: 75196
+
+Remove accounts to follow from DMs null state suggestions queries delay in ms. Set to a very high number (e.g., 9000000000) but not higher than 2^63.
+
+```null state suggestions queries delay ms``` = 9000000000
+
+Last change: Added in version 427.0.0.0.38
+
+> Found by Maverick
+![image](./thumbnails/20260624_182736_121.jpg)
+
+
 # Profile
 ## Compare activity
 ID: 59115
@@ -4507,18 +4519,4 @@ Disable it
 • ```ig_camera_android_ultra_hdr_photo_capture``` = false | ID: N/A
 
  ❌ ```enable jpegr feed photo edit surface view``` | ID: N/A
-
-
-# Direct Messages
-## Null State Suggestions Queries Delay
-ID: 75196
-
-Remove accounts to follow from DMs. Null state suggestions queries delay in milliseconds. Set to a very high number (e.g., 9000000000) but not higher than 2^63.
-
-```null state suggestions queries delay ms``` = 9000000000
-
-Last change: Added in version 427.0.0.0.38
-
-> Found by Maverick
-![image](./thumbnails/20260624_182222_946.jpg)
 
