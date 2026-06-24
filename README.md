@@ -370,6 +370,7 @@ The guide has fully transitioned to a **community-supported version**. This mean
   - [Threshold for displaying the number of unread messages](#threshold-for-displaying-the-number-of-unread-messages)
   - [Custom Fonts in Chats & Stories](#custom-fonts-in-chats--stories)
   - [Remove accounts to follow from DMs](#remove-accounts-to-follow-from-dms)
+  - [Sharing AI Voices](#sharing-ai-voices)
 - [Profile](#profile)
   - [Compare activity](#compare-activity)
   - [Highlights grid](#highlights-grid)
@@ -399,7 +400,6 @@ The guide has fully transitioned to a **community-supported version**. This mean
   - [Share media with your audience in livestreams](#share-media-with-your-audience-in-livestreams)
 - [Professional](#professional)
   - [Welcome message](#welcome-message)
-  - [Sharing AI Voices](#sharing-ai-voices)
 - [Fixes](#fixes)
   - [Fix the voice message and gallery button missing in some chats in some bases](#fix-the-voice-message-and-gallery-button-missing-in-some-chats-in-some-bases)
   - [Bring back the filters in Stories creation](#bring-back-the-filters-in-stories-creation)
@@ -3820,6 +3820,19 @@ Last change: Added in version 427.0.0.0.38
 ![image](./thumbnails/20260624_182736_121.jpg)
 
 
+## Sharing AI Voices
+ID: 88764
+
+Configuration for sharing AI voices feature.
+
+• ```sharing ai voices```
+
+ ✅ ```enable everything``` | ID: None
+> Found by [John](https://t.me/ioannisxir)
+
+![image](./thumbnails/20260624_183353_131.jpg)
+
+
 # Profile
 ## Compare activity
 ID: 59115
@@ -4088,19 +4101,6 @@ ID: 41207
 
 Last change: Removed in version 411.0.0.0.73
 
-
-
-## Sharing AI Voices
-ID: 88764
-
-Configuration for sharing AI voices feature.
-
-• ```sharing ai voices```
-
- ✅ ```enable everything``` | ID: None
-> Found by [John](https://t.me/ioannisxir)
-
-![image](./thumbnails/20260624_183353_131.jpg)
 
 
 # Fixes
