@@ -445,6 +445,8 @@ The guide has fully transitioned to a **community-supported version**. This mean
   - [Fix the notification tab crashing](#fix-the-notification-tab-crashing)
   - [Fix the post editing section always being in HDR](#fix-the-post-editing-section-always-being-in-hdr)
   - [Fix the story editor always being in HDR](#fix-the-story-editor-always-being-in-hdr)
+- [Direct Messages](#direct-messages)
+  - [Null State Suggestions Queries Delay](#null-state-suggestions-queries-delay)
 
 ---
 
@@ -4505,4 +4507,18 @@ Disable it
 • ```ig_camera_android_ultra_hdr_photo_capture``` = false | ID: N/A
 
  ❌ ```enable jpegr feed photo edit surface view``` | ID: N/A
+
+
+# Direct Messages
+## Null State Suggestions Queries Delay
+ID: 75196
+
+Remove accounts to follow from DMs. Null state suggestions queries delay in milliseconds. Set to a very high number (e.g., 9000000000) but not higher than 2^63.
+
+```null state suggestions queries delay ms``` = 9000000000
+
+Last change: Added in version 427.0.0.0.38
+
+> Found by Maverick
+![image](./thumbnails/20260624_182222_946.jpg)
 
