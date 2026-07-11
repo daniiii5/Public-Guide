@@ -167,8 +167,6 @@ The guide has fully transitioned to a **community-supported version**. This mean
   - [Automatically scrolling reels](#automatically-scrolling-reels)
   - [Avatar comments](#avatar-comments)
   - [Caption translations](#caption-translations)
-  - [Captions creation](#captions-creation)
-  - [Carousel post mention](#carousel-post-mention)
   - [Clear mode](#clear-mode)
   - [Clip hub](#clip-hub)
   - [Comments for you](#comments-for-you)
@@ -291,6 +289,10 @@ The guide has fully transitioned to a **community-supported version**. This mean
   - [stories android video trimmer v2](#stories-android-video-trimmer-v2)
   - [Stories Photostrip Sticker v1](#stories-photostrip-sticker-v1)
   - [Stories music midcard](#stories-music-midcard)
+  - [Story Interest Signals](#story-interest-signals)
+  - [Blurred Background for Story Reshares](#blurred-background-for-story-reshares)
+  - [Story Upload Progress Percentage](#story-upload-progress-percentage)
+  - [Story Creation Entrypoints](#story-creation-entrypoints)
 - [Camera](#camera)
   - [Audio and Trending options in reel media selection](#audio-and-trending-options-in-reel-media-selection)
   - [Better organisation of the sidebar](#better-organisation-of-the-sidebar)
@@ -314,10 +316,8 @@ The guide has fully transitioned to a **community-supported version**. This mean
   - [Avatar powerups](#avatar-powerups)
   - [Avatar reactions](#avatar-reactions)
   - [Birthday](#birthday)
-  - [Change the group photo](#change-the-group-photo)
   - [Collab collections](#collab-collections)
   - [Create a group chat through DMs](#create-a-group-chat-through-dms)
-  - [Create Images with AI](#create-images-with-ai)
   - [Delete messages for you](#delete-messages-for-you)
   - [Disable typing indicator](#disable-typing-indicator)
   - [Edit messages](#edit-messages)
@@ -378,6 +378,8 @@ The guide has fully transitioned to a **community-supported version**. This mean
   - [Sharing AI Voices](#sharing-ai-voices)
   - [Reply without Accept](#reply-without-accept)
   - [Enable lyrics on album art of music](#enable-lyrics-on-album-art-of-music)
+  - [Cancellable & Retryable Media Uploads](#cancellable--retryable-media-uploads)
+  - [😀📤 Emoji Bar Above Share Composer](#-emoji-bar-above-share-composer)
 - [Profile](#profile)
   - [Compare activity](#compare-activity)
   - [Highlights grid](#highlights-grid)
@@ -401,6 +403,7 @@ The guide has fully transitioned to a **community-supported version**. This mean
   - [Remove suggested accounts](#remove-suggested-accounts)
   - [Show IGTV section](#show-igtv-section)
   - [Enable Quick Account Switcher](#enable-quick-account-switcher)
+  - [Reply to Profile Music](#reply-to-profile-music)
 - [Livestreams](#livestreams)
   - [Add texts and draw in livestreams](#add-texts-and-draw-in-livestreams)
   - [Games in livestreams](#games-in-livestreams)
@@ -448,7 +451,6 @@ The guide has fully transitioned to a **community-supported version**. This mean
   - [Fix the audio page crashing](#fix-the-audio-page-crashing)
   - [Fix the confetti animation showing in every note](#fix-the-confetti-animation-showing-in-every-note)
   - [Fix the Direct tab crashing](#fix-the-direct-tab-crashing)
-  - [Fix the gallery picker in Direct crashing](#fix-the-gallery-picker-in-direct-crashing)
   - [Fix the huge gap in Direct when the Direct tab is on the bottom bar](#fix-the-huge-gap-in-direct-when-the-direct-tab-is-on-the-bottom-bar)
   - [Fix the loud audio distortion and the image glitches when recording a video for stories / not being able to record videos for stories (for older bases)](#fix-the-loud-audio-distortion-and-the-image-glitches-when-recording-a-video-for-stories--not-being-able-to-record-videos-for-stories-for-older-bases)
   - [Fix the Mute options not showing](#fix-the-mute-options-not-showing)
@@ -644,11 +646,10 @@ Disable only gray background enabled for debugging if the previews are always gr
 
 
 ## More details about broadcast channels on the search section in Direct
-Don't enable disable inbox cache results and disable trt on share sheet private share.
 
 `igd search h1 2023` `[54874]` **Added in version 318.0.0.0.65**
   - ❌ `enable disable inbox cache results` `[23]` **Removed in 332.0.0.0.24**
-  - ❌ `trt on share sheet private share`
+  - ❌ `disable_rtr_on_share_sheet_private_share` `[34]` **Removed in 420.0.0.0.10**
 
 
 ## Move the Alt Text option from the Advanced Settings to the normal ones
@@ -875,7 +876,7 @@ Disable both, Show the old UI of instagram setting menu instead of the new one.
 `ig_fx_centralized_settings` `[40559]`
   - ❌ `show_entrypoint` `[3]` **Removed in 311.0.0.0.0**
 `ig_project_elevation` `[40559]`
-  - ❌ `enabled`
+  - ❌ `enabled` `[0]` **Removed in 342.0.0.0.0**
 
 
 ## Open links in external browser
@@ -1064,7 +1065,7 @@ The top bar scrolls away when navigating though the feed
 Modify add top story hscroll to 0 if you want the add to story button, or set it to 1 to remove it
 
 `super share v3` `[56850]` **Added in version 318.0.0.0.65**
-  - `add top story hscroll` = 0
+  - `add to story hscroll` = 0 `[2]` **Removed in 424.0.0.0.13**
 
 
 ## New sharing shortcut
@@ -1136,7 +1137,7 @@ Post a photo/carousel silently on your profile. It is only functional for Instag
 ## Loop every reel for a second time in the feed
 
 `ig_android_clips_feed_preview` `[24714]` **Removed in version 332d0d0d0d18**
-  - `feed  video min length for single loop ms` = 1000000 **Removed in version 332d0d0d0d18**
+  - `feed_video_min_length_for_single_loop_ms` = 1000000 `[14]` **Removed in 332.0.0.0.18**
 
 
 # Reels
@@ -1170,20 +1171,6 @@ Don't enable single track only.
 Only activate the 1st option.
 
 ✅ `clips viewer caption see translation` `[43242]` **Removed in version 356.0.0.0.93**
-
-
-## Captions creation
-Older versions:
-
-`reels add captions` `[65176]` **Removed in version 319.0.0.0.104**
-  - ✅ `camera android reels captions expansion`
-
-
-## Carousel post mention
-Old versions
-
-`carousel slide comments` `[58152]` **Removed in version 309.0.0.0.36**
-  - ✅ `carousel comments with combo button`
 
 
 ## Clear mode
@@ -1265,7 +1252,7 @@ With this option you can hide or get rid of suggested posts that have certain wo
 Don't enable enable inspiration lane prefetch otherwise the Inspiration tab will not work.
 
 `clips content lanes` `[58377]` **Added in version 318.0.0.0.65**
-  - ❌ `enable inspiration lane prefetch`
+  - ❌ `enable_creator_inspiration_lane_prefetch` `[11]` **Added in 326.0.0.0.10**
 
 
 ## New add to text bar on the Reels editor
@@ -1306,7 +1293,7 @@ Set android attachment scrubber duration to 1 to have the scrubber in all reels 
 
 `clips viewer scrubber improvements` `[55196]` **Removed in version 362.0.0.0.105**
   - ✅ `preview thumbnails are enabled` `[8]` **Removed in 332.0.0.0.31**
-  - `android attachment scrubber duration` = 1
+  - `attached_scrubber_duration` = 1 `[5]` **Removed in 332.0.0.0.31**
 
 
 ## Reels stacks
@@ -1408,9 +1395,10 @@ Mini menu that appears when clicking the repost button, allowing you to repost t
 
 ## Full screen reels
 
-`ig_android_feed_scroll_away_nav` `[54983]` **Added in version 305d0d0d0d107**
+`ig_android_clips_playback` `[66537]` **Added in version 305d0d0d0d107**
+  - ✅ `clips playback force scaling mode fit for clips` `[0]` **Added in 311.0.0.0.0**
+`ig_android_feed_scroll_away_nav` `[66537]`
   - ✅ `is extended scrollaway nav enabled for reels` `[5]` **Removed in 434.0.0.0.0**
-  - ✅ `clips playback force scaling mode fit for clips`
 
 
 ## Hide Follow button
@@ -1603,8 +1591,8 @@ With this you can activate color picker on stories
 ## 60 second stories
 Make sure that this option removes the sharing options of some reels in newer versions.
 
-`stories video trimmer` `[56537]` **Removed in version 375.0.0.0.17**
-  - ✅ `stories originality reel reshares`
+✅ `stories video trimmer` `[56537]` **Removed in version 375.0.0.0.17**
+✅ `stories originality reel reshares` `[56537]`
 
 
 ## Add comments to stories
@@ -1697,8 +1685,7 @@ They're not working well at the moment
 ## Music sticker with avatar stickers
 
 `avatars avatar with music sticker` `[48850]` **Added in version 305.0.0.0.107 or earlier**
-  - ✅ `music sticker with animated avatar stickers`
-  - ✅ `avatars avatar with music sticker is animated stickers enabled` `[4]` **Added in 305.0.0.0.107**
+  - ✅ `is animated stickers enabled` `[4]` **Added in 305.0.0.0.107**
 
 
 ## Notify sticker
@@ -1759,8 +1746,8 @@ Can be enabled, but wont work in newer versions
 
 ## Story layers
 
-`stories layer editor` `[60845]` **Removed in version 317.0.0.0.3**
-  - ✅ `stories android sticker layering tool`
+✅ `stories layer editor` `[60845]` **Removed in version 317.0.0.0.3**
+✅ `stories android sticker layering tool` `[60845]`
 
 
 ## Story user search
@@ -1808,7 +1795,7 @@ Adds a blurred background effect when resharing posts to Stories, improving visu
 The background of the story is blurred in the corners of the screen, providing an immersive effect. Not recommended for devices with weak performance.
 
 `stories_immersive_blur_android` `[117283]` **Added in version 425.0.0.0.17**
-  - ✅ `chrome_blur_enabled`
+  - ✅ `enable_chrome_blur` `[0]` **Removed in 435.0.0.0.2**
 
 
 ## Stories Viewer List Redesign
@@ -1892,8 +1879,9 @@ New sharing option that posts only to 5 selected people.
 
 ## Instaflow Flags
 
-`stories archive craft` `[104900]` **Added in version 409.0.0.0.57**
-  - ✅ `stories archive bulk delete is m2 enabled`
+✅ `stories archive craft` `[104900]` **Added in version 409.0.0.0.57**
+`stories archive bulk delete` `[104900]`
+  - ✅ `is m2 enabled` `[2]` **Added in 408.0.0.0.1**
 
 > Found by: [InstaFlow - Catálogo](https://t.me/instaflowflags)
 
@@ -1957,6 +1945,48 @@ Disable Stories music midcard to remove "Music for you".
 > Found by: Sh T
 
 ![image](./thumbnails/20260624_183652_626.jpg)
+
+
+## Story Interest Signals
+Adds Interested and Not Interested options to Stories, allowing users to personalize the content shown in their Story recommendations.
+
+✅ `story_interest_signals` `[None]` **Added in version 418.0.0.0.11**
+
+> Found by: [𝓪𝓯𝓯𝓪𝓷](https://t.me/its_affayyy)
+
+![image](./thumbnails/20260710_224618_396.jpg)
+
+
+## Blurred Background for Story Reshares
+Adds a blurred background effect when resharing posts to Stories, improving visual focus on the shared content.
+
+✅ `stories_reshares_blur_background` `[None]` **Added in version 418.0.0.0.5**
+
+> Found by: [𝓪𝓯𝓯𝓪𝓷](https://t.me/its_affayyy)
+
+![image](./thumbnails/20260710_224618_973.jpg)
+
+
+## Story Upload Progress Percentage
+Displays the upload progress as a percentage while posting a Story, providing real-time upload status.
+
+✅ `story_upload_progress_percentage` `[None]` **Added in version 425.0.0.0.47**
+
+> Found by: [𝓪𝓯𝓯𝓪𝓷](https://t.me/its_affayyy)
+
+![image](./thumbnails/20260710_224619_804.jpg)
+
+
+## Story Creation Entrypoints
+Controls the available entry points for Story creation, including the Profile Picture (+) shortcut and the dedicated + button.
+
+`story_creation_entrypoints` `[None]` **Added in version 425.0.0.0.53**
+  - ✅ `is_avatar_entry_enabled` `[0]`
+  - ✅ `is_plus_entry_enabled` `[1]`
+
+> Found by: [𝓪𝓯𝓯𝓪𝓷](https://t.me/its_affayyy)
+
+![image](./thumbnails/20260710_224620_253.jpg)
 
 
 # Camera
@@ -2077,13 +2107,6 @@ Adds an avatar to the red heart like animation
 ✅ `ig4a birthday opt in` `[60232]` **Removed in version 411.0.0.0.13**
 
 
-## Change the group photo
-Old versions:
-
-`direct group photo customization` `[29353]` **Removed in version 325.0.0.0.72**
-  - ✅ `igd change group photo`
-
-
 ## Collab collections
 Adds a saved button to the left or right of the reel inside direct to add it to the direct chat saved collection.
 
@@ -2093,13 +2116,6 @@ Adds a saved button to the left or right of the reel inside direct to add it to 
 ## Create a group chat through DMs
 
 ✅ `group from thread` `[70472]` **Added in version 325.0.0.0.72**
-
-
-## Create Images with AI
-Make sure to have enabled the dropdown menu
-
-`imagine create` `[65591]` **Added in version 318.0.0.0.65**
-  - `direct ai agents eligibility` = 3
 
 
 ## Delete messages for you
@@ -2158,7 +2174,7 @@ You can favorite stickers and find them quickly in one place.
 Make sure to have enabled
 
 `location share xma` `[50122]` **Removed in version 402.0.0.0.11**
-  - ✅ `location sharing`
+  - ✅ `location_share_xma_enabled` `[0]` **Removed in 402.0.0.0.52**
 
 
 ## Long press to change chat theme
@@ -2210,14 +2226,14 @@ Enable replies with photos, videos, audios, etc
 ## Pin chats
 
 `igd android pin threads` `[67423]` **Removed in version 399.0.0.0.16**
-  - ✅ `thread pinning`
+  - ✅ `is_enabled` `[0]` **Removed in 315.0.0.0.64**
 
 
 ## Quiet mode
 Just like the 'pause all' notifications option in Instagram settings, the quiet mode will disable all types of notifications at a certain time and you can set when it will turn on and off automatically.
 
-`quiet mode` `[49432]` **Added in version 305.0.0.0.107 or earlier**
-  - ✅ `quiet mode x plat`
+✅ `quiet mode` `[49432]` **Added in version 305.0.0.0.107 or earlier**
+✅ `quiet mode x plat` `[49432]`
 
 
 ## Redesign of the new group chat screen
@@ -2496,6 +2512,28 @@ Enables the display of lyrics on the album art via music sticker.
 ![image](./thumbnails/20260624_183651_506.jpg)
 
 
+## Cancellable & Retryable Media Uploads
+Shows upload progress for photos and videos in Direct Messages, allowing uploads to be cancelled or retried before completion.
+
+✅ `cancellable_and_retryable_media_uploads` `[None]` **Added in version 424.0.0.0.63**
+
+> Found by: [𝓪𝓯𝓯𝓪𝓷](https://t.me/its_affayyy)
+
+![image](./thumbnails/20260710_224615_875.jpg)
+![image](./thumbnails/20260710_224616_896.jpg)
+
+
+## 😀📤 Emoji Bar Above Share Composer
+Adds an emoji bar above the share composer in the Direct share sheet, allowing quick emoji reactions alongside shared content.
+
+`igd_android_sharesheet_emoji_composer` `[None]` **Added in version 419.0.0.0.60**
+  - ✅ `show_emoji_above_composer` `[1]` **Added in version 422.0.0.0.13**
+
+> Found by: [𝓪𝓯𝓯𝓪𝓷](https://t.me/its_affayyy)
+
+![image](./thumbnails/20260710_224617_922.jpg)
+
+
 # Profile
 ## Compare activity
 It is a feature that shows some information between your profile and someone else's.
@@ -2511,8 +2549,9 @@ Photo preview pending
 
 ## Highlights tray as cards
 
-`highlights tray as cards` `[63316]` **Removed in version 318.0.0.0.102**
-  - ✅ `japan labs my week is cards layout enabled`
+✅ `highlights tray as cards` `[63316]` **Removed in version 318.0.0.0.102**
+`japan labs my week` `[63316]`
+  - ✅ `is cards layout enabled` `[4]` **Removed in 412.0.0.0.61**
 
 
 ## Just seen
@@ -2633,6 +2672,16 @@ Allows users to quickly switch between accounts.
 ![image](./thumbnails/20260624_183652_996.jpg)
 
 
+## Reply to Profile Music
+Allows users to reply directly to the song featured on a user's profile, making music interactions more engaging.
+
+✅ `profile_music_reply` `[None]` **Added in version 419.0.0.0.60**
+
+> Found by: [𝓪𝓯𝓯𝓪𝓷](https://t.me/its_affayyy)
+
+![image](./thumbnails/20260710_224617_438.jpg)
+
+
 # Livestreams
 ## Add texts and draw in livestreams
 
@@ -2710,8 +2759,8 @@ Disable everything
 
 ## Fix the chats crashing in Direct
 
-`direct xma mi migration` `[38405]` **Added in version 400.0.0.0.55**
-  - ✅ `igd android voice msg transcription`
+✅ `direct xma mi migration` `[38405]` **Added in version 400.0.0.0.55**
+✅ `igd android voice msg transcription` `[38405]`
 
 
 ## Fix the chats not loading after switching accounts
@@ -2880,12 +2929,6 @@ Removed in newer versions
 
 `ig_android_notes_super_endpoint` `[68611]`
   - ✅ `is get notes enabled` `[1]` **Removed in 368.0.0.0.86**
-
-
-## Fix the gallery picker in Direct crashing
-
-`ig_reels_endscreen_holdout` `[55714]`
-  - ❌ `view mode selector enabled`
 
 
 ## Fix the huge gap in Direct when the Direct tab is on the bottom bar
