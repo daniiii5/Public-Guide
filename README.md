@@ -559,19 +559,19 @@ Disables the location services permission pop-up that appears every time the app
 ## High quality video uploads on stories and reels
 Enter the name and enable the toggle and put the bitrate mbps to 20 (recommended).
 
-`high quality upload setting` = 20 `[91245]` **Added in version 400.0.0.0.55**
+`high quality upload setting` = 20 `[49978]` **Added in version 400.0.0.0.55**
 
 
 ## Improve quality of posts
 This will improve the overall quality from your posts and stories
 
-✅ `high_quality_upload_setting` `[91245]` **Added in version 400.0.0.0.55**
+✅ `high_quality_upload_setting` `[49978]` **Added in version 400.0.0.0.55**
 
 
 ## Reduce compression of photo uploads in the feed
 70 = 30% compression
 
-✅ `photo creation` `[80055]` **Added in version 357.0.0.0.90**
+✅ `photo creation` `[34450]` **Added in version 357.0.0.0.90**
 
 
 ## Upload photos up to 1440p resolution in stories
@@ -631,7 +631,7 @@ Remove meta ai restyle watermark saved media
 ## Album picker
 Choose an album, photos or videos to show in the list
 
-✅ `gallery album picker` `[76418]` **Added in version 346.0.0.0.66**
+✅ `gallery album picker` `[55882]` **Added in version 346.0.0.0.66**
 
 
 ## Android widget
@@ -649,7 +649,7 @@ Make the end call and the action buttons more circular.
 ## Change activity icon to bell icon
 Photo preview pending
 
-✅ `bell icon` `[73316]` **Removed in version 363.0.0.0.63**
+✅ `bell icon` `[30525]` **Removed in version 363.0.0.0.63**
 
 
 ## Channels tab
@@ -753,7 +753,7 @@ Press the Mute button only once, it's buggy and it won't show the Unmute text wh
 
 ## New stories stickers menu design
 
-✅ `stories sticker tray redesign` `[65751]` **Added in version 318.0.0.0.65**
+✅ `stories sticker tray redesign` `[60927]` **Added in version 318.0.0.0.65**
 
 
 ## New swipe to camera animation
@@ -849,13 +849,13 @@ Show when the post/reel was posted.
 ## Story Interest Signals
 Adds “Interested” and “Not Interested” options in Stories, allowing users to control and personalize the content they see.
 
-✅ `interested_option` `[84236]` **Added in version 371.0.0.0.6**
+✅ `interested_option` `[74481]` **Added in version 371.0.0.0.6**
 
 
 ## Minimal Overflow Menu Icon
 Introduces a new minimal overflow menu icon design, replacing the previous style with a cleaner look.
 
-✅ `overflow_menu_icon` `[117613]` **Added in version 425.0.0.0.17**
+✅ `overflow_menu_icon` `[67916]` **Added in version 425.0.0.0.17**
 
 
 ## Story Upload Progress Percentage
@@ -1051,8 +1051,8 @@ Activates all features except xe ig entrypoint variant1. Base version 411.0.0.0.
 ## Half Sheet Feature Flags
 Flags to enable or disable the half sheet feature in music stickers and the gallery.
 
-✅ `igd android half sheet expression tray` `[None]` **Added in version 367.0.0.0.64**
-✅ `igd android gallery half sheet` `[None]`
+✅ `igd android half sheet expression tray` `[82396]` **Added in version 367.0.0.0.64**
+✅ `igd android gallery half sheet` `[82396]`
 
 > Found by: [reze](https://t.me/therealreze)
 
@@ -1062,7 +1062,7 @@ Flags to enable or disable the half sheet feature in music stickers and the gall
 ## Notes self sheet view Redesign
 Redesign of the notes self sheet view.
 
-✅ `ig_notes_self_sheet_redesign` `[None]` **Added in version 429.0.0.0.31**
+✅ `ig_notes_self_sheet_redesign` `[120352]` **Added in version 429.0.0.0.31**
 
 > Found by: Deleted Account
 
@@ -1126,7 +1126,7 @@ Dynamic Suggestion in Searchbar (bit buggy in bottom searchbar)
 
 ## Add notes to posts/reels
 
-✅ `content notes` `[67738]` **Added in version 318.0.0.0.65**
+✅ `content notes` `[62980]` **Added in version 318.0.0.0.65**
 
 
 ## Audience controls
@@ -1137,7 +1137,7 @@ Dynamic Suggestion in Searchbar (bit buggy in bottom searchbar)
 ## Auto advance carrousel posts
 Auto scroll posts in the feed.
 
-✅ `concurrent grid video autoplay` `[104779]` **Added in version 409.0.0.0.57**
+✅ `concurrent grid video autoplay` `[23793]` **Added in version 409.0.0.0.57**
 
 
 ## Comments translations
@@ -1166,7 +1166,7 @@ Modify add top story hscroll to 0 if you want the add to story button, or set it
 ## New sharing shortcut
 Attention!!! Not recommended to activate the 3rd option because the "add X to your story" button will stop appearing on the IGTV posts and regular ones in the Profile & Explore tabs.
 
-✅ `super share` `[56850]` **Added in version 318.0.0.0.65**
+✅ `super share` `[58941]` **Added in version 318.0.0.0.65**
 
 
 ## Quick share
@@ -1187,7 +1187,7 @@ Hold the share button to quickly share the post to a user.
 
 ## Shorter reels on the feed
 
-❌ `tall video` `[118065]` **Added in version 426.0.0.0.8**
+❌ `tall video` `[55606]` **Added in version 426.0.0.0.8**
 
 
 ## Simplified like, comment and share counts in the feed
@@ -1340,7 +1340,7 @@ Enable the option and set the value from 0-100 to have a fixed brightness in ree
 ## Floating friend’s likes
 Disable everything if you get any "This reel is unavailable." errors
 
-❌ `clips friendly viewer` `[76834]` **Added in version 348.0.0.0.7**
+❌ `clips friendly viewer` `[67072]` **Added in version 348.0.0.0.7**
 
 
 ## Hide suggested posts with certain words
@@ -1374,7 +1374,7 @@ Don't enable enable inspiration lane prefetch otherwise the Inspiration tab will
 ## Pinch to zoom in reels
 It might crash on some bases (or mods, I'm not that sure).
 
-✅ `reels pinch to zoom` `[72984]` **Added in version 333.0.0.0.87**
+✅ `reels pinch to zoom` `[68879]` **Added in version 333.0.0.0.87**
 
 
 ## Profile Display
@@ -1548,7 +1548,7 @@ It doesn't reverse the audio.
 ## Disable comments header text
 Flag to remove the header text in the comments section of Reels watch and comment.
 
-✅ `reels watch and comment` `[None]` **Added in version 381.0.0.0.32**
+✅ `reels watch and comment` `[86275]` **Added in version 381.0.0.0.32**
 
 > Found by: [reze](https://t.me/therealreze)
 
@@ -1625,7 +1625,7 @@ Enable scrubber/seekbar preview on reels
 
 ## Comment previews
 
-✅ `clips comment previews` `[68630]` **Added in version 319.0.0.0.104**
+✅ `clips comment previews` `[52073]` **Added in version 319.0.0.0.104**
 
 
 ## Mention Meta AI in Comments
@@ -1692,7 +1692,7 @@ Hide dislikes in comments
 ## Meta AI search feature in Explore
 Either I don't know how to use it, or it's only available in the U.S.
 
-✅ `client search meta ai integration` `[74933]` **Added in version 343.0.0.0.5**
+✅ `client search meta ai integration` `[70066]` **Added in version 343.0.0.0.5**
 
 
 ## Mutual filters
@@ -1709,7 +1709,7 @@ Not working at the moment
 ## Reels tab in Explore
 Long press search icon to search
 
-✅ `reels subtab` `[80216]` **Removed in version 415.0.0.0.43**
+✅ `reels subtab` `[55411]` **Removed in version 415.0.0.0.43**
 
 
 ## Reels tab on the search tabs
@@ -1734,7 +1734,7 @@ This feature allows you to remove the Tags tab from Instagram search results. On
 ## Updated UI for explore tab.
 Updated UI for explore tab.
 
-`relevance_explore_lab_android` `[None]` **Added in version 435.0.0.0.37**
+`relevance_explore_lab_android` `[124823]` **Added in version 435.0.0.0.37**
   - ✅ `is_enabled` `[0]` **Added in 435.0.0.0.37**
 
 > Found by: [𝒁𝒂𝒊𝒏](https://t.me/iamzainnnn)
@@ -1745,7 +1745,7 @@ Updated UI for explore tab.
 ## Enable bottom search bar in explore page
 > ⚠️ It's a bit Buggy for now
 
-`search client multi turn search` `[None]` **Added in version 392.0.0.0.74**
+`search client multi turn search` `[94598]` **Added in version 392.0.0.0.74**
   - ✅ `is android explore bottom search bar enabled` `[7]` **Added in 395.0.0.0.106**
 
 > Found by: [reze](https://t.me/therealreze)
@@ -1929,7 +1929,7 @@ Only works since the base 325 and later, in the previous bases it'll crash the s
 
 ## Request Mention
 
-✅ `stories request mention` `[68439]` **Removed in version 373.0.0.0.18**
+✅ `stories request mention` `[66220]` **Removed in version 373.0.0.0.18**
 
 
 ## Rounded edges on reels shared into story
@@ -2152,7 +2152,7 @@ Cut a segment of a video to post in stories
 
 ## Stories Photostrip Sticker v1
 
-✅ `stories photostrip sticker v1` `[None]` **Added in version 428.0.0.0.54**
+✅ `stories photostrip sticker v1` `[119945]` **Added in version 428.0.0.0.54**
 
 > Found by: [Panagiotis](https://t.me/panagiotis25)
 
@@ -2162,7 +2162,7 @@ Cut a segment of a video to post in stories
 ## Stories music midcard
 Disable Stories music midcard to remove "Music for you".
 
-❌ `Stories music midcard` `[None]` **Added in version 394.0.0.0.61**
+❌ `Stories music midcard` `[95150]` **Added in version 394.0.0.0.61**
 
 > Found by: Sh T
 
@@ -2369,7 +2369,7 @@ Set the min and the max span values to whatever values you want (min for zooming
 ## Avatar Animation
 Avatar Animation while reacting to a message
 
-✅ `avatar reactions` `[101199]` **Added in version 403.0.0.0.66**
+✅ `avatar reactions` `[64093]` **Added in version 403.0.0.0.66**
 
 
 ## Avatar powerups
@@ -2467,7 +2467,7 @@ Make sure to have enabled
 ## Media previews before sending
 Lets you to preview a line of selected photos, and if you do not have any selected and press one, you will be able to edit the photo.
 
-✅ `igd android media preview` `[68556]` **Added in version 319.0.0.0.33**
+✅ `igd android media preview` `[65672]` **Added in version 319.0.0.0.33**
 
 
 ## More options on the Privacy and Safety section in group chats
@@ -2496,7 +2496,7 @@ Keep disabled show privacy buttons on main page
 
 ## New modern design of the "send" button in a chat/note reply/comment composer
 
-✅ `smashable send` `[81107]` **Removed in version 389.0.0.0.64**
+✅ `smashable send` `[62679]` **Removed in version 389.0.0.0.64**
 
 
 ## Non text replies
@@ -2507,7 +2507,7 @@ Enable replies with photos, videos, audios, etc
 
 ## Pin chats
 
-`igd android pin threads` `[67423]` **Removed in version 399.0.0.0.16**
+`igd android pin threads` `[66047]` **Removed in version 399.0.0.0.16**
   - ✅ `is_enabled` `[0]` **Removed in 315.0.0.0.64**
 
 
@@ -2757,7 +2757,7 @@ Introduces support for custom fonts in chats and Stories, allowing users to pers
 ## Remove accounts to follow from DMs
 Remove accounts to follow from DMs null state suggestions queries delay in ms. Set to a very high number (e.g., 9000000000) but not higher than 2^63.
 
-`null state suggestions queries delay ms` = 9000000000 `[None]` **Added in version 427.0.0.0.38**
+`null state suggestions queries delay ms` = 9000000000 `[75196]` **Added in version 427.0.0.0.38**
 
 > Found by: Maverick
 
@@ -2767,7 +2767,7 @@ Remove accounts to follow from DMs null state suggestions queries delay in ms. S
 ## Sharing AI Voices
 Configuration for sharing AI voices feature.
 
-✅ `sharing ai voices` `[None]` **Added in version 427.0.0.0.38**
+✅ `sharing ai voices` `[88764]` **Added in version 427.0.0.0.38**
 
 > Found by: [John](https://t.me/ioannisxir)
 
@@ -2777,7 +2777,7 @@ Configuration for sharing AI voices feature.
 ## Reply without Accept
 Allows replying to a message without accepting the request.
 
-✅ `direct reply without accept` `[None]` **Added in version 418.0.0.0.71**
+✅ `direct reply without accept` `[110958]` **Added in version 418.0.0.0.71**
 
 > Found by: [reze](https://t.me/therealreze)
 
@@ -2787,7 +2787,7 @@ Allows replying to a message without accepting the request.
 ## Enable lyrics on album art of music
 Enables the display of lyrics on the album art via music sticker.
 
-✅ `ig4a direct audio` `[None]` **Added in version 379.0.0.0.57**
+✅ `ig4a direct audio` `[79058]` **Added in version 379.0.0.0.57**
 
 > Found by: [reze](https://t.me/therealreze)
 
@@ -2977,7 +2977,7 @@ This flag enables the new expressive profile header design where the section bel
 Flags for profile preview functionality.
 > ⚠️ Not functional
 
-✅ `profile preview` `[96269]` **Added in version 403.0.0.0.66**
+✅ `profile preview` `[54033]` **Added in version 403.0.0.0.66**
 
 > Found by: [InstaFlow - Catálogo](https://t.me/instaflowflags)
 
@@ -3021,7 +3021,7 @@ This option should be enabled in your account, it combines the igtv section to t
 ## Enable Quick Account Switcher
 Allows users to quickly switch between accounts.
 
-✅ `quick account switcher` `[None]` **Added in version 405.0.0.0.33**
+✅ `quick account switcher` `[102290]` **Added in version 405.0.0.0.33**
 
 > Found by: [John](https://t.me/ioannisxir)
 
@@ -3082,7 +3082,7 @@ Swap the discover people button with a share profile button and disable the disc
 # Professional
 ## Welcome message
 
-✅ `welcome message` `[41207]` **Removed in version 411.0.0.0.73**
+✅ `welcome message` `[63148]` **Removed in version 411.0.0.0.73**
 
 
 # Fixes
@@ -3279,7 +3279,7 @@ Fix the bug of opening notifications
 ## Fix some green boxes showing while watching reels
 Removed in newer versions
 
-`reels swipe to action` `[54948]` **Added in version 318.0.0.0.65**
+`reels swipe to action` `[61426]` **Added in version 318.0.0.0.65**
   - ✅ `enable swipe debug visualizer` `[66]` **Removed in 420.0.0.0.10**
 
 
