@@ -306,7 +306,6 @@ The guide has fully transitioned to a **community-supported version**. This mean
   - [stories lipsync](#stories-lipsync)
   - [stories android video trimmer v2](#stories-android-video-trimmer-v2)
   - [Stories Photostrip Sticker v1](#stories-photostrip-sticker-v1)
-  - [Stories music midcard](#stories-music-midcard)
   - [Story Interest Signals](#story-interest-signals)
   - [Blurred Background for Story Reshares](#blurred-background-for-story-reshares)
   - [Story Upload Progress Percentage](#story-upload-progress-percentage)
@@ -433,7 +432,6 @@ The guide has fully transitioned to a **community-supported version**. This mean
   - [Insights for all accounts](#insights-for-all-accounts)
   - [Remove suggested accounts](#remove-suggested-accounts)
   - [Show IGTV section](#show-igtv-section)
-  - [Enable Quick Account Switcher](#enable-quick-account-switcher)
   - [Reply to Profile Music](#reply-to-profile-music)
   - [Refresh the followers/following pages by swiping down](#refresh-the-followersfollowing-pages-by-swiping-down)
   - [Restore Share Profile Button](#restore-share-profile-button)
@@ -2159,16 +2157,6 @@ Cut a segment of a video to post in stories
 ![image](./thumbnails/20260624_183652_487.jpg)
 
 
-## Stories music midcard
-Disable Stories music midcard to remove "Music for you".
-
-❌ `Stories music midcard` `[95150]` **Added in version 394.0.0.0.61**
-
-> Found by: Sh T
-
-![image](./thumbnails/20260624_183652_626.jpg)
-
-
 ## Story Interest Signals
 Adds Interested and Not Interested options to Stories, allowing users to personalize the content shown in their Story recommendations.
 
@@ -3016,16 +3004,6 @@ This option should be enabled in your account, it combines the igtv section to t
 
 `ig_panavision_v0` `[37418]` **Removed in version 357d0d0d0d68**
   - ✅ `consumption merge profile video tabs` `[53]` **Removed in 332.0.0.0.24**
-
-
-## Enable Quick Account Switcher
-Allows users to quickly switch between accounts.
-
-✅ `quick account switcher` `[102290]` **Added in version 405.0.0.0.33**
-
-> Found by: [John](https://t.me/ioannisxir)
-
-![image](./thumbnails/20260624_183652_996.jpg)
 
 
 ## Reply to Profile Music
