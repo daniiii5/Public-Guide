@@ -54,6 +54,7 @@ The guide has fully transitioned to a **community-supported version**. This mean
   - [Remove the story ads with the "LEARN MORE" stickers inside](#remove-the-story-ads-with-the-learn-more-stickers-inside)
   - [Remove Threads usernames and button](#remove-threads-usernames-and-button)
   - [Remove the Google Play update dialog](#remove-the-google-play-update-dialog)
+  - [Disable Device Permissions Popup](#disable-device-permissions-popup)
 - [Quality](#quality)
   - [High quality video uploads on stories and reels](#high-quality-video-uploads-on-stories-and-reels)
   - [Improve quality of posts](#improve-quality-of-posts)
@@ -62,6 +63,7 @@ The guide has fully transitioned to a **community-supported version**. This mean
   - [4K Quality Command](#4k-quality-command)
   - [Enable 48khz sample rate](#enable-48khz-sample-rate)
   - [Enable stereo](#enable-stereo)
+  - [genai magic mod](#genai-magic-mod)
 - [UI](#ui)
   - [Redesign of the Message Requests](#redesign-of-the-message-requests)
   - [Variations of the Reel uploading section](#variations-of-the-reel-uploading-section)
@@ -137,6 +139,10 @@ The guide has fully transitioned to a **community-supported version**. This mean
   - [Show save animation](#show-save-animation)
   - [Half Sheet Feature Flags](#half-sheet-feature-flags)
   - [Notes self sheet view Redesign](#notes-self-sheet-view-redesign)
+  - [Turn off meta AI summary from post & reels overflow menu](#turn-off-meta-ai-summary-from-post--reels-overflow-menu)
+  - [Gizmo Bookmark Settings](#gizmo-bookmark-settings)
+  - [Enable Long Press Theme Picker](#enable-long-press-theme-picker)
+  - [Dynamic Suggestion in Searchbar](#dynamic-suggestion-in-searchbar)
 - [Feed](#feed)
   - [Add texts, stickers and overlay photos in posts](#add-texts-stickers-and-overlay-photos-in-posts)
   - [Orientation options for photos in the post editing section](#orientation-options-for-photos-in-the-post-editing-section)
@@ -160,6 +166,7 @@ The guide has fully transitioned to a **community-supported version**. This mean
   - [Silent Post to Profile](#silent-post-to-profile)
   - [Programar posts and reels reels to date](#programar-posts-and-reels-reels-to-date)
   - [Loop every reel for a second time in the feed](#loop-every-reel-for-a-second-time-in-the-feed)
+  - [2025 DSA Compliance](#2025-dsa-compliance)
 - [Reels](#reels)
   - [Add multiple clips on the reel editor at once](#add-multiple-clips-on-the-reel-editor-at-once)
   - [Add multiple tracks on Reel editor](#add-multiple-tracks-on-reel-editor)
@@ -211,12 +218,20 @@ The guide has fully transitioned to a **community-supported version**. This mean
   - [Reverse clips on the reel editor](#reverse-clips-on-the-reel-editor)
   - [Short comment hint text](#short-comment-hint-text)
   - [Disable comments header text](#disable-comments-header-text)
+  - [Remove shop item large image on Reel](#remove-shop-item-large-image-on-reel)
+  - [Add Search Icon to Reels](#add-search-icon-to-reels)
+  - [Pause button reels without background](#pause-button-reels-without-background)
+  - [Double tap to skip](#double-tap-to-skip)
+  - [Enable scrubber/seekbar preview on reels](#enable-scrubberseekbar-preview-on-reels)
 - [Comments](#comments)
   - [Write comments anonymously](#write-comments-anonymously)
   - [Avatars in comments](#avatars-in-comments)
   - [Comment filtering](#comment-filtering)
   - [Comment previews](#comment-previews)
   - [Mention Meta AI in Comments](#mention-meta-ai-in-comments)
+  - [Next Post Button in Comments](#next-post-button-in-comments)
+  - [Add GIF categories in the GIF comments sheet](#add-gif-categories-in-the-gif-comments-sheet)
+  - [ig4a comment dislike ux improvements](#ig4a-comment-dislike-ux-improvements)
 - [Explore](#explore)
   - [Audio preview](#audio-preview)
   - [Audio tab on the search tabs](#audio-tab-on-the-search-tabs)
@@ -231,6 +246,9 @@ The guide has fully transitioned to a **community-supported version**. This mean
   - [Remove Tags Tab from Search Results](#remove-tags-tab-from-search-results)
   - [Updated UI for explore tab.](#updated-ui-for-explore-tab)
   - [Enable bottom search bar in explore page](#enable-bottom-search-bar-in-explore-page)
+  - [IG4A Game Hub](#ig4a-game-hub)
+  - [Create events in Instagram](#create-events-in-instagram)
+  - [Add Saved Content button in Explore](#add-saved-content-button-in-explore)
 - [Stories](#stories)
   - [Activate color picker](#activate-color-picker)
   - [Activate color picker](#activate-color-picker)
@@ -293,6 +311,12 @@ The guide has fully transitioned to a **community-supported version**. This mean
   - [Blurred Background for Story Reshares](#blurred-background-for-story-reshares)
   - [Story Upload Progress Percentage](#story-upload-progress-percentage)
   - [Story Creation Entrypoints](#story-creation-entrypoints)
+  - [Timestamp Attribution High Priority](#timestamp-attribution-high-priority)
+  - [Remove Stories Add Yours Midcard](#remove-stories-add-yours-midcard)
+  - [Stories longpress like quick reaction](#stories-longpress-like-quick-reaction)
+  - [Remove Instagram Subscription icon from stories viewer](#remove-instagram-subscription-icon-from-stories-viewer)
+  - [Move comments button to the left side in Stories](#move-comments-button-to-the-left-side-in-stories)
+  - [Fix weird icon placement](#fix-weird-icon-placement)
 - [Camera](#camera)
   - [Audio and Trending options in reel media selection](#audio-and-trending-options-in-reel-media-selection)
   - [Better organisation of the sidebar](#better-organisation-of-the-sidebar)
@@ -380,6 +404,13 @@ The guide has fully transitioned to a **community-supported version**. This mean
   - [Enable lyrics on album art of music](#enable-lyrics-on-album-art-of-music)
   - [Cancellable & Retryable Media Uploads](#cancellable--retryable-media-uploads)
   - [😀📤 Emoji Bar Above Share Composer](#-emoji-bar-above-share-composer)
+  - [Ig4a Reachability Notification](#ig4a-reachability-notification)
+  - [Direct Games](#direct-games)
+  - [Remove cutout button from direct chats](#remove-cutout-button-from-direct-chats)
+  - [Add custom replying options in Direct media and Reels](#add-custom-replying-options-in-direct-media-and-reels)
+  - [No Internet Connection Banner in Direct Chats](#no-internet-connection-banner-in-direct-chats)
+  - [Show edit button in direct gallery picker](#show-edit-button-in-direct-gallery-picker)
+  - [Account Notification Badging Control](#account-notification-badging-control)
 - [Profile](#profile)
   - [Compare activity](#compare-activity)
   - [Highlights grid](#highlights-grid)
@@ -404,6 +435,8 @@ The guide has fully transitioned to a **community-supported version**. This mean
   - [Show IGTV section](#show-igtv-section)
   - [Enable Quick Account Switcher](#enable-quick-account-switcher)
   - [Reply to Profile Music](#reply-to-profile-music)
+  - [Refresh the followers/following pages by swiping down](#refresh-the-followersfollowing-pages-by-swiping-down)
+  - [Restore Share Profile Button](#restore-share-profile-button)
 - [Livestreams](#livestreams)
   - [Add texts and draw in livestreams](#add-texts-and-draw-in-livestreams)
   - [Games in livestreams](#games-in-livestreams)
@@ -512,6 +545,16 @@ Enables all settings for you even if your account is not eligible for these
 ❌ `ig_google_play_update_api` `[57502]`
 
 
+## Disable Device Permissions Popup
+Disables the location services permission pop-up that appears every time the app is opened.
+
+❌ `ig_device_permissions` `[None]` **Added in version 427.0.0.0.38**
+
+> Found by: Sh T
+
+![image](./thumbnails/20260817_160622_031.jpg)
+
+
 # Quality
 ## High quality video uploads on stories and reels
 Enter the name and enable the toggle and put the bitrate mbps to 20 (recommended).
@@ -553,6 +596,19 @@ Enables 4K image upload for posts and stories, active in the same way as the ima
 
 `android_cameracore_fbaudio_ig_launcher` `[31064]`
   - ✅ `use_stereo` `[21]` **Added in 305.0.0.0.107**
+
+
+## genai magic mod
+Remove meta ai restyle watermark saved media
+
+`genai magic mod` `[None]` **Added in version 422.0.0.0.63**
+  - ❌ `should_add_watermark_to_mediasaver_save`
+  - ❌ `should_add_watermark_to_postcapture_save`
+
+> Found by: Nurikhsan
+
+![image](./thumbnails/20260817_160640_620.jpg)
+![image](./thumbnails/20260817_160641_266.jpg)
 
 
 # UI
@@ -1013,6 +1069,45 @@ Redesign of the notes self sheet view.
 ![image](./thumbnails/20260624_183652_283.jpg)
 
 
+## Turn off meta AI summary from post & reels overflow menu
+Turn off meta AI summary from post & reels overflow menu
+
+❌ `is_ai_discovery_menu_enabled` `[None]` **Added in version 417.0.0.0.38**
+
+> Found by: Maverick
+
+![image](./thumbnails/20260817_160614_683.jpg)
+
+
+## Gizmo Bookmark Settings
+Controls the bookmark feature in the gizmo interface.
+
+✅ `gizmo bookmark settings` `[None]` **Added in version 437.0.0.0.65**
+
+> Found by: [Panagiotis](https://t.me/panagiotis25)
+
+![image](./thumbnails/20260817_160617_579.jpg)
+![image](./thumbnails/20260817_160617_926.jpg)
+
+
+## Enable Long Press Theme Picker
+Hold to quickly change themes in chats
+
+✅ `enable long press theme picker` `[None]` **Added in version 427.0.0.0.38**
+
+> Found by: [John](https://t.me/ioannisxir)
+
+
+## Dynamic Suggestion in Searchbar
+Dynamic Suggestion in Searchbar (bit buggy in bottom searchbar)
+
+`is_android_enabled` `[None]` **Added in version 433.0.0.0.56**
+  - ✅ `enable_search_bar_hint_carousel_dynamic_android`
+  - ✅ `enable_search_bar_hint_carousel_android`
+
+> Found by: Nurikhsan
+
+
 # Feed
 ## Add texts, stickers and overlay photos in posts
 
@@ -1138,6 +1233,17 @@ Post a photo/carousel silently on your profile. It is only functional for Instag
 
 `ig_android_clips_feed_preview` `[24714]` **Removed in version 332d0d0d0d18**
   - `feed_video_min_length_for_single_loop_ms` = 1000000 `[14]` **Removed in 332.0.0.0.18**
+
+
+## 2025 DSA Compliance
+Centralizes the For You feed and allows enabling for reels.
+
+`2025 dsa compliance` `[None]` **Added in version 402.0.0.0.58**
+  - ✅ `enable_feed_for_you_title_switch` `[0]`
+
+> Found by: Mandy, Bruxa do Autismo
+
+![image](./thumbnails/20260817_160633_344.jpg)
 
 
 # Reels
@@ -1449,6 +1555,58 @@ Flag to remove the header text in the comments section of Reels watch and commen
 ![image](./thumbnails/20260624_183651_891.jpg)
 
 
+## Remove shop item large image on Reel
+Remove the shop item's large image on the reel.
+
+❌ `is_large_image_with_caption_card_enabled` `[None]` **Added in version 435.0.0.0.61**
+
+> Found by: Maverick
+
+![image](./thumbnails/20260817_160613_391.jpg)
+
+
+## Add Search Icon to Reels
+Add a search icon in various places where you watch reels.
+
+✅ `discovery search everywhere entrypoint` `[None]` **Added in version 399.0.0.0.16**
+
+> Found by: [John](https://t.me/ioannisxir)
+
+![image](./thumbnails/20260817_160624_090.jpg)
+
+
+## Pause button reels without background
+Adds a pause button overlay to Reels playback without background and enables playback controls.
+
+`reels playback controls` `[None]` **Added in version 429.0.0.0.49**
+  - ✅ `pause_button_visibility`
+  - ❌ `background_visibility`
+
+> Found by: Nurikhsan
+
+![image](./thumbnails/20260817_160638_274.jpg)
+![image](./thumbnails/20260817_160639_258.jpg)
+
+
+## Double tap to skip
+
+`Reels video controls` `[None]` **Added in version 426.0.0.0.26**
+  - ✅ `double_tap_skip_length` `[2]`
+
+> Found by: Nurikhsan
+
+![image](./thumbnails/20260817_160639_979.jpg)
+
+
+## Enable scrubber/seekbar preview on reels
+Enable scrubber/seekbar preview on reels
+
+`iv video scrubber` `[None]` **Added in version 427.0.0.0.38**
+  - ✅ `disable_thumbnail_on_smooth_scrubber` `[26]` **Added in version 416.0.0.0.65**
+
+> Found by: Nurikhsan
+
+
 # Comments
 ## Write comments anonymously
 
@@ -1476,6 +1634,38 @@ This feature enables the ability to mention Meta AI directly in comments to ask 
 ✅ `meta ai mentions` `[110316]` **Added in version 418.0.0.0.5**
 
 > Found by: [𝓪𝓯𝓯𝓪𝓷](https://t.me/its_affayyy)
+
+
+## Next Post Button in Comments
+When watching a post, video or reel, a button appears in the comments. Tapping it scrolls to the next post, video, or reel without returning to the main feed.
+
+✅ `ig_android_next_post_button` `[None]` **Added in version 436.0.0.0.68**
+
+> Found by: Sh T
+
+![image](./thumbnails/20260817_160612_347.jpg)
+
+
+## Add GIF categories in the GIF comments sheet
+Add GIF categories in the GIF comments sheet
+
+✅ `enable gif tabs` `[None]` **Added in version 399.0.0.0.16**
+
+> Found by: [John](https://t.me/ioannisxir)
+
+![image](./thumbnails/20260817_160621_167.jpg)
+![image](./thumbnails/20260817_160621_459.jpg)
+
+
+## ig4a comment dislike ux improvements
+Hide dislikes in comments
+
+❌ `dislike_icon` `[None]` **Added in version 416.0.0.0.43**
+
+> Found by: Mandy, Bruxa do Autismo
+
+![image](./thumbnails/20260817_160629_108.jpg)
+![image](./thumbnails/20260817_160632_452.jpg)
 
 
 # Explore
@@ -1561,6 +1751,38 @@ Updated UI for explore tab.
 > Found by: [reze](https://t.me/therealreze)
 
 ![image](./thumbnails/20260624_183652_085.jpg)
+
+
+## IG4A Game Hub
+Flag to enable the IG4A game hub feature.
+
+✅ `ig4a` `[None]` **Added in version 436.0.0.0.0**
+
+> Found by: [Panagiotis](https://t.me/panagiotis25)
+
+![image](./thumbnails/20260817_160616_713.jpg)
+
+
+## Create events in Instagram
+Create events in Instagram
+
+✅ `igd android events` `[None]` **Added in version 414.0.0.0.7**
+
+> Found by: [John](https://t.me/ioannisxir)
+
+![image](./thumbnails/20260817_160622_975.jpg)
+![image](./thumbnails/20260817_160623_250.jpg)
+
+
+## Add Saved Content button in Explore
+Adds a Saved Content button to the Explore section.
+
+`enable saved entrypoint` `[None]` **Added in version 436.0.0.0.68**
+  - ✅ `enable it`
+
+> Found by: [John](https://t.me/ioannisxir)
+
+![image](./thumbnails/20260817_160625_768.jpg)
 
 
 # Stories
@@ -1987,6 +2209,66 @@ Controls the available entry points for Story creation, including the Profile Pi
 > Found by: [𝓪𝓯𝓯𝓪𝓷](https://t.me/its_affayyy)
 
 ![image](./thumbnails/20260710_224620_253.jpg)
+
+
+## Timestamp Attribution High Priority
+Timestamp on stories is cleaner now as you can see on the below picture. To get this fresh update all you need to do is enable the flag: timestamp_attribution_high_priority.
+
+✅ `timestamp_attribution_high_priority` `[None]` **Added in version 437.0.0.0.10**
+
+> Found by: Sh T
+
+![image](./thumbnails/20260817_160611_809.jpg)
+
+
+## Remove Stories Add Yours Midcard
+Disables the Stories 'Add Yours' midcard feature.
+
+`ig_stories_android_qccm` `[None]` **Added in version 427.0.0.0.38**
+  - ❌ `add_yours_enabled` `[1]` **Removed in version 438.0.0.0.78**
+  - ❌ `enable_add_yours_templates` `[18]` **Removed in version 438.0.0.0.78**
+
+> Found by: [𝙼𝙰𝙶𝙸𝚂𝚃𝚁𝙰𝚃𝙴 𝚅𝙺](https://t.me/vippium)
+
+
+## Stories longpress like quick reaction
+Holding the ❤️ button in stories now gives you more options like in the picture.
+
+✅ `Stories longpress like quick reaction` `[None]` **Added in version 440.0.0.0.0**
+
+> Found by: Sh T
+
+![image](./thumbnails/20260817_160621_721.jpg)
+
+
+## Remove Instagram Subscription icon from stories viewer
+Remove Instagram Subscription icon from stories viewer by disabling the flag.
+
+❌ `story_viewer_list_aura_icon_enabled` `[None]` **Added in version 427.0.0.0.38**
+
+> Found by: [𝙼𝙰𝙶𝙸𝚂𝚃𝚁𝙰𝚃𝙴 𝚅𝙺](https://t.me/vippium)
+
+![image](./thumbnails/20260817_160625_038.jpg)
+
+
+## Move comments button to the left side in Stories
+Move comments button to the left side in Stories
+
+❌ `mimic ufi enabled` `[None]` **Added in version 407.0.0.0.196**
+
+> Found by: [John](https://t.me/ioannisxir)
+
+![image](./thumbnails/20260817_160626_365.jpg)
+
+
+## Fix weird icon placement
+Fix weird icon placement
+
+❌ `ig_android_story_pog_tap_area_expansion_v2` `[None]` **Added in version 437.0.0.0.65**
+
+> Found by: [𝒁𝒂𝒊𝒏](https://t.me/iamzainnnn)
+
+![image](./thumbnails/20260817_160641_936.jpg)
 
 
 # Camera
@@ -2534,6 +2816,80 @@ Adds an emoji bar above the share composer in the Direct share sheet, allowing q
 ![image](./thumbnails/20260710_224617_922.jpg)
 
 
+## Ig4a Reachability Notification
+
+✅ `ig4a reachability notification` `[None]` **Added in version 438.0.0.0.5**
+
+> Found by: [Panagiotis](https://t.me/panagiotis25)
+
+![image](./thumbnails/20260817_160616_291.jpg)
+
+
+## Direct Games
+
+✅ `direct games` `[None]` **Added in version 405.0.0.0.33**
+
+> Found by: [Panagiotis](https://t.me/panagiotis25)
+
+![image](./thumbnails/20260817_160617_148.jpg)
+
+
+## Remove cutout button from direct chats
+Disables the cutout button in direct chats by turning off the is_cutout_action_enabled sub-flag.
+
+`igd_android_riff` `[None]` **Added in version 396.0.0.0.237**
+  - ❌ `is_cutout_action_enabled` `[2]` **Added in version 399.0.0.0.16**
+
+> Found by: [𝙼𝙰𝙶𝙸𝚂𝚃𝚁𝙰𝚃𝙴 𝚅𝙺](https://t.me/vippium)
+
+![image](./thumbnails/20260817_160618_509.jpg)
+
+
+## Add custom replying options in Direct media and Reels
+
+✅ `enable quick emoji plus context menu` `[None]` **Added in version 418.0.0.0.5**
+
+> Found by: [John](https://t.me/ioannisxir)
+
+![image](./thumbnails/20260817_160619_744.jpg)
+![image](./thumbnails/20260817_160620_250.jpg)
+![image](./thumbnails/20260817_160620_632.jpg)
+![image](./thumbnails/20260817_160620_893.jpg)
+
+
+## No Internet Connection Banner in Direct Chats
+Add a "No Internet connection" banner when you have no internet in chats.
+
+✅ `direct android connectivity banner` `[None]` **Added in version 425.0.0.0.0**
+
+> Found by: [John](https://t.me/ioannisxir)
+
+![image](./thumbnails/20260817_160622_651.jpg)
+
+
+## Show edit button in direct gallery picker
+Adds a new Edit button in Direct media gallery picker for easier access than tapping the photos/videos on the left side.
+
+✅ `show edit button in direct gallery picker` `[None]` **Added in version 341.0.0.0.61**
+
+> Found by: [John](https://t.me/ioannisxir)
+
+![image](./thumbnails/20260817_160626_028.jpg)
+
+
+## Account Notification Badging Control
+Manages account notification badging (the red dot) from other accounts in both the direct header and under the profile button.
+> ⚠️ Do not enable the impression cap flag, as it conflicts with them.
+
+`xav_ig_android_switcher_badging_fdid` `[None]` **Added in version 367.0.0.0.64**
+  - ✅ `hide_tab_bar_badging` `[1]`
+  - ✅ `hide_all_badging` `[0]`
+
+> Found by: [𝙼𝙰𝙶𝙸𝚂𝚃𝚁𝙰𝚃𝙴 𝚅𝙺](https://t.me/vippium)
+
+![image](./thumbnails/20260817_160637_195.jpg)
+
+
 # Profile
 ## Compare activity
 It is a feature that shows some information between your profile and someone else's.
@@ -2680,6 +3036,26 @@ Allows users to reply directly to the song featured on a user's profile, making 
 > Found by: [𝓪𝓯𝓯𝓪𝓷](https://t.me/its_affayyy)
 
 ![image](./thumbnails/20260710_224617_438.jpg)
+
+
+## Refresh the followers/following pages by swiping down
+Refresh the followers/following pages by swiping down
+
+✅ `follow list ptr` `[None]` **Added in version 419.0.0.0.2**
+
+> Found by: [John](https://t.me/ioannisxir)
+
+
+## Restore Share Profile Button
+Swap the discover people button with a share profile button and disable the discover people button.
+
+`ig4a_profile_header_discover_people_button_swap` `[None]` **Added in version 425.0.0.0.17**
+  - ❌ `is_enabled` `[0]`
+  - ❌ `use_share_icon` `[1]`
+
+> Found by: [𝙼𝙰𝙶𝙸𝚂𝚃𝚁𝙰𝚃𝙴 𝚅𝙺](https://t.me/vippium)
+
+![image](./thumbnails/20260817_160635_175.jpg)
 
 
 # Livestreams
