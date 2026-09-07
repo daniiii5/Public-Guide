@@ -131,7 +131,7 @@ The guide has fully transitioned to a **community-supported version**. This mean
   - [New design in notification settings](#new-design-in-notification-settings)
   - [Airplane Button Share](#airplane-button-share)
   - [Cast Instagram to TV](#cast-instagram-to-tv)
-  - [Visual moderno de menu](#visual-moderno-de-menu)
+  - [Modern menu visual](#modern-menu-visual)
   - [New visual of the account center in settings](#new-visual-of-the-account-center-in-settings)
   - [Minimize the number of apps in the "also from meta" section in settings.](#minimize-the-number-of-apps-in-the-also-from-meta-section-in-settings)
   - [Plus button in stories tray](#plus-button-in-stories-tray)
@@ -1004,7 +1004,7 @@ Cast Instagram to TV
 > Found by: [InstaFlow - Catálogo](https://t.me/instaflowflags)
 
 
-## Visual moderno de menu
+## Modern menu visual.
 Modern menu visual. Added in Base 402.0.0.0.5. Works better in Base 408.0.0.0.1.
 
 ✅ `igds android prism overflow sheet` `[100002]` **Added in version 402.0.0.0.5**
