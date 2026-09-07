@@ -127,7 +127,7 @@ The guide has fully transitioned to a **community-supported version**. This mean
   - [Comment Composer Rotate Ghost Text](#comment-composer-rotate-ghost-text)
   - [Follow button in stories viewers list](#follow-button-in-stories-viewers-list)
   - [Profile unseen post indicator](#profile-unseen-post-indicator)
-  - [Indicador de amigos próximos na aba de compartilhar](#indicador-de-amigos-próximos-na-aba-de-compartilhar)
+  - [Close friends indicator in the share sheet tab](#close-friends-indicator-in-the-share-sheet-tab.)
   - [New design in notification settings](#new-design-in-notification-settings)
   - [Airplane Button Share](#airplane-button-share)
   - [Cast Instagram to TV](#cast-instagram-to-tv)
@@ -971,7 +971,7 @@ Shows a "new" indicator on recent posts in the user's profile.
 > Found by: [InstaFlow - Catálogo](https://t.me/instaflowflags)
 
 
-## Indicador de amigos próximos na aba de compartilhar
+## Close friends indicator in the share sheet tab.
 Close friends indicator in the share sheet tab.
 > ⚠️ Removed in Base 418.0.0.0.41
 
