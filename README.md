@@ -552,6 +552,7 @@ Disable everything
 - Useful options as circles on reel recording (last removed in 374.0.0.0.16)
 - Zoom and unzoom the photos row in media selection (last removed in 345.0.0.0.39)
 - Send reel drafts to other people (last removed in 362.0.0.0.89)
+- Test with photo (last removed in 393.0.0.0.22)
 
 ## Direct
 - Nicknames (last added in 335.0.0.0.78)
