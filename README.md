@@ -40,8 +40,8 @@ The guide has fully transitioned to a **community-supported version**. This mean
 **I need support!**
 > Send a message in the Patreon chat to get assistance from the team.
 
-**Why don't flags added before the OLDEST_VERSION base mention their specific version?**
-> We use a mapping database for flag information configured specifically for bases from `OLDEST_VERSION` and beyond. Because we cannot feasibly search all previous bases for historical flags (it would take forever), we simply use the label *"Added in version OLDEST_VERSION or earlier"* for those older entries.
+**Why don't flags added before the 305.0.0.0.107 base mention their specific version?**
+> We use a mapping database for flag information configured specifically for bases from `305.0.0.0.107` and beyond. Because we cannot feasibly search all previous bases for historical flags (it would take forever), we simply use the label *"Added in version 305.0.0.0.107 or earlier"* for those older entries.
 
 - [Important](#important)
   - [Make the app more efficient](#make-the-app-more-efficient)
