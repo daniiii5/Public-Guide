@@ -1,7 +1,7 @@
-# 📱 Yet Another Dani and Community's Guide!
+# 📱 Yet A Final Dani and Community's Guide!
 ⚠️ SOME FLAGS COULD HAVE A MISLEADING SETTING, ENABLED WHEN IT IS SUPPOSED TO BE DISABLED, REPORT THIS IN THE OFFICIAL SERVER
 
-Welcome to the official continuation of the legendary **Community's Ultimate Guide by John and Dani**!
+Welcome to the official end of the legendary **Community's Ultimate Guide by John and Dani**!
 
 This is a community-driven project dedicated to tracking and documenting changes in Instagram's Android alpha versions by analyzing internal feature flags (GKs/QEs) from Metaconfig. Updates are automatically published to our Telegram channel and to this guide via a self-hosted bot, built and maintained by the community.
 
