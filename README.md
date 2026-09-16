@@ -1518,3 +1518,6 @@ Disable everything
 - Fix the story editor always being in HDR (last removed in 372.0.0.0.35)
   `ig_camera_android_ultra_hdr_photo_capture` `[64894]`
     - ❌ `enable_jpegr_feed_photo_edit_surface_view` `[4]` **Removed in version 372.0.0.0.35**
+
+- Founder attribution test (last removed in 393.0.0.0.22)
+  ✅ `ig_threads_xma` `[61804]` **Removed in version 393.0.0.0.22**
