@@ -1,20 +1,39 @@
 # 📱 Yet Another Dani and Community's Guide!
 ⚠️ SOME FLAGS COULD HAVE A MISLEADING SETTING, ENABLED WHEN IT IS SUPPOSED TO BE DISABLED, REPORT THIS IN THE OFFICIAL SERVER
 
-Welcome to the official continuation of the legendary **Community's Ultimate Guide by John and Dani**! 
+Welcome to the official continuation of the legendary **Community's Ultimate Guide by John and Dani**!
 
-This is a community-driven project dedicated to tracking and documenting changes in Instagram's Android alpha versions by analyzing internal feature flags (GKs/QEs) from Metaconfig. Updates are automatically published to our Telegram channel via a self-hosted bot, built and maintained by the community.
+This is a community-driven project dedicated to tracking and documenting changes in Instagram's Android alpha versions by analyzing internal feature flags (GKs/QEs) from Metaconfig. Updates are automatically published to our Telegram channel and to this guide via a self-hosted bot, built and maintained by the community.
+
+## 🌙 The Project is Now in Legacy Mode
+**This project has entered a self-sustaining, community-driven "Legacy" state.** Active development by the original maintainer has ended — not because the project failed, but because the Instagram modding community's enthusiasm has been steadily declining, and it no longer makes sense to keep investing active development time into it. Instead of quietly abandoning it, the goal was to leave it in the best possible shape to keep running on its own, for as long as the community keeps contributing to it.
+
+Before wrapping up, the following was completed as a final major update:
+* **Bot rewrite** — recoded from scratch with `aiogram`. Multiple users can now run commands at the same time without the bot hanging or crashing.
+* **Database migration** — over 2GB of raw files were moved into an optimized database under 50MB, cutting RAM usage and making changelog lookups (even 20+ versions apart) take a fraction of a second instead of tens of seconds.
+* **Public API** — built for querying flag data and changelogs (the raw database files themselves stay private).
+* **Autonomous guide updates** — community flag submissions sent through Telegram are now automatically processed and pushed straight to this guide, no manual work required.
+
+This guide, the bot, and the API will keep running exactly as they are — for as long as the community keeps sending submissions. There are no more planned updates beyond that.
 
 ## 🤝 Built by the Community, for the Community
 **Attention! This is a living document.**
-The guide has fully transitioned to a **community-supported version**. This means that any user in the **Instagram Developer Community** can contribute to expanding and improving it. By opening the guide to community collaboration, everyone has the opportunity to share their insights, discovered features, and updates. Together, we can create a comprehensive and up-to-date resource, ensuring the best experience for everyone!
+The guide has fully transitioned to a **community-supported version**. This means that any user in the **Instagram Developer Community** can contribute to expanding and improving it. By opening the guide to community collaboration, everyone has the opportunity to share their insights, discovered features, and updates. Together, we can keep this a comprehensive and up-to-date resource for as long as people keep using it!
+
+## 🙏 Acknowledgments
+This project would not have made it this far without:
+* **[@ioannisxir](https://t.me/ioannisxir) John Xirouchakis** — for helping kickstart the guide back at the very beginning.
+* **[@Salman_memon](https://t.me/Salman_memon) Salman Memon** — for helping upload guides, keeping the project's motivation alive, and helping promote it.
+* And above all, **[@iamzainnnn](https://t.me/iamzainnnn) 𝒁𝒂𝒊𝒏** — for uploading hundreds of versions without ever stopping, for keeping this project afloat, and for being the reason it's still alive today.
+
+Thank you all, and thank you to everyone who contributed since this started on June 1, 2023. 🚀
 
 ---
 
 ## ⚙️ How it works
 * Instagram alpha APKs are analyzed for changes in internal flags.
 * Additions, removals, and updates are carefully documented and categorized.
-* A Telegram bot automatically publishes each new changelog entry.
+* A Telegram bot automatically publishes each new changelog entry and guide update.
 * The community contributes flag descriptions, testing, and feature context.
 
 ## 🔗 Resources
