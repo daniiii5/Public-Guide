@@ -22,6 +22,7 @@ The guide has fully transitioned to a **community-supported version**. This mean
 
 ## 🙏 Acknowledgments
 This project would not have made it this far without:
+* **[@panagiotis25](https://t.me/panagiotis25) Panagiotis** — for being the first to fuel my enthusiasm for Instagram flags; without him, this project would never have started in the first place.
 * **[@ioannisxir](https://t.me/ioannisxir) John Xirouchakis** — for helping kickstart the guide back at the very beginning.
 * **[@Salman_memon](https://t.me/Salman_memon) Salman Memon** — for helping upload guides, keeping the project's motivation alive, and helping promote it.
 * And above all, **[@iamzainnnn](https://t.me/iamzainnnn) 𝒁𝒂𝒊𝒏** — for uploading hundreds of versions without ever stopping, for keeping this project afloat, and for being the reason it's still alive today.
