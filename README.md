@@ -117,7 +117,7 @@ Thank you all, and thank you to everyone who contributed since this started on J
   - [Fix the weirdly streched reels](#fix-the-weirdly-streched-reels)
   - [Fix low light mode being always enabled](#fix-low-light-mode-being-always-enabled)
   - [Fix not being able to record videos for stories](#fix-not-being-able-to-record-videos-for-stories)
-- [OUTDATED OR REMOVED - OLDER THAN VERSION 448.0.0.0.43](#outdated-or-removed---older-than-version-44800043)
+- [OUTDATED OR REMOVED - OLDER THAN VERSION 448.0.0.0.60](#outdated-or-removed---older-than-version-44800060)
 
 # Important
 ## Make the app more efficient
@@ -329,7 +329,7 @@ Disable everything
   - ✅ `enable_state_machine` `[14]`
 
 
-# OUTDATED OR REMOVED - OLDER THAN VERSION 448.0.0.0.43
+# OUTDATED OR REMOVED - OLDER THAN VERSION 448.0.0.0.60
 ## Important
 - Disable Thread posts in the feed (last removed in 393.0.0.0.22)
   ✅ `ig_threads_xma` `[61804]` **Removed in version 393.0.0.0.22**
