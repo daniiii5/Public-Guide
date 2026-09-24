@@ -106,6 +106,7 @@ Thank you all, and thank you to everyone who contributed since this started on J
   - [Sent reel indicator on chat previews](#sent-reel-indicator-on-chat-previews)
   - [Threshold for displaying the number of unread messages](#threshold-for-displaying-the-number-of-unread-messages)
 - [Profile](#profile)
+  - [Profile Flags](#profile-flags)
   - ["Threads" button added to profile header tab](#threads-button-added-to-profile-header-tab)
   - [Avatar as profile picture](#avatar-as-profile-picture)
   - [External sharing](#external-sharing)
@@ -117,7 +118,7 @@ Thank you all, and thank you to everyone who contributed since this started on J
   - [Fix the weirdly streched reels](#fix-the-weirdly-streched-reels)
   - [Fix low light mode being always enabled](#fix-low-light-mode-being-always-enabled)
   - [Fix not being able to record videos for stories](#fix-not-being-able-to-record-videos-for-stories)
-- [OUTDATED OR REMOVED - OLDER THAN VERSION 449.0.0.0.11](#outdated-or-removed---older-than-version-44900011)
+- [OUTDATED OR REMOVED - OLDER THAN VERSION 449.0.0.0.23](#outdated-or-removed---older-than-version-44900023)
 
 # Important
 ## Make the app more efficient
@@ -280,6 +281,15 @@ Default: 164
   - ✅ `snapshot_messages_per_thread_count` `[1]`
 
 # Profile
+## Profile Flags
+Flags for profile preview functionality.
+
+✅ `ig_profile_preview` `[96269]` **Removed in version 449.0.0.0.68**
+
+> ⚠️ Not functional
+
+> Found by: [InstaFlow - Catálogo](https://t.me/instaflowflags)
+
 ## "Threads" button added to profile header tab
 
 `ig_spain_growth` `[58467]`
@@ -329,7 +339,7 @@ Disable everything
   - ✅ `enable_state_machine` `[14]`
 
 
-# OUTDATED OR REMOVED - OLDER THAN VERSION 449.0.0.0.11
+# OUTDATED OR REMOVED - OLDER THAN VERSION 449.0.0.0.23
 ## Important
 - Disable Thread posts in the feed (last removed in 393.0.0.0.22)
   ✅ `ig_threads_xma` `[61804]` **Removed in version 393.0.0.0.22**
@@ -1335,9 +1345,6 @@ Disable everything
 
 - Expressive Profile Header (Pill UI) (last added in 417.0.0.0.38)
   ✅ `ig4a_profile_expressive_header` `[109802]` **Added in version 417.0.0.0.38**
-
-- Profile Flags (last added in 403.0.0.0.66)
-  ✅ `ig_profile_preview` `[96269]` **Added in version 403.0.0.0.66**
 
 - Show IGTV section (last removed in 357.0.0.0.68)
   `ig_panavision_v0` `[37418]` **Removed in version 357.0.0.0.68**
