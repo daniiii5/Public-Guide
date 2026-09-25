@@ -100,7 +100,6 @@ Thank you all, and thank you to everyone who contributed since this started on J
   - [Organised toolbar in Stories creation](#organised-toolbar-in-stories-creation)
 - [Direct](#direct)
   - [Animated avatar stickers](#animated-avatar-stickers)
-  - [Non text replies](#non-text-replies)
   - [Reply box on sent reels](#reply-box-on-sent-reels)
   - [Resize preview of shared reels](#resize-preview-of-shared-reels)
   - [Sent reel indicator on chat previews](#sent-reel-indicator-on-chat-previews)
@@ -118,7 +117,7 @@ Thank you all, and thank you to everyone who contributed since this started on J
   - [Fix the weirdly streched reels](#fix-the-weirdly-streched-reels)
   - [Fix low light mode being always enabled](#fix-low-light-mode-being-always-enabled)
   - [Fix not being able to record videos for stories](#fix-not-being-able-to-record-videos-for-stories)
-- [OUTDATED OR REMOVED - OLDER THAN VERSION 449.0.0.0.23](#outdated-or-removed---older-than-version-44900023)
+- [OUTDATED OR REMOVED - OLDER THAN VERSION 449.0.0.0.39](#outdated-or-removed---older-than-version-44900039)
 
 # Important
 ## Make the app more efficient
@@ -256,11 +255,6 @@ Working for location, mention, link, and hashtag stickers.
 
 ✅ `igd_animated_avatar_stickers` `[53317]`
 
-## Non text replies
-Enable replies with photos, videos, audios, etc
-
-✅ `igd_non_text_replies` `[56702]` **Removed in version 449.0.0.0.34**
-
 ## Reply box on sent reels
 Show reply box when you open a reel that was sent to you
 
@@ -339,7 +333,7 @@ Disable everything
   - ✅ `enable_state_machine` `[14]`
 
 
-# OUTDATED OR REMOVED - OLDER THAN VERSION 449.0.0.0.23
+# OUTDATED OR REMOVED - OLDER THAN VERSION 449.0.0.0.39
 ## Important
 - Disable Thread posts in the feed (last removed in 393.0.0.0.22)
   ✅ `ig_threads_xma` `[61804]` **Removed in version 393.0.0.0.22**
@@ -1165,6 +1159,9 @@ Disable everything
 
 - New modern design of the "send" button in a chat/note reply/comment composer (last removed in 389.0.0.0.64)
   ✅ `ig_android_smashable_send_stories_alignment` `[81107]` **Removed in version 389.0.0.0.64**
+
+- Non text replies (last removed in 449.0.0.0.34)
+  ✅ `igd_non_text_replies` `[56702]` **Removed in version 449.0.0.0.34**
 
 - Pin chats (last removed in 399.0.0.0.16)
   `igd_android_pin_threads_fbid` `[67423]` **Removed in version 399.0.0.0.16**
