@@ -117,7 +117,8 @@ Thank you all, and thank you to everyone who contributed since this started on J
   - [Fix the weirdly streched reels](#fix-the-weirdly-streched-reels)
   - [Fix low light mode being always enabled](#fix-low-light-mode-being-always-enabled)
   - [Fix not being able to record videos for stories](#fix-not-being-able-to-record-videos-for-stories)
-- [OUTDATED OR REMOVED - OLDER THAN VERSION 449.0.0.0.39](#outdated-or-removed---older-than-version-44900039)
+  - [Fix the confetti animation showing in every note](#fix-the-confetti-animation-showing-in-every-note)
+- [OUTDATED OR REMOVED - OLDER THAN VERSION 449.0.0.0.45](#outdated-or-removed---older-than-version-44900045)
 
 # Important
 ## Make the app more efficient
@@ -332,8 +333,13 @@ Disable everything
 `android_cameracore_fbaudio_ig_launcher` `[31064]`
   - ✅ `enable_state_machine` `[14]`
 
+## Fix the confetti animation showing in every note
 
-# OUTDATED OR REMOVED - OLDER THAN VERSION 449.0.0.0.39
+`ig_notes_birthday_v2` `[69682]` **Removed in version 450.0.0.0.12**
+  - ✅ `activation_enabled` `[1]` **Removed in version 450.0.0.0.12**
+
+
+# OUTDATED OR REMOVED - OLDER THAN VERSION 449.0.0.0.45
 ## Important
 - Disable Thread posts in the feed (last removed in 393.0.0.0.22)
   ✅ `ig_threads_xma` `[61804]` **Removed in version 393.0.0.0.22**
@@ -1486,10 +1492,6 @@ Disable everything
 - Fix the audio page crashing (last removed in 360.0.0.0.11)
   `ig_android_audio_page_layout` `[68956]` **Removed in version 360.0.0.0.11**
     - ✅ `ap_layout_enabled` `[0]` **Removed in version 360.0.0.0.11**
-
-- Fix the confetti animation showing in every note (last added in 421.0.0.0.3)
-  `ig_notes_birthday_v2` `[69682]` **Added in version 421.0.0.0.3**
-    - ✅ `activation_enabled` `[1]` **Added in version 421.0.0.0.3**
 
 - Fix the Direct tab crashing (last removed in 368.0.0.0.86)
   `ig_android_notes_super_endpoint` `[68611]` **Removed in version 368.0.0.0.86**
