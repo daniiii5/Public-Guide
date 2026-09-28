@@ -117,7 +117,7 @@ Thank you all, and thank you to everyone who contributed since this started on J
   - [Fix low light mode being always enabled](#fix-low-light-mode-being-always-enabled)
   - [Fix not being able to record videos for stories](#fix-not-being-able-to-record-videos-for-stories)
   - [Fix the confetti animation showing in every note](#fix-the-confetti-animation-showing-in-every-note)
-- [OUTDATED OR REMOVED - OLDER THAN VERSION 449.0.0.0.68](#outdated-or-removed---older-than-version-44900068)
+- [OUTDATED OR REMOVED - OLDER THAN VERSION 449.0.0.0.74](#outdated-or-removed---older-than-version-44900074)
 
 # Important
 ## Make the app more efficient
@@ -329,7 +329,7 @@ Disable everything
   - ✅ `activation_enabled` `[1]` **Removed in version 450.0.0.0.12**
 
 
-# OUTDATED OR REMOVED - OLDER THAN VERSION 449.0.0.0.68
+# OUTDATED OR REMOVED - OLDER THAN VERSION 449.0.0.0.74
 ## Important
 - Disable Thread posts in the feed (last removed in 393.0.0.0.22)
   ✅ `ig_threads_xma` `[61804]` **Removed in version 393.0.0.0.22**
