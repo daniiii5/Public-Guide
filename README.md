@@ -103,6 +103,7 @@ Thank you all, and thank you to everyone who contributed since this started on J
   - [Reply box on sent reels](#reply-box-on-sent-reels)
   - [Resize preview of shared reels](#resize-preview-of-shared-reels)
   - [Sent reel indicator on chat previews](#sent-reel-indicator-on-chat-previews)
+  - [Autoplay preview of shared reels](#autoplay-preview-of-shared-reels)
   - [Threshold for displaying the number of unread messages](#threshold-for-displaying-the-number-of-unread-messages)
 - [Profile](#profile)
   - ["Threads" button added to profile header tab](#threads-button-added-to-profile-header-tab)
@@ -116,7 +117,7 @@ Thank you all, and thank you to everyone who contributed since this started on J
   - [Fix the weirdly streched reels](#fix-the-weirdly-streched-reels)
   - [Fix low light mode being always enabled](#fix-low-light-mode-being-always-enabled)
   - [Fix not being able to record videos for stories](#fix-not-being-able-to-record-videos-for-stories)
-- [OUTDATED OR REMOVED - OLDER THAN VERSION 450.0.0.0.12](#outdated-or-removed---older-than-version-45000012)
+- [OUTDATED OR REMOVED - OLDER THAN VERSION 450.0.0.0.26](#outdated-or-removed---older-than-version-45000026)
 
 # Important
 ## Make the app more efficient
@@ -268,6 +269,11 @@ Default: 164
 
 ✅ `ig_android_reels_consumption_v2` `[63017]`
 
+## Autoplay preview of shared reels
+
+`ig_android_clips_direct_reshare_autoplay` `[50074]` **Removed in version 450.0.0.0.55**
+  - ✅ `full_autoplay_enabled` `[0]` **Removed in version 332.0.0.0.24**
+
 ## Threshold for displaying the number of unread messages
 
 `ig_android_direct_inbox_snapshot_limits` `[26104]`
@@ -323,7 +329,7 @@ Disable everything
   - ✅ `enable_state_machine` `[14]`
 
 
-# OUTDATED OR REMOVED - OLDER THAN VERSION 450.0.0.0.12
+# OUTDATED OR REMOVED - OLDER THAN VERSION 450.0.0.0.26
 ## Important
 - Disable Thread posts in the feed (last removed in 393.0.0.0.22)
   ✅ `ig_threads_xma` `[61804]` **Removed in version 393.0.0.0.22**
@@ -1247,10 +1253,6 @@ Disable everything
   ✅ `igd_android_action_bar_rewrite` `[76114]` **Added in version 345.0.0.0.92**
 
   `igd_android_calling_buttons_config` = 1 `[91189]` **Added in version 415.0.0.0.43**
-
-- Autoplay preview of shared reels (last removed in 332.0.0.0.24)
-  `ig_android_clips_direct_reshare_autoplay` `[50074]`
-    - ✅ `full_autoplay_enabled` `[0]` **Removed in version 332.0.0.0.24**
 
 - Disable swipe to direct (last removed in 340.0.0.0.75)
   `ig_disable_swipe_to_direct` `[47343]` **Removed in version 340.0.0.0.75**
