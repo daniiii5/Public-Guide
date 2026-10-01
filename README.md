@@ -96,6 +96,7 @@ Thank you all, and thank you to everyone who contributed since this started on J
   - [Add comments to stories](#add-comments-to-stories)
   - [Custom color stickers](#custom-color-stickers)
   - [Music sticker with avatar stickers](#music-sticker-with-avatar-stickers)
+  - [Blurred Background for Story Reshares](#blurred-background-for-story-reshares)
 - [Camera](#camera)
   - [Organised toolbar in Stories creation](#organised-toolbar-in-stories-creation)
 - [Direct](#direct)
@@ -117,7 +118,7 @@ Thank you all, and thank you to everyone who contributed since this started on J
   - [Fix the weirdly streched reels](#fix-the-weirdly-streched-reels)
   - [Fix low light mode being always enabled](#fix-low-light-mode-being-always-enabled)
   - [Fix not being able to record videos for stories](#fix-not-being-able-to-record-videos-for-stories)
-- [OUTDATED OR REMOVED - OLDER THAN VERSION 450.0.0.0.26](#outdated-or-removed---older-than-version-45000026)
+- [OUTDATED OR REMOVED - OLDER THAN VERSION 450.0.0.0.36](#outdated-or-removed---older-than-version-45000036)
 
 # Important
 ## Make the app more efficient
@@ -244,6 +245,15 @@ Working for location, mention, link, and hashtag stickers.
 `ig_android_avatars_avatar_with_music_sticker` `[48850]`
   - ✅ `is_animated_stickers_enabled` `[4]`
 
+## Blurred Background for Story Reshares
+Adds a blurred background effect when resharing posts to Stories, improving visual focus on the shared content.
+
+✅ `ig_stories_reshares_blur_background` `[110215]` **Removed in version 450.0.0.0.70**
+
+> Found by: [𝓪𝓯𝓯𝓪𝓷](https://t.me/its_affayyy)
+
+![image](./thumbnails/20260710_224618_973.jpg)
+
 # Camera
 ## Organised toolbar in Stories creation
 
@@ -329,7 +339,7 @@ Disable everything
   - ✅ `enable_state_machine` `[14]`
 
 
-# OUTDATED OR REMOVED - OLDER THAN VERSION 450.0.0.0.26
+# OUTDATED OR REMOVED - OLDER THAN VERSION 450.0.0.0.36
 ## Important
 - Disable Thread posts in the feed (last removed in 393.0.0.0.22)
   ✅ `ig_threads_xma` `[61804]` **Removed in version 393.0.0.0.22**
@@ -1013,9 +1023,6 @@ Disable everything
 
 - Story Interest Signals (last added in 418.0.0.0.11)
   ✅ `ig_story_interest_signals` `[110034]` **Added in version 418.0.0.0.11**
-
-- Blurred Background for Story Reshares (last added in 418.0.0.0.5)
-  ✅ `ig_stories_reshares_blur_background` `[110215]` **Added in version 418.0.0.0.5**
 
 - Story Creation Entrypoints (last added in 425.0.0.0.53)
   `ig_story_creation_entrypoints` `[117563]` **Added in version 425.0.0.0.53**
