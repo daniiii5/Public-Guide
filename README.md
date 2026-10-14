@@ -103,7 +103,6 @@ Thank you all, and thank you to everyone who contributed since this started on J
   - [Reply box on sent reels](#reply-box-on-sent-reels)
   - [Resize preview of shared reels](#resize-preview-of-shared-reels)
   - [Sent reel indicator on chat previews](#sent-reel-indicator-on-chat-previews)
-  - [igd android calling buttons config](#igd-android-calling-buttons-config)
   - [Threshold for displaying the number of unread messages](#threshold-for-displaying-the-number-of-unread-messages)
 - [Profile](#profile)
   - ["Threads" button added to profile header tab](#threads-button-added-to-profile-header-tab)
@@ -117,7 +116,7 @@ Thank you all, and thank you to everyone who contributed since this started on J
   - [Fix the weirdly streched reels](#fix-the-weirdly-streched-reels)
   - [Fix low light mode being always enabled](#fix-low-light-mode-being-always-enabled)
   - [Fix not being able to record videos for stories](#fix-not-being-able-to-record-videos-for-stories)
-- [OUTDATED OR REMOVED - OLDER THAN VERSION 452.0.0.0.7](#outdated-or-removed---older-than-version-4520007)
+- [OUTDATED OR REMOVED - OLDER THAN VERSION 452.0.0.0.21](#outdated-or-removed---older-than-version-45200021)
 
 # Important
 ## Make the app more efficient
@@ -269,15 +268,6 @@ Default: 164
 
 ✅ `ig_android_reels_consumption_v2` `[63017]`
 
-## igd android calling buttons config
-Button for calling with one click and multiple icon options.
-
-✅ `igd_android_action_bar_rewrite` `[76114]` **Added in version 345.0.0.0.92**
-
-`igd_android_calling_buttons_config` = 1 `[91189]` **Removed in version 452.0.0.0.21**
-
-> Found by: [InstaFlow - Catálogo](https://t.me/instaflowflags)
-
 ## Threshold for displaying the number of unread messages
 
 `ig_android_direct_inbox_snapshot_limits` `[26104]`
@@ -333,7 +323,7 @@ Disable everything
   - ✅ `enable_state_machine` `[14]`
 
 
-# OUTDATED OR REMOVED - OLDER THAN VERSION 452.0.0.0.7
+# OUTDATED OR REMOVED - OLDER THAN VERSION 452.0.0.0.21
 ## Important
 - Disable Thread posts in the feed (last removed in 393.0.0.0.22)
   ✅ `ig_threads_xma` `[61804]` **Removed in version 393.0.0.0.22**
@@ -1252,6 +1242,11 @@ Disable everything
 
 - Play games in Direct (last added in 405.0.0.0.33)
   ✅ `ig_android_direct_games` `[102340]` **Added in version 405.0.0.0.33**
+
+- igd android calling buttons config (last removed in 452.0.0.0.21)
+  ✅ `igd_android_action_bar_rewrite` `[76114]` **Added in version 345.0.0.0.92**
+
+  `igd_android_calling_buttons_config` = 1 `[91189]` **Removed in version 452.0.0.0.21**
 
 - Autoplay preview of shared reels (last removed in 450.0.0.0.55)
   `ig_android_clips_direct_reshare_autoplay` `[50074]` **Removed in version 450.0.0.0.55**
