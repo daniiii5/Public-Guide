@@ -96,7 +96,6 @@ Thank you all, and thank you to everyone who contributed since this started on J
   - [Add comments to stories](#add-comments-to-stories)
   - [Custom color stickers](#custom-color-stickers)
   - [Music sticker with avatar stickers](#music-sticker-with-avatar-stickers)
-  - [stories android video trimmer v2](#stories-android-video-trimmer-v2)
 - [Camera](#camera)
   - [Organised toolbar in Stories creation](#organised-toolbar-in-stories-creation)
 - [Direct](#direct)
@@ -116,8 +115,7 @@ Thank you all, and thank you to everyone who contributed since this started on J
   - [Fix not being able to press anything on the media picker in stories](#fix-not-being-able-to-press-anything-on-the-media-picker-in-stories)
   - [Fix the weirdly streched reels](#fix-the-weirdly-streched-reels)
   - [Fix low light mode being always enabled](#fix-low-light-mode-being-always-enabled)
-  - [Fix not being able to record videos for stories](#fix-not-being-able-to-record-videos-for-stories)
-- [OUTDATED OR REMOVED - OLDER THAN VERSION 452.0.0.0.43](#outdated-or-removed---older-than-version-45200043)
+- [OUTDATED OR REMOVED - OLDER THAN VERSION 452.0.0.0.60](#outdated-or-removed---older-than-version-45200060)
 
 # Important
 ## Make the app more efficient
@@ -244,13 +242,6 @@ Working for location, mention, link, and hashtag stickers.
 `ig_android_avatars_avatar_with_music_sticker` `[48850]`
   - ✅ `is_animated_stickers_enabled` `[4]`
 
-## stories android video trimmer v2
-Cut a segment of a video to post in stories
-
-✅ `ig_stories_android_video_trimmer_v2` `[107653]` **Removed in version 452.0.0.0.60**
-
-> Found by: [InstaFlow - Catálogo](https://t.me/instaflowflags)
-
 # Camera
 ## Organised toolbar in Stories creation
 
@@ -325,13 +316,8 @@ Disable everything
 `ig_android_low_light_mode_capture` `[55533]`
   - ✅ `is_enabled` `[0]`
 
-## Fix not being able to record videos for stories
 
-`android_cameracore_fbaudio_ig_launcher` `[31064]`
-  - ✅ `enable_state_machine` `[14]` **Removed in version 452.0.0.0.60**
-
-
-# OUTDATED OR REMOVED - OLDER THAN VERSION 452.0.0.0.43
+# OUTDATED OR REMOVED - OLDER THAN VERSION 452.0.0.0.60
 ## Important
 - Disable Thread posts in the feed (last removed in 393.0.0.0.22)
   ✅ `ig_threads_xma` `[61804]` **Removed in version 393.0.0.0.22**
@@ -1007,6 +993,9 @@ Disable everything
 - stories lipsync (last added in 410.0.0.0.7)
   ✅ `ig_android_stories_lipsync` `[104898]` **Added in version 410.0.0.0.7**
 
+- stories android video trimmer v2 (last removed in 452.0.0.0.60)
+  ✅ `ig_stories_android_video_trimmer_v2` `[107653]` **Removed in version 452.0.0.0.60**
+
 - Stories Photostrip Sticker v1 (last added in 428.0.0.0.54)
   ✅ `ig_stories_photostrip_sticker_v1` `[119945]` **Added in version 428.0.0.0.54**
 
@@ -1460,6 +1449,10 @@ Disable everything
 - Fix not being able to navigate in the Camera (last removed in 421.0.0.0.3)
   `ig_android_reels_add_clips_multiselect_enabled` `[65055]` **Removed in version 421.0.0.0.3**
     - ✅ `fix_folder_selector_inflate_crash` `[5]` **Removed in version 421.0.0.0.3**
+
+- Fix not being able to record videos for stories (last removed in 452.0.0.0.60)
+  `android_cameracore_fbaudio_ig_launcher` `[31064]`
+    - ✅ `enable_state_machine` `[14]` **Removed in version 452.0.0.0.60**
 
 - Fix not being able to swipe to the feed while being on the chats list in Direct (last removed in 420.0.0.0.10)
   `ig_android_reels_consumption_v1` `[57849]`
