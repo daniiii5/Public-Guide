@@ -115,7 +115,7 @@ Thank you all, and thank you to everyone who contributed since this started on J
   - [Fix not being able to press anything on the media picker in stories](#fix-not-being-able-to-press-anything-on-the-media-picker-in-stories)
   - [Fix the weirdly streched reels](#fix-the-weirdly-streched-reels)
   - [Fix low light mode being always enabled](#fix-low-light-mode-being-always-enabled)
-- [OUTDATED OR REMOVED - OLDER THAN VERSION 452.0.0.0.60](#outdated-or-removed---older-than-version-45200060)
+- [OUTDATED OR REMOVED - OLDER THAN VERSION 453.0.0.0.6](#outdated-or-removed---older-than-version-4530006)
 
 # Important
 ## Make the app more efficient
@@ -317,7 +317,7 @@ Disable everything
   - ✅ `is_enabled` `[0]`
 
 
-# OUTDATED OR REMOVED - OLDER THAN VERSION 452.0.0.0.60
+# OUTDATED OR REMOVED - OLDER THAN VERSION 453.0.0.0.6
 ## Important
 - Disable Thread posts in the feed (last removed in 393.0.0.0.22)
   ✅ `ig_threads_xma` `[61804]` **Removed in version 393.0.0.0.22**
