@@ -104,6 +104,7 @@ Thank you all, and thank you to everyone who contributed since this started on J
   - [Resize preview of shared reels](#resize-preview-of-shared-reels)
   - [Sent reel indicator on chat previews](#sent-reel-indicator-on-chat-previews)
   - [Threshold for displaying the number of unread messages](#threshold-for-displaying-the-number-of-unread-messages)
+  - [😀📤 Emoji Bar Above Share Composer](#emoji-bar-above-share-composer)
 - [Profile](#profile)
   - ["Threads" button added to profile header tab](#threads-button-added-to-profile-header-tab)
   - [Avatar as profile picture](#avatar-as-profile-picture)
@@ -115,7 +116,7 @@ Thank you all, and thank you to everyone who contributed since this started on J
   - [Fix not being able to press anything on the media picker in stories](#fix-not-being-able-to-press-anything-on-the-media-picker-in-stories)
   - [Fix the weirdly streched reels](#fix-the-weirdly-streched-reels)
   - [Fix low light mode being always enabled](#fix-low-light-mode-being-always-enabled)
-- [OUTDATED OR REMOVED - OLDER THAN VERSION 453.0.0.0.22](#outdated-or-removed---older-than-version-45300022)
+- [OUTDATED OR REMOVED - OLDER THAN VERSION 453.0.0.0.40](#outdated-or-removed---older-than-version-45300040)
 
 # Important
 ## Make the app more efficient
@@ -272,6 +273,16 @@ Default: 164
 `ig_android_direct_inbox_snapshot_limits` `[26104]`
   - ✅ `snapshot_messages_per_thread_count` `[1]`
 
+## 😀📤 Emoji Bar Above Share Composer
+Adds an emoji bar above the share composer in the Direct share sheet, allowing quick emoji reactions alongside shared content.
+
+`igd_android_sharesheet_emoji_composer` `[111639]` **Added in version 419.0.0.0.60**
+  - ✅ `show_emoji_above_composer` `[1]` **Removed in version 453.0.0.0.67**
+
+> Found by: [𝓪𝓯𝓯𝓪𝓷](https://t.me/its_affayyy)
+
+![image](./thumbnails/20260710_224617_922.jpg)
+
 # Profile
 ## "Threads" button added to profile header tab
 
@@ -317,7 +328,7 @@ Disable everything
   - ✅ `is_enabled` `[0]`
 
 
-# OUTDATED OR REMOVED - OLDER THAN VERSION 453.0.0.0.22
+# OUTDATED OR REMOVED - OLDER THAN VERSION 453.0.0.0.40
 ## Important
 - Disable Thread posts in the feed (last removed in 393.0.0.0.22)
   ✅ `ig_threads_xma` `[61804]` **Removed in version 393.0.0.0.22**
@@ -1266,10 +1277,6 @@ Disable everything
 
 - Cancellable & Retryable Media Uploads (last added in 424.0.0.0.63)
   ✅ `cancellable_and_retryable_media_uploads` `[79502]` **Added in version 424.0.0.0.63**
-
-- 😀📤 Emoji Bar Above Share Composer (last added in 422.0.0.0.13)
-  `igd_android_sharesheet_emoji_composer` `[111639]` **Added in version 419.0.0.0.60**
-    - ✅ `show_emoji_above_composer` `[1]` **Added in version 422.0.0.0.13**
 
 - Remove cutout button from direct chats (last added in 399.0.0.0.16)
   `igd_android_riff` `[96230]` **Added in version 396.0.0.0.237**
