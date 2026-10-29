@@ -95,8 +95,8 @@ Thank you all, and thank you to everyone who contributed since this started on J
 - [Stories](#stories)
   - [Add comments to stories](#add-comments-to-stories)
   - [Custom color stickers](#custom-color-stickers)
+  - [Full screen reels shared into story](#full-screen-reels-shared-into-story)
   - [Music sticker with avatar stickers](#music-sticker-with-avatar-stickers)
-  - [Scrollable Toolbar](#scrollable-toolbar)
 - [Camera](#camera)
   - [Organised toolbar in Stories creation](#organised-toolbar-in-stories-creation)
 - [Direct](#direct)
@@ -116,7 +116,7 @@ Thank you all, and thank you to everyone who contributed since this started on J
   - [Fix not being able to press anything on the media picker in stories](#fix-not-being-able-to-press-anything-on-the-media-picker-in-stories)
   - [Fix the weirdly streched reels](#fix-the-weirdly-streched-reels)
   - [Fix low light mode being always enabled](#fix-low-light-mode-being-always-enabled)
-- [OUTDATED OR REMOVED - OLDER THAN VERSION 454.0.0.0.17](#outdated-or-removed---older-than-version-45400017)
+- [OUTDATED OR REMOVED - OLDER THAN VERSION 454.0.0.0.41](#outdated-or-removed---older-than-version-45400041)
 
 # Important
 ## Make the app more efficient
@@ -160,7 +160,7 @@ Enable everything except: (Outdated)
 ## New apperance of reactions
 Disable if the reactions are buggy
 
-✅ `ig_android_direct_multi_react_xstack` `[62067]`
+✅ `ig_android_direct_multi_react_xstack` `[62067]` **Removed in version 454.0.0.0.60**
 
 ## New dark mode
 Enable the new dark mode in instagram, from being an AMOLED black to a more pleasant dark blue.
@@ -238,15 +238,14 @@ Working for location, mention, link, and hashtag stickers.
 
 ✅ `ig_android_stories_custom_color_gradient_stickers` `[48493]`
 
+## Full screen reels shared into story
+
+✅ `ig_stories_originality_immersive_reshare` `[67697]` **Removed in version 454.0.0.0.66**
+
 ## Music sticker with avatar stickers
 
 `ig_android_avatars_avatar_with_music_sticker` `[48850]`
   - ✅ `is_animated_stickers_enabled` `[4]`
-
-## Scrollable Toolbar
-Enables a scrollable toolbar for stories posts.
-
-✅ `ig_stories_post_cap_toolbar_scrollable` `[108969]` **Removed in version 454.0.0.0.23**
 
 # Camera
 ## Organised toolbar in Stories creation
@@ -323,7 +322,7 @@ Disable everything
   - ✅ `is_enabled` `[0]`
 
 
-# OUTDATED OR REMOVED - OLDER THAN VERSION 454.0.0.0.17
+# OUTDATED OR REMOVED - OLDER THAN VERSION 454.0.0.0.41
 ## Important
 - Disable Thread posts in the feed (last removed in 393.0.0.0.22)
   ✅ `ig_threads_xma` `[61804]` **Removed in version 393.0.0.0.22**
@@ -879,9 +878,6 @@ Disable everything
 - Friend's Story (last removed in 393.0.0.0.14)
   ✅ `ig_stories_share_to_your_friends_story` `[64899]` **Removed in version 393.0.0.0.14**
 
-- Full screen reels shared into story (last added in 317.0.0.0.3)
-  ✅ `ig_stories_originality_immersive_reshare` `[67697]` **Added in version 317.0.0.0.3**
-
 - Group mention in stories (last removed in 333.0.0.0.87)
   ✅ `igd_android_new_group_mentions_launcher` `[32606]` **Removed in version 333.0.0.0.87**
 
@@ -937,6 +933,9 @@ Disable everything
 
 - Zoom stories (last removed in 339.0.0.0.80)
   ✅ `ig_android_stories_pinch_to_zoom` `[55260]` **Removed in version 339.0.0.0.80**
+
+- Scrollable Toolbar (last removed in 454.0.0.0.23)
+  ✅ `ig_stories_post_cap_toolbar_scrollable` `[108969]` **Removed in version 454.0.0.0.23**
 
 - Stories Unified Reply Composer (last added in 417.0.0.0.38)
   ✅ `ig_android_stories_unified_reply_composer` `[109758]` **Added in version 417.0.0.0.38**
