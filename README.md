@@ -74,7 +74,6 @@ Thank you all, and thank you to everyone who contributed since this started on J
 - [UI](#ui)
   - [Redesign of the Message Requests](#redesign-of-the-message-requests)
   - [Channels tab](#channels-tab)
-  - [New apperance of reactions](#new-apperance-of-reactions)
   - [New dark mode](#new-dark-mode)
   - [Redesign of the search section in Direct](#redesign-of-the-search-section-in-direct)
   - [Timestamps](#timestamps)
@@ -84,6 +83,7 @@ Thank you all, and thank you to everyone who contributed since this started on J
 - [Feed](#feed)
   - [New sharing shortcut](#new-sharing-shortcut)
   - [Quick share](#quick-share)
+  - [Edit comment](#edit-comment)
 - [Reels](#reels)
   - [Avatar comments](#avatar-comments)
   - [Download reels](#download-reels)
@@ -95,7 +95,6 @@ Thank you all, and thank you to everyone who contributed since this started on J
 - [Stories](#stories)
   - [Add comments to stories](#add-comments-to-stories)
   - [Custom color stickers](#custom-color-stickers)
-  - [Full screen reels shared into story](#full-screen-reels-shared-into-story)
   - [Music sticker with avatar stickers](#music-sticker-with-avatar-stickers)
 - [Camera](#camera)
   - [Organised toolbar in Stories creation](#organised-toolbar-in-stories-creation)
@@ -116,7 +115,7 @@ Thank you all, and thank you to everyone who contributed since this started on J
   - [Fix not being able to press anything on the media picker in stories](#fix-not-being-able-to-press-anything-on-the-media-picker-in-stories)
   - [Fix the weirdly streched reels](#fix-the-weirdly-streched-reels)
   - [Fix low light mode being always enabled](#fix-low-light-mode-being-always-enabled)
-- [OUTDATED OR REMOVED - OLDER THAN VERSION 454.0.0.0.55](#outdated-or-removed---older-than-version-45400055)
+- [OUTDATED OR REMOVED - OLDER THAN VERSION 455.0.0.0.0](#outdated-or-removed---older-than-version-4550000)
 
 # Important
 ## Make the app more efficient
@@ -156,11 +155,6 @@ By default the photos you upload to stories are 1080, enabling this setting will
 Enable everything except: (Outdated)
 
 ✅ `ig_android_channels_inbox_discovery` `[55958]`
-
-## New apperance of reactions
-Disable if the reactions are buggy
-
-✅ `ig_android_direct_multi_react_xstack` `[62067]` **Removed in version 454.0.0.0.60**
 
 ## New dark mode
 Enable the new dark mode in instagram, from being an AMOLED black to a more pleasant dark blue.
@@ -203,6 +197,13 @@ Hold the share button to quickly share the post to a user.
 
 ✅ `ig_android_quick_send_tlc` `[60484]`
 
+## Edit comment
+Option will be available for 15 minutes. The option will not appear for everyone. Added to Base 416.0.0.0.65. Functional at Base 426.
+
+✅ `ig4a_comment_editing` `[109051]` **Removed in version 455.0.0.0.6**
+
+> ⚠️ The option will not appear for everyone.
+
 # Reels
 ## Avatar comments
 
@@ -237,10 +238,6 @@ Pending launch
 Working for location, mention, link, and hashtag stickers.
 
 ✅ `ig_android_stories_custom_color_gradient_stickers` `[48493]`
-
-## Full screen reels shared into story
-
-✅ `ig_stories_originality_immersive_reshare` `[67697]` **Removed in version 454.0.0.0.66**
 
 ## Music sticker with avatar stickers
 
@@ -322,7 +319,7 @@ Disable everything
   - ✅ `is_enabled` `[0]`
 
 
-# OUTDATED OR REMOVED - OLDER THAN VERSION 454.0.0.0.55
+# OUTDATED OR REMOVED - OLDER THAN VERSION 455.0.0.0.0
 ## Important
 - Disable Thread posts in the feed (last removed in 393.0.0.0.22)
   ✅ `ig_threads_xma` `[61804]` **Removed in version 393.0.0.0.22**
@@ -418,6 +415,9 @@ Disable everything
 
 - Music picker as the default post editing option with a redesigned appearance (last removed in 377.0.0.0.20)
   ✅ `ig_android_mif_creation_post_cap` `[70063]` **Removed in version 377.0.0.0.20**
+
+- New apperance of reactions (last removed in 454.0.0.0.60)
+  ✅ `ig_android_direct_multi_react_xstack` `[62067]` **Removed in version 454.0.0.0.60**
 
 - New filters icon (last removed in 411.0.0.0.84)
   ✅ `ig_ar_effects_icon_change` `[65144]` **Removed in version 411.0.0.0.84**
@@ -618,9 +618,6 @@ Disable everything
 
 - Feed video 2x speed (last added in 424.0.0.0.63)
   ✅ `ig_feed_video_2x_speed` `[103957]` **Added in version 424.0.0.0.63**
-
-- Edit comment (last added in 416.0.0.0.65)
-  ✅ `ig4a_comment_editing` `[109051]` **Added in version 416.0.0.0.65**
 
 - Carousel Individual Captions (last removed in 441.0.0.0.20)
   ✅ `ig_android_carousel_individual_captions` `[111882]` **Removed in version 441.0.0.0.20**
@@ -877,6 +874,9 @@ Disable everything
 
 - Friend's Story (last removed in 393.0.0.0.14)
   ✅ `ig_stories_share_to_your_friends_story` `[64899]` **Removed in version 393.0.0.0.14**
+
+- Full screen reels shared into story (last removed in 454.0.0.0.66)
+  ✅ `ig_stories_originality_immersive_reshare` `[67697]` **Removed in version 454.0.0.0.66**
 
 - Group mention in stories (last removed in 333.0.0.0.87)
   ✅ `igd_android_new_group_mentions_launcher` `[32606]` **Removed in version 333.0.0.0.87**
