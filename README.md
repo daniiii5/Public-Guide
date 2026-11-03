@@ -83,7 +83,6 @@ Thank you all, and thank you to everyone who contributed since this started on J
 - [Feed](#feed)
   - [New sharing shortcut](#new-sharing-shortcut)
   - [Quick share](#quick-share)
-  - [Edit comment](#edit-comment)
 - [Reels](#reels)
   - [Avatar comments](#avatar-comments)
   - [Download reels](#download-reels)
@@ -115,7 +114,7 @@ Thank you all, and thank you to everyone who contributed since this started on J
   - [Fix not being able to press anything on the media picker in stories](#fix-not-being-able-to-press-anything-on-the-media-picker-in-stories)
   - [Fix the weirdly streched reels](#fix-the-weirdly-streched-reels)
   - [Fix low light mode being always enabled](#fix-low-light-mode-being-always-enabled)
-- [OUTDATED OR REMOVED - OLDER THAN VERSION 455.0.0.0.0](#outdated-or-removed---older-than-version-4550000)
+- [OUTDATED OR REMOVED - OLDER THAN VERSION 455.0.0.0.6](#outdated-or-removed---older-than-version-4550006)
 
 # Important
 ## Make the app more efficient
@@ -196,13 +195,6 @@ Attention!!! Not recommended to activate the 3rd option because the "add X to yo
 Hold the share button to quickly share the post to a user.
 
 ✅ `ig_android_quick_send_tlc` `[60484]`
-
-## Edit comment
-Option will be available for 15 minutes. The option will not appear for everyone. Added to Base 416.0.0.0.65. Functional at Base 426.
-
-✅ `ig4a_comment_editing` `[109051]` **Removed in version 455.0.0.0.6**
-
-> ⚠️ The option will not appear for everyone.
 
 # Reels
 ## Avatar comments
@@ -319,7 +311,7 @@ Disable everything
   - ✅ `is_enabled` `[0]`
 
 
-# OUTDATED OR REMOVED - OLDER THAN VERSION 455.0.0.0.0
+# OUTDATED OR REMOVED - OLDER THAN VERSION 455.0.0.0.6
 ## Important
 - Disable Thread posts in the feed (last removed in 393.0.0.0.22)
   ✅ `ig_threads_xma` `[61804]` **Removed in version 393.0.0.0.22**
@@ -618,6 +610,9 @@ Disable everything
 
 - Feed video 2x speed (last added in 424.0.0.0.63)
   ✅ `ig_feed_video_2x_speed` `[103957]` **Added in version 424.0.0.0.63**
+
+- Edit comment (last removed in 455.0.0.0.6)
+  ✅ `ig4a_comment_editing` `[109051]` **Removed in version 455.0.0.0.6**
 
 - Carousel Individual Captions (last removed in 441.0.0.0.20)
   ✅ `ig_android_carousel_individual_captions` `[111882]` **Removed in version 441.0.0.0.20**
