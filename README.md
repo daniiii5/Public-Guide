@@ -91,6 +91,7 @@ Thank you all, and thank you to everyone who contributed since this started on J
   - [Avatars in comments](#avatars-in-comments)
 - [Explore](#explore)
   - [Reduce and hide sensitive content](#reduce-and-hide-sensitive-content)
+  - [Updated UI for explore tab.](#updated-ui-for-explore-tab)
 - [Stories](#stories)
   - [Add comments to stories](#add-comments-to-stories)
   - [Custom color stickers](#custom-color-stickers)
@@ -114,7 +115,7 @@ Thank you all, and thank you to everyone who contributed since this started on J
   - [Fix not being able to press anything on the media picker in stories](#fix-not-being-able-to-press-anything-on-the-media-picker-in-stories)
   - [Fix the weirdly streched reels](#fix-the-weirdly-streched-reels)
   - [Fix low light mode being always enabled](#fix-low-light-mode-being-always-enabled)
-- [OUTDATED OR REMOVED - OLDER THAN VERSION 457.0.0.0.22](#outdated-or-removed---older-than-version-45700022)
+- [OUTDATED OR REMOVED - OLDER THAN VERSION 457.0.0.0.32](#outdated-or-removed---older-than-version-45700032)
 
 # Important
 ## Make the app more efficient
@@ -220,6 +221,16 @@ Press the share button and press Download.
 
 ✅ `igmwb_explore_controls` `[47680]`
 
+## Updated UI for explore tab.
+Updated UI for explore tab.
+
+`ig_relevance_explore_lab_android` `[124823]` **Removed in version 457.0.0.0.53**
+  - ✅ `is_enabled` `[0]` **Removed in version 457.0.0.0.53**
+
+> Found by: [𝒁𝒂𝒊𝒏](https://t.me/iamzainnnn)
+
+![image](./thumbnails/20260624_183424_380.jpg)
+
 # Stories
 ## Add comments to stories
 Pending launch
@@ -311,7 +322,7 @@ Disable everything
   - ✅ `is_enabled` `[0]`
 
 
-# OUTDATED OR REMOVED - OLDER THAN VERSION 457.0.0.0.22
+# OUTDATED OR REMOVED - OLDER THAN VERSION 457.0.0.0.32
 ## Important
 - Disable Thread posts in the feed (last removed in 393.0.0.0.22)
   ✅ `ig_threads_xma` `[61804]` **Removed in version 393.0.0.0.22**
@@ -831,10 +842,6 @@ Disable everything
 
 - Remove Tags Tab from Search Results (last added in 414.0.0.0.80)
   ✅ `ig_search_client_serp_tabs_removal` `[107831]` **Added in version 414.0.0.0.80**
-
-- Updated UI for explore tab. (last added in 435.0.0.0.37)
-  `ig_relevance_explore_lab_android` `[124823]` **Added in version 435.0.0.0.37**
-    - ✅ `is_enabled` `[0]` **Added in version 435.0.0.0.37**
 
 
 ## Stories
