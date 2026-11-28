@@ -102,6 +102,7 @@ Thank you all, and thank you to everyone who contributed since this started on J
   - [Reply box on sent reels](#reply-box-on-sent-reels)
   - [Resize preview of shared reels](#resize-preview-of-shared-reels)
   - [Sent reel indicator on chat previews](#sent-reel-indicator-on-chat-previews)
+  - [Valentine’s Theme Pack for Notes](#valentines-theme-pack-for-notes)
   - [Threshold for displaying the number of unread messages](#threshold-for-displaying-the-number-of-unread-messages)
 - [Profile](#profile)
   - ["Threads" button added to profile header tab](#threads-button-added-to-profile-header-tab)
@@ -114,7 +115,7 @@ Thank you all, and thank you to everyone who contributed since this started on J
   - [Fix not being able to press anything on the media picker in stories](#fix-not-being-able-to-press-anything-on-the-media-picker-in-stories)
   - [Fix the weirdly streched reels](#fix-the-weirdly-streched-reels)
   - [Fix low light mode being always enabled](#fix-low-light-mode-being-always-enabled)
-- [OUTDATED OR REMOVED - OLDER THAN VERSION 458.0.0.0.34](#outdated-or-removed---older-than-version-45800034)
+- [OUTDATED OR REMOVED - OLDER THAN VERSION 458.0.0.0.64](#outdated-or-removed---older-than-version-45800064)
 
 # Important
 ## Make the app more efficient
@@ -261,6 +262,13 @@ Default: 164
 
 ✅ `ig_android_reels_consumption_v2` `[63017]`
 
+## Valentine’s Theme Pack for Notes
+Adds a Valentine’s Day–themed style pack to Instagram Notes. This theme includes romantic colors, hearts, and festive visual elements, letting users create Notes with a Valentine vibe during the season. Perfect for sharing love, moods, and special messages in a more expressive way.
+
+✅ `ig_notes_valentines_theme_pack_2026` `[107450]` **Removed in version 458.0.0.0.72**
+
+> Found by: [𝓪𝓯𝓯𝓪𝓷](https://t.me/its_affayyy)
+
 ## Threshold for displaying the number of unread messages
 
 `ig_android_direct_inbox_snapshot_limits` `[26104]`
@@ -311,7 +319,7 @@ Disable everything
   - ✅ `is_enabled` `[0]`
 
 
-# OUTDATED OR REMOVED - OLDER THAN VERSION 458.0.0.0.34
+# OUTDATED OR REMOVED - OLDER THAN VERSION 458.0.0.0.64
 ## Important
 - Disable Thread posts in the feed (last removed in 393.0.0.0.22)
   ✅ `ig_threads_xma` `[61804]` **Removed in version 393.0.0.0.22**
@@ -1206,9 +1214,6 @@ Disable everything
 
 - New Typing Indicator (Dot Style) in DM (last added in 423.0.0.0.20)
   ✅ `igd_android_inbox_typing_indicator` `[115516]` **Added in version 423.0.0.0.20**
-
-- Valentine’s Theme Pack for Notes (last added in 415.0.0.0.43)
-  ✅ `ig_notes_valentines_theme_pack_2026` `[107450]` **Added in version 415.0.0.0.43**
 
 - Send Event Reminder from IG Direct (last added in 414.0.0.0.7)
   ✅ `igd_android_events` `[107324]` **Added in version 414.0.0.0.7**
